@@ -1,0 +1,3226 @@
+[
+  {
+    "fr": "être",
+    "en": "to be",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I want to be here."
+  },
+  {
+    "fr": "avoir",
+    "en": "to have",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I have a book."
+  },
+  {
+    "fr": "faire",
+    "en": "to do, make",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "What are you doing?"
+  },
+  {
+    "fr": "aller",
+    "en": "to go",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I am going home."
+  },
+  {
+    "fr": "dire",
+    "en": "to say, tell",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "What did you say?"
+  },
+  {
+    "fr": "pouvoir",
+    "en": "can, to be able to",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "Can you help me?"
+  },
+  {
+    "fr": "vouloir",
+    "en": "to want",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I want some water."
+  },
+  {
+    "fr": "savoir",
+    "en": "to know (a fact/how to)",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I know the answer."
+  },
+  {
+    "fr": "voir",
+    "en": "to see",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I see a bird."
+  },
+  {
+    "fr": "venir",
+    "en": "to come",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "Come here, please."
+  },
+  {
+    "fr": "devoir",
+    "en": "must, to have to",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "I have to work."
+  },
+  {
+    "fr": "prendre",
+    "en": "to take",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "Take your time."
+  },
+  {
+    "fr": "donner",
+    "en": "to give",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Basics",
+    "example": "Give me a minute."
+  },
+  {
+    "fr": "parler",
+    "en": "to speak",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "I speak a little French."
+  },
+  {
+    "fr": "aimer",
+    "en": "to like, love",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "People",
+    "example": "I like this song."
+  },
+  {
+    "fr": "manger",
+    "en": "to eat",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Food",
+    "example": "We eat at home."
+  },
+  {
+    "fr": "boire",
+    "en": "to drink",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Food",
+    "example": "I drink coffee."
+  },
+  {
+    "fr": "comprendre",
+    "en": "to understand",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "I understand you."
+  },
+  {
+    "fr": "chercher",
+    "en": "to look for",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I am looking for my keys."
+  },
+  {
+    "fr": "trouver",
+    "en": "to find",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I found a solution."
+  },
+  {
+    "fr": "le temps",
+    "en": "time, weather",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I don't have time."
+  },
+  {
+    "fr": "la fois",
+    "en": "time, occasion",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "This is the first time."
+  },
+  {
+    "fr": "le jour",
+    "en": "day",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Have a nice day."
+  },
+  {
+    "fr": "la nuit",
+    "en": "night",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Good night."
+  },
+  {
+    "fr": "la maison",
+    "en": "house, home",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "The house is beautiful."
+  },
+  {
+    "fr": "le travail",
+    "en": "work, job",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I am going to work."
+  },
+  {
+    "fr": "la vie",
+    "en": "life",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "Life is beautiful."
+  },
+  {
+    "fr": "le monde",
+    "en": "world, people",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The whole world."
+  },
+  {
+    "fr": "la personne",
+    "en": "person",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "A kind person."
+  },
+  {
+    "fr": "l’homme",
+    "en": "man",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "The man is here."
+  },
+  {
+    "fr": "la femme",
+    "en": "woman, wife",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "The woman is speaking."
+  },
+  {
+    "fr": "l’enfant",
+    "en": "child",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "The child is sleeping."
+  },
+  {
+    "fr": "l’ami",
+    "en": "friend (male)",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "My friend is here."
+  },
+  {
+    "fr": "la famille",
+    "en": "family",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "My family lives here."
+  },
+  {
+    "fr": "l’eau",
+    "en": "water",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "A glass of water."
+  },
+  {
+    "fr": "le pain",
+    "en": "bread",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "I would like bread."
+  },
+  {
+    "fr": "le café",
+    "en": "coffee, café",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "One coffee, please."
+  },
+  {
+    "fr": "le repas",
+    "en": "meal",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "The meal is ready."
+  },
+  {
+    "fr": "la voiture",
+    "en": "car",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Transport",
+    "example": "The car is new."
+  },
+  {
+    "fr": "la rue",
+    "en": "street",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Places",
+    "example": "The street is quiet."
+  },
+  {
+    "fr": "la ville",
+    "en": "city, town",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Places",
+    "example": "I live in the city."
+  },
+  {
+    "fr": "le pays",
+    "en": "country",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Places",
+    "example": "Which country?"
+  },
+  {
+    "fr": "le livre",
+    "en": "book",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "I read a book."
+  },
+  {
+    "fr": "le mot",
+    "en": "word",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "What does this word mean?"
+  },
+  {
+    "fr": "la langue",
+    "en": "language, tongue",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "French is a beautiful language."
+  },
+  {
+    "fr": "l’école",
+    "en": "school",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "The school is nearby."
+  },
+  {
+    "fr": "le prix",
+    "en": "price, prize",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "What is the price?"
+  },
+  {
+    "fr": "l’argent",
+    "en": "money, silver",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "I need money."
+  },
+  {
+    "fr": "le problème",
+    "en": "problem",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "No problem."
+  },
+  {
+    "fr": "la question",
+    "en": "question",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "I have a question."
+  },
+  {
+    "fr": "la réponse",
+    "en": "answer",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "I know the answer."
+  },
+  {
+    "fr": "bon",
+    "en": "good",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "It is a good idea."
+  },
+  {
+    "fr": "grand",
+    "en": "big, tall",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A big house."
+  },
+  {
+    "fr": "petit",
+    "en": "small, little",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A small dog."
+  },
+  {
+    "fr": "nouveau",
+    "en": "new",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A new job."
+  },
+  {
+    "fr": "beau",
+    "en": "beautiful, handsome",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A beautiful day."
+  },
+  {
+    "fr": "important",
+    "en": "important",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "It is important."
+  },
+  {
+    "fr": "facile",
+    "en": "easy",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "French is not always easy."
+  },
+  {
+    "fr": "difficile",
+    "en": "difficult",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "This question is difficult."
+  },
+  {
+    "fr": "rapide",
+    "en": "fast, quick",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A fast train."
+  },
+  {
+    "fr": "lent",
+    "en": "slow",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "The bus is slow."
+  },
+  {
+    "fr": "aujourd’hui",
+    "en": "today",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Today I am working."
+  },
+  {
+    "fr": "demain",
+    "en": "tomorrow",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "See you tomorrow."
+  },
+  {
+    "fr": "hier",
+    "en": "yesterday",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I arrived yesterday."
+  },
+  {
+    "fr": "toujours",
+    "en": "always, still",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "She is always on time."
+  },
+  {
+    "fr": "souvent",
+    "en": "often",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I often walk."
+  },
+  {
+    "fr": "jamais",
+    "en": "never, ever",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I never drink tea."
+  },
+  {
+    "fr": "beaucoup",
+    "en": "a lot, much, many",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Thank you very much."
+  },
+  {
+    "fr": "bien",
+    "en": "well, good",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I am doing well."
+  },
+  {
+    "fr": "mal",
+    "en": "badly, pain",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "My head hurts."
+  },
+  {
+    "fr": "très",
+    "en": "very",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Very good."
+  },
+  {
+    "fr": "aussi",
+    "en": "also, too",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Me too."
+  },
+  {
+    "fr": "mais",
+    "en": "but",
+    "pos": "conjunction",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "I like it, but it is expensive."
+  },
+  {
+    "fr": "parce que",
+    "en": "because",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "Because I am tired."
+  },
+  {
+    "fr": "avec",
+    "en": "with",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "With my friend."
+  },
+  {
+    "fr": "sans",
+    "en": "without",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "Coffee without sugar."
+  },
+  {
+    "fr": "pour",
+    "en": "for, in order to",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "This is for you."
+  },
+  {
+    "fr": "dans",
+    "en": "in, inside",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Places",
+    "example": "The keys are in the bag."
+  },
+  {
+    "fr": "sur",
+    "en": "on, about",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Places",
+    "example": "The book is on the table."
+  },
+  {
+    "fr": "sous",
+    "en": "under",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Places",
+    "example": "The cat is under the chair."
+  },
+  {
+    "fr": "entre",
+    "en": "between, among",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Places",
+    "example": "Between you and me."
+  },
+  {
+    "fr": "chez",
+    "en": "at/to someone's place",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Places",
+    "example": "I am at my friend's place."
+  },
+  {
+    "fr": "maintenant",
+    "en": "now",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I am busy right now."
+  },
+  {
+    "fr": "peut-être",
+    "en": "maybe, perhaps",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Maybe tomorrow."
+  },
+  {
+    "fr": "pourquoi",
+    "en": "why",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Questions",
+    "example": "Why are you here?"
+  },
+  {
+    "fr": "comment",
+    "en": "how",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Questions",
+    "example": "How are you?"
+  },
+  {
+    "fr": "où",
+    "en": "where",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Questions",
+    "example": "Where do you live?"
+  },
+  {
+    "fr": "quand",
+    "en": "when",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Questions",
+    "example": "When do you arrive?"
+  },
+  {
+    "fr": "combien",
+    "en": "how much, how many",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Questions",
+    "example": "How much is it?"
+  },
+  {
+    "fr": "bonjour",
+    "en": "hello, good morning",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Hello, how are you?"
+  },
+  {
+    "fr": "merci",
+    "en": "thank you",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Thank you very much."
+  },
+  {
+    "fr": "s’il vous plaît",
+    "en": "please (formal)",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "A coffee, please."
+  },
+  {
+    "fr": "excusez-moi",
+    "en": "excuse me (formal)",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Excuse me, where is the station?"
+  },
+  {
+    "fr": "d’accord",
+    "en": "okay, agreed",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Okay, that's fine."
+  },
+  {
+    "fr": "bien sûr",
+    "en": "of course",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Of course, no problem."
+  },
+  {
+    "fr": "je ne sais pas",
+    "en": "I don't know",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "I don't know the answer."
+  },
+  {
+    "fr": "ça va",
+    "en": "I'm fine / how's it going",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "Hi, how's it going?"
+  },
+  {
+    "fr": "il faut",
+    "en": "it is necessary / one must",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "You have to go."
+  },
+  {
+    "fr": "en fait",
+    "en": "actually, in fact",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "Actually, I don't agree."
+  },
+  {
+    "fr": "quand même",
+    "en": "still, nevertheless",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "It's expensive, but still."
+  },
+  {
+    "fr": "du coup",
+    "en": "so, as a result (informal)",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "So, what do we do?"
+  },
+  {
+    "fr": "plutôt",
+    "en": "rather, quite",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "It is rather good."
+  },
+  {
+    "fr": "encore",
+    "en": "again, still, more",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "One more coffee, please."
+  },
+  {
+    "fr": "déjà",
+    "en": "already",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I already know."
+  },
+  {
+    "fr": "bientôt",
+    "en": "soon",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "See you soon."
+  },
+  {
+    "fr": "ensemble",
+    "en": "together",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "People",
+    "example": "We work together."
+  },
+  {
+    "fr": "seulement",
+    "en": "only",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Only five minutes."
+  },
+  {
+    "fr": "vraiment",
+    "en": "really",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Really?"
+  },
+  {
+    "fr": "peu",
+    "en": "little, few",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "A little bit."
+  },
+  {
+    "fr": "assez",
+    "en": "enough, quite",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "That's quite good."
+  },
+  {
+    "fr": "attendre",
+    "en": "to wait, expect",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Wait for me."
+  },
+  {
+    "fr": "arriver",
+    "en": "to arrive, happen",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "What time do you arrive?"
+  },
+  {
+    "fr": "partir",
+    "en": "to leave",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "I have to leave."
+  },
+  {
+    "fr": "rester",
+    "en": "to stay, remain",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Stay here."
+  },
+  {
+    "fr": "vivre",
+    "en": "to live",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "People",
+    "example": "I live in Finland."
+  },
+  {
+    "fr": "habiter",
+    "en": "to live/reside",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Where do you live?"
+  },
+  {
+    "fr": "travailler",
+    "en": "to work",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I work from home."
+  },
+  {
+    "fr": "apprendre",
+    "en": "to learn",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "I am learning French."
+  },
+  {
+    "fr": "lire",
+    "en": "to read",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "I read every day."
+  },
+  {
+    "fr": "écrire",
+    "en": "to write",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "Write your name."
+  },
+  {
+    "fr": "écouter",
+    "en": "to listen",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Listen carefully."
+  },
+  {
+    "fr": "entendre",
+    "en": "to hear",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Can you hear me?"
+  },
+  {
+    "fr": "regarder",
+    "en": "to watch, look at",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Watch this video."
+  },
+  {
+    "fr": "acheter",
+    "en": "to buy",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "I want to buy this."
+  },
+  {
+    "fr": "payer",
+    "en": "to pay",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "Can I pay by card?"
+  },
+  {
+    "fr": "ouvrir",
+    "en": "to open",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Open the window."
+  },
+  {
+    "fr": "fermer",
+    "en": "to close",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Close the door."
+  },
+  {
+    "fr": "commencer",
+    "en": "to begin",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Let's begin."
+  },
+  {
+    "fr": "finir",
+    "en": "to finish",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I finish at six."
+  },
+  {
+    "fr": "penser",
+    "en": "to think",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "I think so."
+  },
+  {
+    "fr": "croire",
+    "en": "to believe, think",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "I think you're right."
+  },
+  {
+    "fr": "connaître",
+    "en": "to know, be familiar with",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "I know this city."
+  },
+  {
+    "fr": "appeler",
+    "en": "to call, name",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Call me tomorrow."
+  },
+  {
+    "fr": "demander",
+    "en": "to ask, request",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Can I ask a question?"
+  },
+  {
+    "fr": "répondre",
+    "en": "to answer",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Please answer me."
+  },
+  {
+    "fr": "aider",
+    "en": "to help",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "People",
+    "example": "Can you help me?"
+  },
+  {
+    "fr": "essayer",
+    "en": "to try",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Try again."
+  },
+  {
+    "fr": "utiliser",
+    "en": "to use",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Daily life",
+    "example": "I use this app."
+  },
+  {
+    "fr": "choisir",
+    "en": "to choose",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Choose one answer."
+  },
+  {
+    "fr": "changer",
+    "en": "to change",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I want to change jobs."
+  },
+  {
+    "fr": "marcher",
+    "en": "to walk, work (machine)",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Let's walk."
+  },
+  {
+    "fr": "courir",
+    "en": "to run",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I run every morning."
+  },
+  {
+    "fr": "dormir",
+    "en": "to sleep",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I need to sleep."
+  },
+  {
+    "fr": "se lever",
+    "en": "to get up",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I get up early."
+  },
+  {
+    "fr": "se sentir",
+    "en": "to feel",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "People",
+    "example": "I feel better."
+  },
+  {
+    "fr": "heureux",
+    "en": "happy (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "I am happy."
+  },
+  {
+    "fr": "fatigué",
+    "en": "tired (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "I am tired."
+  },
+  {
+    "fr": "content",
+    "en": "happy, pleased (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "I am pleased."
+  },
+  {
+    "fr": "cher",
+    "en": "expensive, dear",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "It is too expensive."
+  },
+  {
+    "fr": "gratuit",
+    "en": "free of charge",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "Entry is free."
+  },
+  {
+    "fr": "possible",
+    "en": "possible",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Is it possible?"
+  },
+  {
+    "fr": "prêt",
+    "en": "ready (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I am ready."
+  },
+  {
+    "fr": "occupé",
+    "en": "busy (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I am busy today."
+  },
+  {
+    "fr": "disponible",
+    "en": "available",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Work",
+    "example": "Are you available tomorrow?"
+  },
+  {
+    "fr": "différent",
+    "en": "different",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A different question."
+  },
+  {
+    "fr": "prochain",
+    "en": "next",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Next week."
+  },
+  {
+    "fr": "dernier",
+    "en": "last, latest",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Last year."
+  },
+  {
+    "fr": "premier",
+    "en": "first",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Time",
+    "example": "The first time."
+  },
+  {
+    "fr": "meilleur",
+    "en": "better, best",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "The best option."
+  },
+  {
+    "fr": "vieux",
+    "en": "old (masculine)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "An old building."
+  },
+  {
+    "fr": "chaud",
+    "en": "hot, warm",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "The coffee is hot."
+  },
+  {
+    "fr": "froid",
+    "en": "cold",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "I am cold."
+  },
+  {
+    "fr": "le matin",
+    "en": "morning",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "In the morning."
+  },
+  {
+    "fr": "le soir",
+    "en": "evening",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "See you this evening."
+  },
+  {
+    "fr": "la semaine",
+    "en": "week",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Next week."
+  },
+  {
+    "fr": "le mois",
+    "en": "month",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Every month."
+  },
+  {
+    "fr": "l’année",
+    "en": "year",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "This year."
+  },
+  {
+    "fr": "l’heure",
+    "en": "hour, time",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "What time is it?"
+  },
+  {
+    "fr": "la minute",
+    "en": "minute",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Just a minute."
+  },
+  {
+    "fr": "le besoin",
+    "en": "need",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I need help."
+  },
+  {
+    "fr": "l’idée",
+    "en": "idea",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "That's a good idea."
+  },
+  {
+    "fr": "la chose",
+    "en": "thing",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "One more thing."
+  },
+  {
+    "fr": "le fait",
+    "en": "fact, act",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Mind",
+    "example": "In fact, it's true."
+  },
+  {
+    "fr": "la raison",
+    "en": "reason",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "What's the reason?"
+  },
+  {
+    "fr": "le choix",
+    "en": "choice",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "It's your choice."
+  },
+  {
+    "fr": "le cas",
+    "en": "case, situation",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "In this case."
+  },
+  {
+    "fr": "le côté",
+    "en": "side",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Places",
+    "example": "On the other side."
+  },
+  {
+    "fr": "la place",
+    "en": "place, seat, square",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Places",
+    "example": "Is this seat free?"
+  },
+  {
+    "fr": "le chemin",
+    "en": "path, way",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Places",
+    "example": "Which way should I go?"
+  },
+  {
+    "fr": "le magasin",
+    "en": "shop, store",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "The shop is closed."
+  },
+  {
+    "fr": "le restaurant",
+    "en": "restaurant",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "A table for two."
+  },
+  {
+    "fr": "la gare",
+    "en": "train station",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "Where is the station?"
+  },
+  {
+    "fr": "le train",
+    "en": "train",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "The train is late."
+  },
+  {
+    "fr": "le billet",
+    "en": "ticket, banknote",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "One ticket, please."
+  },
+  {
+    "fr": "le bus",
+    "en": "bus",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "I take the bus."
+  },
+  {
+    "fr": "le métro",
+    "en": "metro, subway",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "The metro is fast."
+  },
+  {
+    "fr": "l’aéroport",
+    "en": "airport",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "I am at the airport."
+  },
+  {
+    "fr": "la chambre",
+    "en": "bedroom, room",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "The room is small."
+  },
+  {
+    "fr": "la porte",
+    "en": "door",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Open the door."
+  },
+  {
+    "fr": "la fenêtre",
+    "en": "window",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Close the window."
+  },
+  {
+    "fr": "la table",
+    "en": "table",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Dinner is on the table."
+  },
+  {
+    "fr": "la chaise",
+    "en": "chair",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Sit on the chair."
+  },
+  {
+    "fr": "le téléphone",
+    "en": "phone",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Technology",
+    "example": "My phone is here."
+  },
+  {
+    "fr": "l’ordinateur",
+    "en": "computer",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Technology",
+    "example": "I work on a computer."
+  },
+  {
+    "fr": "le message",
+    "en": "message",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Send me a message."
+  },
+  {
+    "fr": "le rendez-vous",
+    "en": "appointment, date",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Daily life",
+    "example": "I have an appointment."
+  },
+  {
+    "fr": "la santé",
+    "en": "health",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Health",
+    "example": "Health is important."
+  },
+  {
+    "fr": "le corps",
+    "en": "body",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Health",
+    "example": "The human body."
+  },
+  {
+    "fr": "la tête",
+    "en": "head",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Body",
+    "example": "My head hurts."
+  },
+  {
+    "fr": "la main",
+    "en": "hand",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Body",
+    "example": "Wash your hands."
+  },
+  {
+    "fr": "le cœur",
+    "en": "heart",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Body",
+    "example": "Listen to your heart."
+  },
+  {
+    "fr": "la nourriture",
+    "en": "food",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "The food is good."
+  },
+  {
+    "fr": "le fromage",
+    "en": "cheese",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "French cheese."
+  },
+  {
+    "fr": "le poulet",
+    "en": "chicken",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Chicken with rice."
+  },
+  {
+    "fr": "le poisson",
+    "en": "fish",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "I eat fish."
+  },
+  {
+    "fr": "le fruit",
+    "en": "fruit",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Fresh fruit."
+  },
+  {
+    "fr": "le légume",
+    "en": "vegetable",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Eat more vegetables."
+  },
+  {
+    "fr": "le sucre",
+    "en": "sugar",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "No sugar, please."
+  },
+  {
+    "fr": "le lait",
+    "en": "milk",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "A glass of milk."
+  },
+  {
+    "fr": "le thé",
+    "en": "tea",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Would you like tea?"
+  },
+  {
+    "fr": "la bière",
+    "en": "beer",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "A beer, please."
+  },
+  {
+    "fr": "le vin",
+    "en": "wine",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "A glass of wine."
+  },
+  {
+    "fr": "le déjeuner",
+    "en": "lunch",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Lunch is at noon."
+  },
+  {
+    "fr": "le dîner",
+    "en": "dinner",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "Dinner is ready."
+  },
+  {
+    "fr": "le petit-déjeuner",
+    "en": "breakfast",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Food",
+    "example": "I eat breakfast early."
+  },
+  {
+    "fr": "la météo",
+    "en": "weather forecast",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "What's the weather like?"
+  },
+  {
+    "fr": "le soleil",
+    "en": "sun",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "It's sunny."
+  },
+  {
+    "fr": "la pluie",
+    "en": "rain",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "It's raining."
+  },
+  {
+    "fr": "le vent",
+    "en": "wind",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "The wind is strong."
+  },
+  {
+    "fr": "le ciel",
+    "en": "sky",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Weather",
+    "example": "The sky is blue."
+  },
+  {
+    "fr": "la mer",
+    "en": "sea",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Nature",
+    "example": "The sea is beautiful."
+  },
+  {
+    "fr": "la montagne",
+    "en": "mountain",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Nature",
+    "example": "We are going to the mountains."
+  },
+  {
+    "fr": "l’arbre",
+    "en": "tree",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Nature",
+    "example": "A tall tree."
+  },
+  {
+    "fr": "le chien",
+    "en": "dog",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Animals",
+    "example": "The dog is friendly."
+  },
+  {
+    "fr": "le chat",
+    "en": "cat",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Animals",
+    "example": "The cat is sleeping."
+  },
+  {
+    "fr": "le matin",
+    "en": "morning",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "I study in the morning."
+  },
+  {
+    "fr": "la musique",
+    "en": "music",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Culture",
+    "example": "I love music."
+  },
+  {
+    "fr": "le film",
+    "en": "film, movie",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Culture",
+    "example": "Let's watch a film."
+  },
+  {
+    "fr": "la photo",
+    "en": "photo",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Culture",
+    "example": "Take a photo."
+  },
+  {
+    "fr": "le sport",
+    "en": "sport",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Leisure",
+    "example": "I play sports."
+  },
+  {
+    "fr": "le jeu",
+    "en": "game",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Leisure",
+    "example": "Let's play a game."
+  },
+  {
+    "fr": "l’argent",
+    "en": "money",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "Money isn't everything."
+  },
+  {
+    "fr": "le travail",
+    "en": "work",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I like my work."
+  },
+  {
+    "fr": "le collègue",
+    "en": "colleague (male)",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "My colleague is helpful."
+  },
+  {
+    "fr": "la réunion",
+    "en": "meeting",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "The meeting starts at ten."
+  },
+  {
+    "fr": "le bureau",
+    "en": "office, desk",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I am at the office."
+  },
+  {
+    "fr": "le salaire",
+    "en": "salary",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "The salary is good."
+  },
+  {
+    "fr": "le projet",
+    "en": "project",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "The project is ready."
+  },
+  {
+    "fr": "l’entreprise",
+    "en": "company",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "She works for a company."
+  },
+  {
+    "fr": "le client",
+    "en": "customer, client (male)",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Work",
+    "example": "The customer is waiting."
+  },
+  {
+    "fr": "le service",
+    "en": "service, department",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "The service is excellent."
+  },
+  {
+    "fr": "le logiciel",
+    "en": "software",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Technology",
+    "example": "I use this software."
+  },
+  {
+    "fr": "le site",
+    "en": "website, site",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Technology",
+    "example": "The website is useful."
+  },
+  {
+    "fr": "le fichier",
+    "en": "file",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Technology",
+    "example": "Open the file."
+  },
+  {
+    "fr": "la donnée",
+    "en": "data item",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Technology",
+    "example": "The data is correct."
+  },
+  {
+    "fr": "le code",
+    "en": "code",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Technology",
+    "example": "The code works."
+  },
+  {
+    "fr": "la question",
+    "en": "question",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "Ask a question."
+  },
+  {
+    "fr": "la difficulté",
+    "en": "difficulty",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "I have some difficulty."
+  },
+  {
+    "fr": "la différence",
+    "en": "difference",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "What's the difference?"
+  },
+  {
+    "fr": "la possibilité",
+    "en": "possibility",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "There is another possibility."
+  },
+  {
+    "fr": "la confiance",
+    "en": "confidence, trust",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I trust you."
+  },
+  {
+    "fr": "la peur",
+    "en": "fear",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "I am afraid."
+  },
+  {
+    "fr": "l’amour",
+    "en": "love",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "Love is important."
+  },
+  {
+    "fr": "le bonheur",
+    "en": "happiness",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I wish you happiness."
+  },
+  {
+    "fr": "la colère",
+    "en": "anger",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "He is angry."
+  },
+  {
+    "fr": "le sourire",
+    "en": "smile",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "She has a nice smile."
+  },
+  {
+    "fr": "le voisin",
+    "en": "neighbor (male)",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "My neighbor is friendly."
+  },
+  {
+    "fr": "le couple",
+    "en": "couple",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "People",
+    "example": "They are a happy couple."
+  },
+  {
+    "fr": "le mariage",
+    "en": "marriage, wedding",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "People",
+    "example": "The wedding is in June."
+  },
+  {
+    "fr": "la rencontre",
+    "en": "meeting, encounter",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "People",
+    "example": "It was a nice meeting."
+  },
+  {
+    "fr": "la conversation",
+    "en": "conversation",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "We had a conversation."
+  },
+  {
+    "fr": "le silence",
+    "en": "silence",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "I need some silence."
+  },
+  {
+    "fr": "la vérité",
+    "en": "truth",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "Tell me the truth."
+  },
+  {
+    "fr": "le mensonge",
+    "en": "lie",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Mind",
+    "example": "That's a lie."
+  },
+  {
+    "fr": "vrai",
+    "en": "true, real",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "Is it true?"
+  },
+  {
+    "fr": "faux",
+    "en": "false, wrong",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "The answer is wrong."
+  },
+  {
+    "fr": "fort",
+    "en": "strong, loud",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A strong person."
+  },
+  {
+    "fr": "faible",
+    "en": "weak",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Describing",
+    "example": "The signal is weak."
+  },
+  {
+    "fr": "simple",
+    "en": "simple",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "It's very simple."
+  },
+  {
+    "fr": "compliqué",
+    "en": "complicated",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Describing",
+    "example": "It's complicated."
+  },
+  {
+    "fr": "normal",
+    "en": "normal",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "That's normal."
+  },
+  {
+    "fr": "spécial",
+    "en": "special",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "A special day."
+  },
+  {
+    "fr": "pratique",
+    "en": "practical",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Describing",
+    "example": "A practical solution."
+  },
+  {
+    "fr": "utile",
+    "en": "useful",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "This is useful."
+  },
+  {
+    "fr": "inutile",
+    "en": "useless, unnecessary",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Describing",
+    "example": "That's unnecessary."
+  },
+  {
+    "fr": "sérieux",
+    "en": "serious",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "Are you serious?"
+  },
+  {
+    "fr": "gentil",
+    "en": "kind, nice",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "People",
+    "example": "He's very kind."
+  },
+  {
+    "fr": "sympa",
+    "en": "nice, friendly (informal)",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "People",
+    "example": "She's really nice."
+  },
+  {
+    "fr": "drôle",
+    "en": "funny, strange",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "People",
+    "example": "That's funny."
+  },
+  {
+    "fr": "calme",
+    "en": "calm, quiet",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Feelings",
+    "example": "Stay calm."
+  },
+  {
+    "fr": "bruyant",
+    "en": "noisy",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Describing",
+    "example": "The street is noisy."
+  },
+  {
+    "fr": "propre",
+    "en": "clean, own",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Home",
+    "example": "Keep your room clean."
+  },
+  {
+    "fr": "sale",
+    "en": "dirty",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Home",
+    "example": "The floor is dirty."
+  },
+  {
+    "fr": "plein",
+    "en": "full",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "The bus is full."
+  },
+  {
+    "fr": "vide",
+    "en": "empty",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Describing",
+    "example": "The bottle is empty."
+  },
+  {
+    "fr": "ouvert",
+    "en": "open",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "The shop is open."
+  },
+  {
+    "fr": "fermé",
+    "en": "closed",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "The door is closed."
+  },
+  {
+    "fr": "cher",
+    "en": "dear, expensive",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "It's too expensive."
+  },
+  {
+    "fr": "facilement",
+    "en": "easily",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "You can do it easily."
+  },
+  {
+    "fr": "probablement",
+    "en": "probably",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "It's probably true."
+  },
+  {
+    "fr": "exactement",
+    "en": "exactly",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Exactly."
+  },
+  {
+    "fr": "finalement",
+    "en": "finally, in the end",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Finally, we arrived."
+  },
+  {
+    "fr": "heureusement",
+    "en": "fortunately",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Fortunately, you're here."
+  },
+  {
+    "fr": "malheureusement",
+    "en": "unfortunately",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Unfortunately, it's closed."
+  },
+  {
+    "fr": "vraiment",
+    "en": "really",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I really like it."
+  },
+  {
+    "fr": "presque",
+    "en": "almost",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I'm almost ready."
+  },
+  {
+    "fr": "déjà",
+    "en": "already",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Have you eaten already?"
+  },
+  {
+    "fr": "encore",
+    "en": "again, still",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Try again."
+  },
+  {
+    "fr": "donc",
+    "en": "so, therefore",
+    "pos": "conjunction",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "So, what now?"
+  },
+  {
+    "fr": "alors",
+    "en": "then, so",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "So, let's go."
+  },
+  {
+    "fr": "puis",
+    "en": "then, next",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Connectors",
+    "example": "Then we went home."
+  },
+  {
+    "fr": "pendant",
+    "en": "during, for",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Time",
+    "example": "During the day."
+  },
+  {
+    "fr": "depuis",
+    "en": "since, for",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Time",
+    "example": "I have lived here for a year."
+  },
+  {
+    "fr": "avant",
+    "en": "before",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Before dinner."
+  },
+  {
+    "fr": "après",
+    "en": "after",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Time",
+    "example": "After work."
+  },
+  {
+    "fr": "contre",
+    "en": "against",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Connectors",
+    "example": "I'm against this idea."
+  },
+  {
+    "fr": "vers",
+    "en": "towards, around (time)",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Places",
+    "example": "Around eight o'clock."
+  },
+  {
+    "fr": "selon",
+    "en": "according to",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Connectors",
+    "example": "According to the report."
+  },
+  {
+    "fr": "malgré",
+    "en": "despite",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Connectors",
+    "example": "Despite the rain."
+  },
+  {
+    "fr": "pendant que",
+    "en": "while",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Connectors",
+    "example": "While I was working."
+  },
+  {
+    "fr": "bien que",
+    "en": "although",
+    "pos": "expression",
+    "level": "B1",
+    "cat": "Connectors",
+    "example": "Although it is difficult."
+  },
+  {
+    "fr": "en revanche",
+    "en": "on the other hand",
+    "pos": "expression",
+    "level": "B1",
+    "cat": "Conversation",
+    "example": "On the other hand, it's cheap."
+  },
+  {
+    "fr": "à mon avis",
+    "en": "in my opinion",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "In my opinion, it's great."
+  },
+  {
+    "fr": "ça dépend",
+    "en": "it depends",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "It depends on the weather."
+  },
+  {
+    "fr": "pas du tout",
+    "en": "not at all",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Conversation",
+    "example": "Not at all."
+  },
+  {
+    "fr": "tout à fait",
+    "en": "absolutely, quite",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "Absolutely, I agree."
+  },
+  {
+    "fr": "je voudrais",
+    "en": "I would like",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Greetings",
+    "example": "I would like a coffee."
+  },
+  {
+    "fr": "j’ai besoin de",
+    "en": "I need",
+    "pos": "expression",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I need help."
+  },
+  {
+    "fr": "ça marche",
+    "en": "that works, okay",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "Okay, that works."
+  },
+  {
+    "fr": "tant mieux",
+    "en": "that's good, so much the better",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "That's good news."
+  },
+  {
+    "fr": "tant pis",
+    "en": "too bad, never mind",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "Too bad, maybe next time."
+  },
+  {
+    "fr": "n’importe quoi",
+    "en": "nonsense, anything",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "That's nonsense."
+  },
+  {
+    "fr": "faire attention",
+    "en": "to pay attention, be careful",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Be careful."
+  },
+  {
+    "fr": "avoir envie de",
+    "en": "to feel like, want to",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I feel like going out."
+  },
+  {
+    "fr": "avoir raison",
+    "en": "to be right",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "You're right."
+  },
+  {
+    "fr": "avoir tort",
+    "en": "to be wrong",
+    "pos": "expression",
+    "level": "A2",
+    "cat": "Conversation",
+    "example": "I was wrong."
+  },
+  {
+    "fr": "se débrouiller",
+    "en": "to manage, get by",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Daily life",
+    "example": "I'll manage."
+  },
+  {
+    "fr": "réussir",
+    "en": "to succeed, pass",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Work",
+    "example": "You will succeed."
+  },
+  {
+    "fr": "oublier",
+    "en": "to forget",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "Don't forget your keys."
+  },
+  {
+    "fr": "se souvenir de",
+    "en": "to remember",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Mind",
+    "example": "I remember this place."
+  },
+  {
+    "fr": "permettre",
+    "en": "to allow, enable",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "This lets me work."
+  },
+  {
+    "fr": "expliquer",
+    "en": "to explain",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Can you explain?"
+  },
+  {
+    "fr": "raconter",
+    "en": "to tell, narrate",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "Tell me what happened."
+  },
+  {
+    "fr": "proposer",
+    "en": "to suggest, offer",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "I have a suggestion."
+  },
+  {
+    "fr": "accepter",
+    "en": "to accept",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "I accept your offer."
+  },
+  {
+    "fr": "refuser",
+    "en": "to refuse",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "She refused."
+  },
+  {
+    "fr": "espérer",
+    "en": "to hope",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I hope so."
+  },
+  {
+    "fr": "oublier",
+    "en": "to forget",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Mind",
+    "example": "I forgot."
+  },
+  {
+    "fr": "manquer",
+    "en": "to miss, lack",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I miss you."
+  },
+  {
+    "fr": "plaire",
+    "en": "to please, be liked",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Feelings",
+    "example": "I like this place."
+  },
+  {
+    "fr": "sembler",
+    "en": "to seem",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Mind",
+    "example": "It seems easy."
+  },
+  {
+    "fr": "devenir",
+    "en": "to become",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Change",
+    "example": "I want to become fluent."
+  },
+  {
+    "fr": "revenir",
+    "en": "to come back",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "Come back soon."
+  },
+  {
+    "fr": "sortir",
+    "en": "to go out, exit",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Let's go out tonight."
+  },
+  {
+    "fr": "entrer",
+    "en": "to enter",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Places",
+    "example": "Come in."
+  },
+  {
+    "fr": "monter",
+    "en": "to go up, get on",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "Go upstairs."
+  },
+  {
+    "fr": "descendre",
+    "en": "to go down, get off",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "Get off here."
+  },
+  {
+    "fr": "tomber",
+    "en": "to fall",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Be careful not to fall."
+  },
+  {
+    "fr": "porter",
+    "en": "to carry, wear",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I wear glasses."
+  },
+  {
+    "fr": "envoyer",
+    "en": "to send",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Communication",
+    "example": "Send me the link."
+  },
+  {
+    "fr": "recevoir",
+    "en": "to receive",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Communication",
+    "example": "I received your message."
+  },
+  {
+    "fr": "suivre",
+    "en": "to follow",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Daily life",
+    "example": "Follow me."
+  },
+  {
+    "fr": "continuer",
+    "en": "to continue",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Keep going."
+  },
+  {
+    "fr": "arrêter",
+    "en": "to stop",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "Stop here."
+  },
+  {
+    "fr": "perdre",
+    "en": "to lose",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Daily life",
+    "example": "I lost my keys."
+  },
+  {
+    "fr": "gagner",
+    "en": "to win, earn",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Work",
+    "example": "I earn enough."
+  },
+  {
+    "fr": "payer",
+    "en": "to pay",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "I'll pay."
+  },
+  {
+    "fr": "coûter",
+    "en": "to cost",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Shopping",
+    "example": "How much does it cost?"
+  },
+  {
+    "fr": "vendre",
+    "en": "to sell",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Shopping",
+    "example": "They sell bread."
+  },
+  {
+    "fr": "réserver",
+    "en": "to reserve, book",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Travel",
+    "example": "I'd like to book a table."
+  },
+  {
+    "fr": "voyager",
+    "en": "to travel",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "I love to travel."
+  },
+  {
+    "fr": "visiter",
+    "en": "to visit",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Travel",
+    "example": "We visit Paris."
+  },
+  {
+    "fr": "conduire",
+    "en": "to drive",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Transport",
+    "example": "Can you drive?"
+  },
+  {
+    "fr": "voler",
+    "en": "to fly, steal",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Transport",
+    "example": "The plane is flying."
+  },
+  {
+    "fr": "répéter",
+    "en": "to repeat",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "Can you repeat that?"
+  },
+  {
+    "fr": "prononcer",
+    "en": "to pronounce",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "How do you pronounce it?"
+  },
+  {
+    "fr": "traduire",
+    "en": "to translate",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "Translate this sentence."
+  },
+  {
+    "fr": "améliorer",
+    "en": "to improve",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "I want to improve my French."
+  },
+  {
+    "fr": "progresser",
+    "en": "to make progress",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "I am making progress."
+  },
+  {
+    "fr": "réviser",
+    "en": "to review, revise",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "I review words daily."
+  },
+  {
+    "fr": "mémoriser",
+    "en": "to memorize",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "Memorize these words."
+  },
+  {
+    "fr": "la mémoire",
+    "en": "memory",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Mind",
+    "example": "My memory is good."
+  },
+  {
+    "fr": "l’habitude",
+    "en": "habit",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Daily life",
+    "example": "It's a good habit."
+  },
+  {
+    "fr": "l’objectif",
+    "en": "goal, objective",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "My goal is clear."
+  },
+  {
+    "fr": "l’effort",
+    "en": "effort",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "It takes effort."
+  },
+  {
+    "fr": "le progrès",
+    "en": "progress",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Learning",
+    "example": "I can see progress."
+  },
+  {
+    "fr": "la réussite",
+    "en": "success",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "I wish you success."
+  },
+  {
+    "fr": "l’échec",
+    "en": "failure",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "Work",
+    "example": "Failure teaches us."
+  },
+  {
+    "fr": "le niveau",
+    "en": "level",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Learning",
+    "example": "What is your level?"
+  },
+  {
+    "fr": "le début",
+    "en": "beginning",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "At the beginning."
+  },
+  {
+    "fr": "la fin",
+    "en": "end",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "At the end."
+  },
+  {
+    "fr": "le milieu",
+    "en": "middle",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Places",
+    "example": "In the middle."
+  },
+  {
+    "fr": "la suite",
+    "en": "continuation, next part",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Time",
+    "example": "What happens next?"
+  },
+  {
+    "fr": "le résultat",
+    "en": "result",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "The result is good."
+  },
+  {
+    "fr": "la solution",
+    "en": "solution",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Work",
+    "example": "We need a solution."
+  },
+  {
+    "fr": "le risque",
+    "en": "risk",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "It's a risk."
+  },
+  {
+    "fr": "la chance",
+    "en": "luck, chance",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Good luck."
+  },
+  {
+    "fr": "l’occasion",
+    "en": "opportunity, occasion",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "It's a great opportunity."
+  },
+  {
+    "fr": "l’expérience",
+    "en": "experience",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "I have experience."
+  },
+  {
+    "fr": "la compétence",
+    "en": "skill",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Work",
+    "example": "Communication is a skill."
+  },
+  {
+    "fr": "le comportement",
+    "en": "behavior",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "People",
+    "example": "His behavior changed."
+  },
+  {
+    "fr": "la société",
+    "en": "society, company",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "People",
+    "example": "Society is changing."
+  },
+  {
+    "fr": "le gouvernement",
+    "en": "government",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Society",
+    "example": "The government announced a change."
+  },
+  {
+    "fr": "la loi",
+    "en": "law",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Society",
+    "example": "Everyone must follow the law."
+  },
+  {
+    "fr": "le droit",
+    "en": "right, law",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Society",
+    "example": "You have the right to choose."
+  },
+  {
+    "fr": "l’environnement",
+    "en": "environment",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Nature",
+    "example": "Protect the environment."
+  },
+  {
+    "fr": "le changement",
+    "en": "change",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Change takes time."
+  },
+  {
+    "fr": "l’avenir",
+    "en": "future",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Think about the future."
+  },
+  {
+    "fr": "le passé",
+    "en": "past",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Time",
+    "example": "Leave the past behind."
+  },
+  {
+    "fr": "le présent",
+    "en": "present",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Time",
+    "example": "Live in the present."
+  },
+  {
+    "fr": "la liberté",
+    "en": "freedom",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Society",
+    "example": "Freedom matters."
+  },
+  {
+    "fr": "la sécurité",
+    "en": "safety, security",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Safety comes first."
+  },
+  {
+    "fr": "la différence",
+    "en": "difference",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "What's the difference?"
+  }
+]

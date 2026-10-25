@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>French 3000</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-root" id="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">é</div>
+          <span>french<em>3000</em></span>
+        </div>
+        <div class="top-right">
+          <span class="top-hello">A little French, every day.</span
+          ><span class="streak">✦ <b id="streakTop">0</b> day streak</span>
+        </div>
+      </header>
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="nav-label">YOUR LEARNING</div>
+          <nav class="nav" id="nav">
+            <button data-page="dashboard" class="active">
+              <span class="nav-icon">⌂</span><span class="nav-text">Dashboard</span></button
+            ><button data-page="learn"><span class="nav-icon">✳</span><span class="nav-text">Learn new</span></button
+            ><button data-page="review"><span class="nav-icon">↻</span><span class="nav-text">Review</span></button
+            ><button data-page="speed"><span class="nav-icon">ϟ</span><span class="nav-text">Speed review</span></button
+            ><button data-page="library"><span class="nav-icon">▤</span><span class="nav-text">Word library</span></button
+            ><button data-page="history"><span class="nav-icon">◷</span><span class="nav-text">History</span></button
+            ><button data-page="settings"><span class="nav-icon">⚙</span><span class="nav-text">Settings</span></button>
+          </nav>
+          <div class="sidebar-note">
+            <strong>Petit à petit.</strong>Little by little, a little becomes a lot. Your progress stays saved in this browser.
+          </div>
+        </aside>
+        <main class="main" id="main"></main>
+      </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
