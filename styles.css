@@ -490,6 +490,9 @@ button {
   padding: clamp(22px, 4vw, 42px);
   text-align: center;
 }
+.question-main {
+  min-width: 0;
+}
 .word-label {
   font-size: 10px;
   text-transform: uppercase;
@@ -586,6 +589,23 @@ button {
 }
 .feedback.show {
   display: block;
+}
+@media (min-width: 1000px) {
+  .study-shell--teaching {
+    max-width: 1080px;
+  }
+  .question-card.has-teaching.is-answered {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+  .question-card.has-teaching.is-answered .feedback {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: stretch;
+    margin: 0;
+  }
 }
 .session-footer {
   display: flex;
