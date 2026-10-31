@@ -239,11 +239,9 @@ function toggleMaster(w) {
   save();
   const masterButton = document.getElementById("masterWord");
   if (masterButton) masterButton.textContent = p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered";
-  if (session && (session.mode === "learn" || session.mode === "speed") && p.status === "mastered") {
-    session.queue = session.queue.filter((item, i) => i <= session.index || item.id !== w.id);
-    if (session.index >= session.queue.length) {
-      session.index = session.queue.length - 1;
-    }
+  if (session && p.status === "mastered" && session.queue[session.index]?.id === w.id) {
+    session.index++;
+    renderQuestion();
   }
   showToast(
     p.status === "mastered"
