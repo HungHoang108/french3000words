@@ -1000,6 +1000,9 @@ button {
   flex-wrap: wrap;
   margin-top: 18px;
 }
+.master-control .btn {
+  min-width: 150px;
+}
 .master-control span {
   font-size: 10px;
   color: var(--muted);
