@@ -1022,10 +1022,21 @@ button {
   font-weight: 800;
   margin-bottom: 8px;
 }
+.teaching-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.teaching-fr,
+.teaching-en {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+}
 .teaching-fr {
   font-size: 16px;
   font-weight: 750;
-  margin-bottom: 4px;
 }
 .teaching-language {
   display: block;
@@ -1033,7 +1044,7 @@ button {
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
 .teaching-en {
   font-size: 12px;

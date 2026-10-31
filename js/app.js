@@ -276,11 +276,11 @@ function teachingCard(w) {
     tip = "Learn this word inside a natural phrase. Word order and meaning can change with context.";
   }
   return (
-    '<div class="teaching"><div class="teaching-title">Example in context</div><div class="teaching-fr"><span class="teaching-language">French</span>' +
+    '<div class="teaching"><div class="teaching-title">Example in context</div><div class="teaching-row"><div class="teaching-fr"><span class="teaching-language">French</span>' +
     esc(w.example_fr) +
     '</div><div class="teaching-en"><span class="teaching-language">English</span>' +
     esc(w.example) +
-    '</div><div class="teaching-meaning">Meaning to remember: ' +
+    '</div></div><div class="teaching-meaning">Meaning to remember: ' +
     esc(meaning) +
     '</div><div class="grammar-tip"><strong>Grammar tip</strong><br>' +
     esc(tip) +
