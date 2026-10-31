@@ -590,23 +590,6 @@ button {
 .feedback.show {
   display: block;
 }
-@media (min-width: 1000px) {
-  .study-shell--teaching {
-    max-width: 1080px;
-  }
-  .question-card.has-teaching.is-answered {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 24px;
-    align-items: start;
-  }
-  .question-card.has-teaching.is-answered .feedback {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: stretch;
-    margin: 0;
-  }
-}
 .session-footer {
   display: flex;
   justify-content: space-between;
@@ -1023,10 +1006,6 @@ button {
 .master-control .btn {
   min-width: 150px;
 }
-.master-control span {
-  font-size: 10px;
-  color: var(--muted);
-}
 .teaching {
   margin-top: 16px;
   padding: 15px;
@@ -1081,8 +1060,7 @@ button {
     color: #e8e8df;
   }
   .teaching-en,
-  .teaching-meaning,
-  .master-control span {
+  .teaching-meaning {
     color: #b5bbae;
   }
   .grammar-tip {

@@ -352,6 +352,7 @@ function renderQuestion() {
   if (!session) return;
   clearTimeout(session.timer);
   clearTimeout(session.feedbackTimer);
+  if (session.mode === "speed" && typeof session.timer === "number") cancelAnimationFrame(session.timer);
   const s = session,
     w = s.queue[s.index];
   if (!w) {
@@ -363,7 +364,7 @@ function renderQuestion() {
     choices = makeChoices(w);
   s.choices = choices;
   const main = document.getElementById("main");
-  main.innerHTML = `<div class="study-shell${s.mode === "learn" ? " study-shell--teaching" : ""}"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card${s.mode === "learn" ? " has-teaching" : ""}"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline" id="masterWord">${p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered"}</button><button class="btn btn-outline" id="difficultWord">${p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult"}</button><span>Mastered words are skipped in Learn and Speed Review.</span></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
+  main.innerHTML = `<div class="study-shell"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline" id="masterWord">${p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered"}</button><button class="btn btn-outline" id="difficultWord">${p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult"}</button><button class="btn btn-dark" id="nextWord">Next word →</button></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
   document.getElementById("exitSession").onclick = () => {
     stopSession();
     render();
@@ -371,6 +372,10 @@ function renderQuestion() {
   document.getElementById("speakWord").onclick = () => speak(w.fr);
   document.getElementById("masterWord").onclick = () => toggleMaster(w);
   document.getElementById("difficultWord").onclick = () => toggleDifficult(w);
+  document.getElementById("nextWord").onclick = () => {
+    s.index++;
+    renderQuestion();
+  };
   document.querySelectorAll("[data-answer]").forEach((b) => (b.onclick = () => answer(Number(b.dataset.answer))));
   if (state.settings.autoAudio && (s.mode !== "speed" || state.settings.speedAudio)) speak(w.fr);
   if (s.mode === "speed") startTimer();
@@ -443,7 +448,6 @@ function answer(index, timeout = false) {
   });
   const fb = document.getElementById("feedback");
   fb.classList.add("show");
-  if (s.mode === "learn") document.querySelector(".question-card").classList.add("is-answered");
   const teaching = s.mode === "learn" ? teachingCard(w) : "";
   fb.innerHTML =
     (timeout
@@ -460,17 +464,6 @@ function answer(index, timeout = false) {
         renderQuestion();
       }
     }, 480);
-  } else {
-    const next = document.createElement("button");
-    next.className = "btn btn-dark";
-    next.style.marginTop = "14px";
-    next.textContent = s.index === s.queue.length - 1 ? "Finish session" : "Next word →";
-    fb.appendChild(document.createElement("br"));
-    fb.appendChild(next);
-    next.onclick = () => {
-      s.index++;
-      renderQuestion();
-    };
   }
   save();
 }
