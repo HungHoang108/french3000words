@@ -115,6 +115,34 @@ function speak(text) {
   if (v) u.voice = v;
   speechSynthesis.speak(u);
 }
+function startCardPronunciation() {
+    const s = session;
+    if (!s) return;
+    const w = s.queue[s.index];
+    clearInterval(s.audioTimer);
+    s.audioTimer = null;
+    speak(w.fr);
+    if (!s.answered && s.audioRepeatCount < 1) {
+      s.audioTimer = setInterval(() => {
+        if (session !== s || s.answered || !s.audioEnabled) {
+          clearInterval(s.audioTimer);
+          s.audioTimer = null;
+          return;
+        }
+        if (s.audioRepeatCount >= 1) {
+          clearInterval(s.audioTimer);
+          s.audioTimer = null;
+          return;
+        }
+        s.audioRepeatCount++;
+        speak(w.fr);
+        if (s.audioRepeatCount >= 1) {
+          clearInterval(s.audioTimer);
+          s.audioTimer = null;
+        }
+      }, 4000);
+    }
+}
 function go(p) {
   stopSession();
   page = p;
@@ -337,6 +365,9 @@ function beginSession(mode, n) {
     started: Date.now(),
     timer: null,
     feedbackTimer: null,
+    audioTimer: null,
+    audioRepeatCount: 0,
+    audioEnabled: state.settings.autoAudio && (mode !== "speed" || state.settings.speedAudio),
   };
   renderQuestion();
 }
@@ -344,6 +375,7 @@ function stopSession() {
   if (session) {
     clearTimeout(session.timer);
     clearTimeout(session.feedbackTimer);
+    clearInterval(session.audioTimer);
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     session = null;
   }
@@ -352,6 +384,7 @@ function renderQuestion() {
   if (!session) return;
   clearTimeout(session.timer);
   clearTimeout(session.feedbackTimer);
+  clearInterval(session.audioTimer);
   if (session.mode === "speed" && typeof session.timer === "number") cancelAnimationFrame(session.timer);
   const s = session,
     w = s.queue[s.index];
@@ -360,11 +393,12 @@ function renderQuestion() {
     return;
   }
   s.answered = false;
+  s.audioRepeatCount = 0;
   const p = statFor(w),
     choices = makeChoices(w);
   s.choices = choices;
   const main = document.getElementById("main");
-  main.innerHTML = `<div class="study-shell"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline" id="masterWord">${p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered"}</button><button class="btn btn-outline" id="difficultWord">${p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult"}</button><button class="btn btn-dark" id="nextWord">Next word →</button></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
+  main.innerHTML = `<div class="study-shell"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation" title="Play pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline" id="masterWord">${p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered"}</button><button class="btn btn-outline" id="difficultWord">${p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult"}</button><button class="btn btn-dark" id="nextWord">Next word →</button></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
   document.getElementById("exitSession").onclick = () => {
     stopSession();
     render();
@@ -377,7 +411,7 @@ function renderQuestion() {
     renderQuestion();
   };
   document.querySelectorAll("[data-answer]").forEach((b) => (b.onclick = () => answer(Number(b.dataset.answer))));
-  if (state.settings.autoAudio && (s.mode !== "speed" || state.settings.speedAudio)) speak(w.fr);
+  if (s.audioEnabled) startCardPronunciation();
   if (s.mode === "speed") startTimer();
 }
 function makeChoices(w) {
@@ -414,6 +448,7 @@ function answer(index, timeout = false) {
   if (!s || s.answered) return;
   s.answered = true;
   clearTimeout(s.timer);
+  clearInterval(s.audioTimer);
   if (s.mode === "speed" && typeof s.timer === "number") cancelAnimationFrame(s.timer);
   const w = s.queue[s.index],
     p = statFor(w),
@@ -546,11 +581,13 @@ function drawDifficultRows() {
         (word) =>
           `<tr><td><div class="fr-cell">${esc(word.fr)}</div><div style="font-size:10px;color:var(--muted);margin-top:3px">${esc(word.pos)}</div></td><td class="en-cell">${esc(word.en)}</td><td><span class="small-tag">${word.level}</span></td><td><button class="text-link" data-speak-difficult="${word.id}">🔊 Play</button> <button class="text-link" data-remove-difficult="${word.id}">Remove</button></td></tr>`,
       )
-      .join("") || '<tr><td colspan="4" class="empty">No difficult words yet. Mark words while studying or in the Word Library.</td></tr>';
-  document.querySelectorAll("[data-speak-difficult]").forEach(
-    (button) =>
-      (button.onclick = () => speak(words.find((word) => word.id === Number(button.dataset.speakDifficult)).fr)),
-  );
+      .join("") ||
+    '<tr><td colspan="4" class="empty">No difficult words yet. Mark words while studying or in the Word Library.</td></tr>';
+  document
+    .querySelectorAll("[data-speak-difficult]")
+    .forEach(
+      (button) => (button.onclick = () => speak(words.find((word) => word.id === Number(button.dataset.speakDifficult)).fr)),
+    );
   document.querySelectorAll("[data-remove-difficult]").forEach(
     (button) =>
       (button.onclick = () => {
