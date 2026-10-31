@@ -9,7 +9,7 @@ try {
   const response = await fetch(new URL("./vocabulary.json", import.meta.url));
   if (!response.ok) throw new Error(`Vocabulary request failed with status ${response.status}`);
   const vocabulary = await response.json();
-  const fields = ["fr", "en", "pos", "level", "cat", "example"];
+  const fields = ["fr", "en", "pos", "level", "cat", "example", "example_fr"];
   if (!Array.isArray(vocabulary) || vocabulary.some((word) => !word || fields.some((field) => typeof word[field] !== "string"))) {
     throw new Error("Vocabulary JSON must be an array of complete word entries");
   }
@@ -246,11 +246,9 @@ function feminineAdjective(word) {
   return word + "e";
 }
 function teachingCard(w) {
-  let sentence = "",
-    tip = "",
+  let tip = "",
     meaning = w.en.split(",")[0];
   if (w.pos === "noun") {
-    sentence = "J’aime " + w.fr + ".";
     const article = (w.fr.match(/^(le|la|l’|l'|les)\s*/i) || [])[1] || "";
     tip =
       article === "le"
@@ -263,7 +261,6 @@ function teachingCard(w) {
   } else if (w.pos === "adjective") {
     const masc = w.fr.split(" ")[0],
       fem = feminineAdjective(masc);
-    sentence = "Un homme est " + masc + ". Une femme est " + fem + ".";
     tip =
       "Adjectives usually agree with the noun: masculine singular “" +
       masc +
@@ -271,21 +268,19 @@ function teachingCard(w) {
       fem +
       "”. This is a regular-form estimate; some adjectives are irregular.";
   } else if (w.pos === "verb") {
-    const verb = w.fr.replace(/^se\s+/, "me ").replace(/^s’/, "m’");
-    sentence = "Je vais " + verb + ".";
     tip =
       "For the near future, use the conjugated verb “aller” + an infinitive: “je vais” + verb. Pronominal verbs need the matching pronoun.";
   } else if (w.pos === "preposition") {
-    sentence = "Phrase to remember: « " + w.fr + " la maison ».";
     tip = "Prepositions connect ideas and often need to be learned in a phrase, because the best translation depends on context.";
   } else {
-    sentence = "Phrase to remember: « " + w.fr + " ».";
     tip = "Learn this word inside a natural phrase. Word order and meaning can change with context.";
   }
   return (
-    '<div class="teaching"><div class="teaching-title">Example in context</div><div class="teaching-fr">' +
-    esc(sentence) +
-    '</div><div class="teaching-en">Meaning to remember: ' +
+    '<div class="teaching"><div class="teaching-title">Example in context</div><div class="teaching-fr"><span class="teaching-language">French</span>' +
+    esc(w.example_fr) +
+    '</div><div class="teaching-en"><span class="teaching-language">English</span>' +
+    esc(w.example) +
+    '</div><div class="teaching-meaning">Meaning to remember: ' +
     esc(meaning) +
     '</div><div class="grammar-tip"><strong>Grammar tip</strong><br>' +
     esc(tip) +

@@ -5,7 +5,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I want to be here."
+    "example": "I want to be here.",
+    "example_fr": "Je veux être ici."
   },
   {
     "fr": "avoir",
@@ -13,7 +14,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I have a book."
+    "example": "I have a book.",
+    "example_fr": "J'ai un livre."
   },
   {
     "fr": "faire",
@@ -21,7 +23,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "What are you doing?"
+    "example": "What are you doing?",
+    "example_fr": "Qu'est-ce que tu fais ?"
   },
   {
     "fr": "aller",
@@ -29,7 +32,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I am going home."
+    "example": "I am going home.",
+    "example_fr": "Je rentre chez moi."
   },
   {
     "fr": "dire",
@@ -37,7 +41,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "What did you say?"
+    "example": "What did you say?",
+    "example_fr": "Qu'est-ce que tu as dit ?"
   },
   {
     "fr": "pouvoir",
@@ -45,7 +50,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "Can you help me?"
+    "example": "Can you help me?",
+    "example_fr": "Pouvez-vous m'aider ?"
   },
   {
     "fr": "vouloir",
@@ -53,7 +59,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I want some water."
+    "example": "I want some water.",
+    "example_fr": "Je veux de l'eau."
   },
   {
     "fr": "savoir",
@@ -61,7 +68,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I know the answer."
+    "example": "I know the answer.",
+    "example_fr": "Je connais la réponse."
   },
   {
     "fr": "voir",
@@ -69,7 +77,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I see a bird."
+    "example": "I see a bird.",
+    "example_fr": "Je vois un oiseau."
   },
   {
     "fr": "venir",
@@ -77,7 +86,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "Come here, please."
+    "example": "Come here, please.",
+    "example_fr": "Viens ici, s'il te plaît."
   },
   {
     "fr": "devoir",
@@ -85,7 +95,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "I have to work."
+    "example": "I have to work.",
+    "example_fr": "Je dois travailler."
   },
   {
     "fr": "prendre",
@@ -93,7 +104,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "Take your time."
+    "example": "Take your time.",
+    "example_fr": "Prenez votre temps."
   },
   {
     "fr": "donner",
@@ -101,7 +113,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Basics",
-    "example": "Give me a minute."
+    "example": "Give me a minute.",
+    "example_fr": "Donnez-moi une minute."
   },
   {
     "fr": "parler",
@@ -109,7 +122,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "I speak a little French."
+    "example": "I speak a little French.",
+    "example_fr": "Je parle un peu français."
   },
   {
     "fr": "aimer",
@@ -117,7 +131,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "People",
-    "example": "I like this song."
+    "example": "I like this song.",
+    "example_fr": "J'aime cette chanson."
   },
   {
     "fr": "manger",
@@ -125,7 +140,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Food",
-    "example": "We eat at home."
+    "example": "We eat at home.",
+    "example_fr": "Nous mangeons à la maison."
   },
   {
     "fr": "boire",
@@ -133,7 +149,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Food",
-    "example": "I drink coffee."
+    "example": "I drink coffee.",
+    "example_fr": "Je bois du café."
   },
   {
     "fr": "comprendre",
@@ -141,7 +158,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "I understand you."
+    "example": "I understand you.",
+    "example_fr": "Je te comprends."
   },
   {
     "fr": "chercher",
@@ -149,7 +167,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I am looking for my keys."
+    "example": "I am looking for my keys.",
+    "example_fr": "Je cherche mes clés."
   },
   {
     "fr": "trouver",
@@ -157,7 +176,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I found a solution."
+    "example": "I found a solution.",
+    "example_fr": "J'ai trouvé une solution."
   },
   {
     "fr": "le temps",
@@ -165,7 +185,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I don't have time."
+    "example": "I don't have time.",
+    "example_fr": "Je n'ai pas le temps."
   },
   {
     "fr": "la fois",
@@ -173,7 +194,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "This is the first time."
+    "example": "This is the first time.",
+    "example_fr": "C'est la première fois."
   },
   {
     "fr": "le jour",
@@ -181,7 +203,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Have a nice day."
+    "example": "Have a nice day.",
+    "example_fr": "Bonne journée."
   },
   {
     "fr": "la nuit",
@@ -189,7 +212,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Good night."
+    "example": "Good night.",
+    "example_fr": "Bonne nuit."
   },
   {
     "fr": "la maison",
@@ -197,7 +221,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "The house is beautiful."
+    "example": "The house is beautiful.",
+    "example_fr": "La maison est magnifique."
   },
   {
     "fr": "le travail",
@@ -205,7 +230,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Work",
-    "example": "I am going to work."
+    "example": "I am going to work.",
+    "example_fr": "Je vais travailler."
   },
   {
     "fr": "la vie",
@@ -213,7 +239,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "Life is beautiful."
+    "example": "Life is beautiful.",
+    "example_fr": "La vie est belle."
   },
   {
     "fr": "le monde",
@@ -221,7 +248,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "The whole world."
+    "example": "The whole world.",
+    "example_fr": "Le monde entier."
   },
   {
     "fr": "la personne",
@@ -229,7 +257,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "A kind person."
+    "example": "A kind person.",
+    "example_fr": "Une personne gentille."
   },
   {
     "fr": "l’homme",
@@ -237,7 +266,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "The man is here."
+    "example": "The man is here.",
+    "example_fr": "L'homme est là."
   },
   {
     "fr": "la femme",
@@ -245,7 +275,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "The woman is speaking."
+    "example": "The woman is speaking.",
+    "example_fr": "La femme parle."
   },
   {
     "fr": "l’enfant",
@@ -253,7 +284,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "The child is sleeping."
+    "example": "The child is sleeping.",
+    "example_fr": "L'enfant dort."
   },
   {
     "fr": "l’ami",
@@ -261,7 +293,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "My friend is here."
+    "example": "My friend is here.",
+    "example_fr": "Mon ami est là."
   },
   {
     "fr": "la famille",
@@ -269,7 +302,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "My family lives here."
+    "example": "My family lives here.",
+    "example_fr": "Ma famille vit ici."
   },
   {
     "fr": "l’eau",
@@ -277,7 +311,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "A glass of water."
+    "example": "A glass of water.",
+    "example_fr": "Un verre d'eau."
   },
   {
     "fr": "le pain",
@@ -285,7 +320,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "I would like bread."
+    "example": "I would like bread.",
+    "example_fr": "Je voudrais du pain."
   },
   {
     "fr": "le café",
@@ -293,7 +329,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "One coffee, please."
+    "example": "One coffee, please.",
+    "example_fr": "Un café, s'il vous plaît."
   },
   {
     "fr": "le repas",
@@ -301,7 +338,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "The meal is ready."
+    "example": "The meal is ready.",
+    "example_fr": "Le repas est prêt."
   },
   {
     "fr": "la voiture",
@@ -309,7 +347,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Transport",
-    "example": "The car is new."
+    "example": "The car is new.",
+    "example_fr": "La voiture est neuve."
   },
   {
     "fr": "la rue",
@@ -317,7 +356,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Places",
-    "example": "The street is quiet."
+    "example": "The street is quiet.",
+    "example_fr": "La rue est calme."
   },
   {
     "fr": "la ville",
@@ -325,7 +365,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Places",
-    "example": "I live in the city."
+    "example": "I live in the city.",
+    "example_fr": "J'habite en ville."
   },
   {
     "fr": "le pays",
@@ -333,7 +374,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Places",
-    "example": "Which country?"
+    "example": "Which country?",
+    "example_fr": "Quel pays ?"
   },
   {
     "fr": "le livre",
@@ -341,7 +383,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "I read a book."
+    "example": "I read a book.",
+    "example_fr": "J'ai lu un livre."
   },
   {
     "fr": "le mot",
@@ -349,7 +392,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "What does this word mean?"
+    "example": "What does this word mean?",
+    "example_fr": "Que signifie ce mot ?"
   },
   {
     "fr": "la langue",
@@ -357,7 +401,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "French is a beautiful language."
+    "example": "French is a beautiful language.",
+    "example_fr": "Le français est une belle langue."
   },
   {
     "fr": "l’école",
@@ -365,7 +410,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "The school is nearby."
+    "example": "The school is nearby.",
+    "example_fr": "L'école est à proximité."
   },
   {
     "fr": "le prix",
@@ -373,7 +419,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Shopping",
-    "example": "What is the price?"
+    "example": "What is the price?",
+    "example_fr": "Quel est le prix ?"
   },
   {
     "fr": "l’argent",
@@ -381,7 +428,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Shopping",
-    "example": "I need money."
+    "example": "I need money.",
+    "example_fr": "J'ai besoin d'argent."
   },
   {
     "fr": "le problème",
@@ -389,7 +437,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "No problem."
+    "example": "No problem.",
+    "example_fr": "Pas de problème."
   },
   {
     "fr": "la question",
@@ -397,7 +446,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Communication",
-    "example": "I have a question."
+    "example": "I have a question.",
+    "example_fr": "J'ai une question."
   },
   {
     "fr": "la réponse",
@@ -405,7 +455,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Communication",
-    "example": "I know the answer."
+    "example": "I know the answer.",
+    "example_fr": "Je connais la réponse."
   },
   {
     "fr": "bon",
@@ -413,7 +464,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "It is a good idea."
+    "example": "It is a good idea.",
+    "example_fr": "C'est une bonne idée."
   },
   {
     "fr": "grand",
@@ -421,7 +473,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A big house."
+    "example": "A big house.",
+    "example_fr": "Une grande maison."
   },
   {
     "fr": "petit",
@@ -429,7 +482,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A small dog."
+    "example": "A small dog.",
+    "example_fr": "Un petit chien."
   },
   {
     "fr": "nouveau",
@@ -437,7 +491,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A new job."
+    "example": "A new job.",
+    "example_fr": "Un nouveau travail."
   },
   {
     "fr": "beau",
@@ -445,7 +500,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A beautiful day."
+    "example": "A beautiful day.",
+    "example_fr": "Une belle journée."
   },
   {
     "fr": "important",
@@ -453,7 +509,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "It is important."
+    "example": "It is important.",
+    "example_fr": "C'est important."
   },
   {
     "fr": "facile",
@@ -461,7 +518,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "French is not always easy."
+    "example": "French is not always easy.",
+    "example_fr": "Le français n'est pas toujours facile."
   },
   {
     "fr": "difficile",
@@ -469,7 +527,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "This question is difficult."
+    "example": "This question is difficult.",
+    "example_fr": "Cette question est difficile."
   },
   {
     "fr": "rapide",
@@ -477,7 +536,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A fast train."
+    "example": "A fast train.",
+    "example_fr": "Un train rapide."
   },
   {
     "fr": "lent",
@@ -485,7 +545,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "The bus is slow."
+    "example": "The bus is slow.",
+    "example_fr": "Le bus est lent."
   },
   {
     "fr": "aujourd’hui",
@@ -493,7 +554,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "Today I am working."
+    "example": "Today I am working.",
+    "example_fr": "Aujourd'hui, je travaille."
   },
   {
     "fr": "demain",
@@ -501,7 +563,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "See you tomorrow."
+    "example": "See you tomorrow.",
+    "example_fr": "À demain."
   },
   {
     "fr": "hier",
@@ -509,7 +572,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "I arrived yesterday."
+    "example": "I arrived yesterday.",
+    "example_fr": "Je suis arrivé hier."
   },
   {
     "fr": "toujours",
@@ -517,7 +581,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "She is always on time."
+    "example": "She is always on time.",
+    "example_fr": "Elle est toujours à l'heure."
   },
   {
     "fr": "souvent",
@@ -525,7 +590,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "I often walk."
+    "example": "I often walk.",
+    "example_fr": "Je marche souvent."
   },
   {
     "fr": "jamais",
@@ -533,7 +599,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "I never drink tea."
+    "example": "I never drink tea.",
+    "example_fr": "Je ne bois jamais de thé."
   },
   {
     "fr": "beaucoup",
@@ -541,7 +608,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Thank you very much."
+    "example": "Thank you very much.",
+    "example_fr": "Merci beaucoup."
   },
   {
     "fr": "bien",
@@ -549,7 +617,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I am doing well."
+    "example": "I am doing well.",
+    "example_fr": "Je vais bien."
   },
   {
     "fr": "mal",
@@ -557,7 +626,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "My head hurts."
+    "example": "My head hurts.",
+    "example_fr": "J'ai mal à la tête."
   },
   {
     "fr": "très",
@@ -565,7 +635,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Very good."
+    "example": "Very good.",
+    "example_fr": "Très bien."
   },
   {
     "fr": "aussi",
@@ -573,7 +644,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Me too."
+    "example": "Me too.",
+    "example_fr": "Moi aussi."
   },
   {
     "fr": "mais",
@@ -581,7 +653,8 @@
     "pos": "conjunction",
     "level": "A1",
     "cat": "Connectors",
-    "example": "I like it, but it is expensive."
+    "example": "I like it, but it is expensive.",
+    "example_fr": "J'aime bien, mais c'est cher."
   },
   {
     "fr": "parce que",
@@ -589,7 +662,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Connectors",
-    "example": "Because I am tired."
+    "example": "Because I am tired.",
+    "example_fr": "Parce que je suis fatiguée."
   },
   {
     "fr": "avec",
@@ -597,7 +671,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Connectors",
-    "example": "With my friend."
+    "example": "With my friend.",
+    "example_fr": "Avec mon ami."
   },
   {
     "fr": "sans",
@@ -605,7 +680,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Connectors",
-    "example": "Coffee without sugar."
+    "example": "Coffee without sugar.",
+    "example_fr": "Café sans sucre."
   },
   {
     "fr": "pour",
@@ -613,7 +689,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Connectors",
-    "example": "This is for you."
+    "example": "This is for you.",
+    "example_fr": "C'est pour vous."
   },
   {
     "fr": "dans",
@@ -621,7 +698,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Places",
-    "example": "The keys are in the bag."
+    "example": "The keys are in the bag.",
+    "example_fr": "Les clés sont dans le sac."
   },
   {
     "fr": "sur",
@@ -629,7 +707,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Places",
-    "example": "The book is on the table."
+    "example": "The book is on the table.",
+    "example_fr": "Le livre est sur la table."
   },
   {
     "fr": "sous",
@@ -637,7 +716,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Places",
-    "example": "The cat is under the chair."
+    "example": "The cat is under the chair.",
+    "example_fr": "Le chat est sous la chaise."
   },
   {
     "fr": "entre",
@@ -645,7 +725,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Places",
-    "example": "Between you and me."
+    "example": "Between you and me.",
+    "example_fr": "Entre toi et moi."
   },
   {
     "fr": "chez",
@@ -653,7 +734,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Places",
-    "example": "I am at my friend's place."
+    "example": "I am at my friend's place.",
+    "example_fr": "Je suis chez mon ami."
   },
   {
     "fr": "maintenant",
@@ -661,7 +743,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "I am busy right now."
+    "example": "I am busy right now.",
+    "example_fr": "Je suis occupé en ce moment."
   },
   {
     "fr": "peut-être",
@@ -669,7 +752,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Maybe tomorrow."
+    "example": "Maybe tomorrow.",
+    "example_fr": "Peut-être demain."
   },
   {
     "fr": "pourquoi",
@@ -677,7 +761,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Questions",
-    "example": "Why are you here?"
+    "example": "Why are you here?",
+    "example_fr": "Pourquoi es-tu ici ?"
   },
   {
     "fr": "comment",
@@ -685,7 +770,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Questions",
-    "example": "How are you?"
+    "example": "How are you?",
+    "example_fr": "Comment allez-vous ?"
   },
   {
     "fr": "où",
@@ -693,7 +779,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Questions",
-    "example": "Where do you live?"
+    "example": "Where do you live?",
+    "example_fr": "Où habitez-vous ?"
   },
   {
     "fr": "quand",
@@ -701,7 +788,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Questions",
-    "example": "When do you arrive?"
+    "example": "When do you arrive?",
+    "example_fr": "Quand arrivez-vous ?"
   },
   {
     "fr": "combien",
@@ -709,7 +797,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Questions",
-    "example": "How much is it?"
+    "example": "How much is it?",
+    "example_fr": "Combien ça coûte ?"
   },
   {
     "fr": "bonjour",
@@ -717,7 +806,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Hello, how are you?"
+    "example": "Hello, how are you?",
+    "example_fr": "Bonjour, comment allez-vous ?"
   },
   {
     "fr": "merci",
@@ -725,7 +815,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Thank you very much."
+    "example": "Thank you very much.",
+    "example_fr": "Merci beaucoup."
   },
   {
     "fr": "s’il vous plaît",
@@ -733,7 +824,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "A coffee, please."
+    "example": "A coffee, please.",
+    "example_fr": "Un café, s'il vous plaît."
   },
   {
     "fr": "excusez-moi",
@@ -741,7 +833,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Excuse me, where is the station?"
+    "example": "Excuse me, where is the station?",
+    "example_fr": "Excusez-moi, où est la gare ?"
   },
   {
     "fr": "d’accord",
@@ -749,7 +842,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Okay, that's fine."
+    "example": "Okay, that's fine.",
+    "example_fr": "D'accord, c'est bon."
   },
   {
     "fr": "bien sûr",
@@ -757,7 +851,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Of course, no problem."
+    "example": "Of course, no problem.",
+    "example_fr": "Bien sûr, pas de problème."
   },
   {
     "fr": "je ne sais pas",
@@ -765,7 +860,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "I don't know the answer."
+    "example": "I don't know the answer.",
+    "example_fr": "Je ne connais pas la réponse."
   },
   {
     "fr": "ça va",
@@ -773,7 +869,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "Hi, how's it going?"
+    "example": "Hi, how's it going?",
+    "example_fr": "Bonjour, comment ça va ?"
   },
   {
     "fr": "il faut",
@@ -781,7 +878,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Everyday",
-    "example": "You have to go."
+    "example": "You have to go.",
+    "example_fr": "Tu dois y aller."
   },
   {
     "fr": "en fait",
@@ -789,7 +887,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "Actually, I don't agree."
+    "example": "Actually, I don't agree.",
+    "example_fr": "En fait, je ne suis pas d'accord."
   },
   {
     "fr": "quand même",
@@ -797,7 +896,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "It's expensive, but still."
+    "example": "It's expensive, but still.",
+    "example_fr": "C'est cher, mais quand même."
   },
   {
     "fr": "du coup",
@@ -805,7 +905,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "So, what do we do?"
+    "example": "So, what do we do?",
+    "example_fr": "Alors, que faisons-nous ?"
   },
   {
     "fr": "plutôt",
@@ -813,7 +914,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Conversation",
-    "example": "It is rather good."
+    "example": "It is rather good.",
+    "example_fr": "C'est plutôt bien."
   },
   {
     "fr": "encore",
@@ -821,7 +923,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "One more coffee, please."
+    "example": "One more coffee, please.",
+    "example_fr": "Encore un café, s'il vous plaît."
   },
   {
     "fr": "déjà",
@@ -829,7 +932,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "I already know."
+    "example": "I already know.",
+    "example_fr": "Je le sais déjà."
   },
   {
     "fr": "bientôt",
@@ -837,7 +941,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "See you soon."
+    "example": "See you soon.",
+    "example_fr": "À bientôt."
   },
   {
     "fr": "ensemble",
@@ -845,7 +950,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "People",
-    "example": "We work together."
+    "example": "We work together.",
+    "example_fr": "Nous travaillons ensemble."
   },
   {
     "fr": "seulement",
@@ -853,7 +959,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Only five minutes."
+    "example": "Only five minutes.",
+    "example_fr": "Seulement cinq minutes."
   },
   {
     "fr": "vraiment",
@@ -861,7 +968,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Really?"
+    "example": "Really?",
+    "example_fr": "Vraiment ?"
   },
   {
     "fr": "peu",
@@ -869,7 +977,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "A little bit."
+    "example": "A little bit.",
+    "example_fr": "Un peu."
   },
   {
     "fr": "assez",
@@ -877,7 +986,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "That's quite good."
+    "example": "That's quite good.",
+    "example_fr": "C'est plutôt bien."
   },
   {
     "fr": "attendre",
@@ -885,7 +995,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Wait for me."
+    "example": "Wait for me.",
+    "example_fr": "Attends-moi."
   },
   {
     "fr": "arriver",
@@ -893,7 +1004,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "What time do you arrive?"
+    "example": "What time do you arrive?",
+    "example_fr": "À quelle heure arrivez-vous ?"
   },
   {
     "fr": "partir",
@@ -901,7 +1013,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "I have to leave."
+    "example": "I have to leave.",
+    "example_fr": "Je dois partir."
   },
   {
     "fr": "rester",
@@ -909,7 +1022,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Stay here."
+    "example": "Stay here.",
+    "example_fr": "Reste ici."
   },
   {
     "fr": "vivre",
@@ -917,7 +1031,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "People",
-    "example": "I live in Finland."
+    "example": "I live in Finland.",
+    "example_fr": "J'habite en Finlande."
   },
   {
     "fr": "habiter",
@@ -925,7 +1040,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Home",
-    "example": "Where do you live?"
+    "example": "Where do you live?",
+    "example_fr": "Où habitez-vous ?"
   },
   {
     "fr": "travailler",
@@ -933,7 +1049,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Work",
-    "example": "I work from home."
+    "example": "I work from home.",
+    "example_fr": "Je travaille de chez moi."
   },
   {
     "fr": "apprendre",
@@ -941,7 +1058,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Learning",
-    "example": "I am learning French."
+    "example": "I am learning French.",
+    "example_fr": "J'apprends le français."
   },
   {
     "fr": "lire",
@@ -949,7 +1067,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Learning",
-    "example": "I read every day."
+    "example": "I read every day.",
+    "example_fr": "Je lis tous les jours."
   },
   {
     "fr": "écrire",
@@ -957,7 +1076,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Learning",
-    "example": "Write your name."
+    "example": "Write your name.",
+    "example_fr": "Écrivez votre nom."
   },
   {
     "fr": "écouter",
@@ -965,7 +1085,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Listen carefully."
+    "example": "Listen carefully.",
+    "example_fr": "Écoutez attentivement."
   },
   {
     "fr": "entendre",
@@ -973,7 +1094,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Can you hear me?"
+    "example": "Can you hear me?",
+    "example_fr": "Tu m'entends ?"
   },
   {
     "fr": "regarder",
@@ -981,7 +1103,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Watch this video."
+    "example": "Watch this video.",
+    "example_fr": "Regardez cette vidéo."
   },
   {
     "fr": "acheter",
@@ -989,7 +1112,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Shopping",
-    "example": "I want to buy this."
+    "example": "I want to buy this.",
+    "example_fr": "Je veux acheter ça."
   },
   {
     "fr": "payer",
@@ -997,7 +1121,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Shopping",
-    "example": "Can I pay by card?"
+    "example": "Can I pay by card?",
+    "example_fr": "Puis-je payer par carte ?"
   },
   {
     "fr": "ouvrir",
@@ -1005,7 +1130,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Open the window."
+    "example": "Open the window.",
+    "example_fr": "Ouvrez la fenêtre."
   },
   {
     "fr": "fermer",
@@ -1013,7 +1139,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Close the door."
+    "example": "Close the door.",
+    "example_fr": "Fermez la porte."
   },
   {
     "fr": "commencer",
@@ -1021,7 +1148,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Time",
-    "example": "Let's begin."
+    "example": "Let's begin.",
+    "example_fr": "Commençons."
   },
   {
     "fr": "finir",
@@ -1029,7 +1157,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Time",
-    "example": "I finish at six."
+    "example": "I finish at six.",
+    "example_fr": "Je termine à six heures."
   },
   {
     "fr": "penser",
@@ -1037,7 +1166,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Mind",
-    "example": "I think so."
+    "example": "I think so.",
+    "example_fr": "Je pense que oui."
   },
   {
     "fr": "croire",
@@ -1045,7 +1175,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Mind",
-    "example": "I think you're right."
+    "example": "I think you're right.",
+    "example_fr": "Je pense que tu as raison."
   },
   {
     "fr": "connaître",
@@ -1053,7 +1184,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Mind",
-    "example": "I know this city."
+    "example": "I know this city.",
+    "example_fr": "Je connais cette ville."
   },
   {
     "fr": "appeler",
@@ -1061,7 +1193,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Call me tomorrow."
+    "example": "Call me tomorrow.",
+    "example_fr": "Appelle-moi demain."
   },
   {
     "fr": "demander",
@@ -1069,7 +1202,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Can I ask a question?"
+    "example": "Can I ask a question?",
+    "example_fr": "Puis-je poser une question ?"
   },
   {
     "fr": "répondre",
@@ -1077,7 +1211,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Please answer me."
+    "example": "Please answer me.",
+    "example_fr": "Veuillez me répondre."
   },
   {
     "fr": "aider",
@@ -1085,7 +1220,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "People",
-    "example": "Can you help me?"
+    "example": "Can you help me?",
+    "example_fr": "Pouvez-vous m'aider ?"
   },
   {
     "fr": "essayer",
@@ -1093,7 +1229,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Try again."
+    "example": "Try again.",
+    "example_fr": "Réessayez."
   },
   {
     "fr": "utiliser",
@@ -1101,7 +1238,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Daily life",
-    "example": "I use this app."
+    "example": "I use this app.",
+    "example_fr": "J'utilise cette application."
   },
   {
     "fr": "choisir",
@@ -1109,7 +1247,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Choose one answer."
+    "example": "Choose one answer.",
+    "example_fr": "Choisissez une réponse."
   },
   {
     "fr": "changer",
@@ -1117,7 +1256,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I want to change jobs."
+    "example": "I want to change jobs.",
+    "example_fr": "Je veux changer d'emploi."
   },
   {
     "fr": "marcher",
@@ -1125,7 +1265,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Let's walk."
+    "example": "Let's walk.",
+    "example_fr": "Marchons."
   },
   {
     "fr": "courir",
@@ -1133,7 +1274,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I run every morning."
+    "example": "I run every morning.",
+    "example_fr": "Je cours tous les matins."
   },
   {
     "fr": "dormir",
@@ -1141,7 +1283,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I need to sleep."
+    "example": "I need to sleep.",
+    "example_fr": "J'ai besoin de dormir."
   },
   {
     "fr": "se lever",
@@ -1149,7 +1292,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I get up early."
+    "example": "I get up early.",
+    "example_fr": "Je me lève tôt."
   },
   {
     "fr": "se sentir",
@@ -1157,7 +1301,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "People",
-    "example": "I feel better."
+    "example": "I feel better.",
+    "example_fr": "Je me sens mieux."
   },
   {
     "fr": "heureux",
@@ -1165,7 +1310,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Feelings",
-    "example": "I am happy."
+    "example": "I am happy.",
+    "example_fr": "Je suis heureux."
   },
   {
     "fr": "fatigué",
@@ -1173,7 +1319,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Feelings",
-    "example": "I am tired."
+    "example": "I am tired.",
+    "example_fr": "Je suis fatigué."
   },
   {
     "fr": "content",
@@ -1181,7 +1328,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Feelings",
-    "example": "I am pleased."
+    "example": "I am pleased.",
+    "example_fr": "J'en suis ravi."
   },
   {
     "fr": "cher",
@@ -1189,7 +1337,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Shopping",
-    "example": "It is too expensive."
+    "example": "It is too expensive.",
+    "example_fr": "C'est trop cher."
   },
   {
     "fr": "gratuit",
@@ -1197,7 +1346,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Shopping",
-    "example": "Entry is free."
+    "example": "Entry is free.",
+    "example_fr": "L'entrée est gratuite."
   },
   {
     "fr": "possible",
@@ -1205,7 +1355,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Is it possible?"
+    "example": "Is it possible?",
+    "example_fr": "Est-ce possible ?"
   },
   {
     "fr": "prêt",
@@ -1213,7 +1364,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I am ready."
+    "example": "I am ready.",
+    "example_fr": "Je suis prêt."
   },
   {
     "fr": "occupé",
@@ -1221,7 +1373,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Work",
-    "example": "I am busy today."
+    "example": "I am busy today.",
+    "example_fr": "Je suis occupé aujourd'hui."
   },
   {
     "fr": "disponible",
@@ -1229,7 +1382,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Work",
-    "example": "Are you available tomorrow?"
+    "example": "Are you available tomorrow?",
+    "example_fr": "Êtes-vous disponible demain ?"
   },
   {
     "fr": "différent",
@@ -1237,7 +1391,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A different question."
+    "example": "A different question.",
+    "example_fr": "Une autre question."
   },
   {
     "fr": "prochain",
@@ -1245,7 +1400,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Time",
-    "example": "Next week."
+    "example": "Next week.",
+    "example_fr": "La semaine prochaine."
   },
   {
     "fr": "dernier",
@@ -1253,7 +1409,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Time",
-    "example": "Last year."
+    "example": "Last year.",
+    "example_fr": "L'année dernière."
   },
   {
     "fr": "premier",
@@ -1261,7 +1418,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Time",
-    "example": "The first time."
+    "example": "The first time.",
+    "example_fr": "La première fois."
   },
   {
     "fr": "meilleur",
@@ -1269,7 +1427,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "The best option."
+    "example": "The best option.",
+    "example_fr": "La meilleure option."
   },
   {
     "fr": "vieux",
@@ -1277,7 +1436,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "An old building."
+    "example": "An old building.",
+    "example_fr": "Un vieil immeuble."
   },
   {
     "fr": "chaud",
@@ -1285,7 +1445,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Weather",
-    "example": "The coffee is hot."
+    "example": "The coffee is hot.",
+    "example_fr": "Le café est chaud."
   },
   {
     "fr": "froid",
@@ -1293,7 +1454,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Weather",
-    "example": "I am cold."
+    "example": "I am cold.",
+    "example_fr": "J'ai froid."
   },
   {
     "fr": "le matin",
@@ -1301,7 +1463,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "In the morning."
+    "example": "In the morning.",
+    "example_fr": "Le matin."
   },
   {
     "fr": "le soir",
@@ -1309,7 +1472,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "See you this evening."
+    "example": "See you this evening.",
+    "example_fr": "Rendez-vous ce soir."
   },
   {
     "fr": "la semaine",
@@ -1317,7 +1481,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Next week."
+    "example": "Next week.",
+    "example_fr": "La semaine prochaine."
   },
   {
     "fr": "le mois",
@@ -1325,7 +1490,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Every month."
+    "example": "Every month.",
+    "example_fr": "Tous les mois."
   },
   {
     "fr": "l’année",
@@ -1333,7 +1499,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "This year."
+    "example": "This year.",
+    "example_fr": "Cette année."
   },
   {
     "fr": "l’heure",
@@ -1341,7 +1508,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "What time is it?"
+    "example": "What time is it?",
+    "example_fr": "Quelle heure est-il ?"
   },
   {
     "fr": "la minute",
@@ -1349,7 +1517,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Just a minute."
+    "example": "Just a minute.",
+    "example_fr": "Juste une minute."
   },
   {
     "fr": "le besoin",
@@ -1357,7 +1526,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Everyday",
-    "example": "I need help."
+    "example": "I need help.",
+    "example_fr": "J'ai besoin d'aide."
   },
   {
     "fr": "l’idée",
@@ -1365,7 +1535,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Mind",
-    "example": "That's a good idea."
+    "example": "That's a good idea.",
+    "example_fr": "C'est une bonne idée."
   },
   {
     "fr": "la chose",
@@ -1373,7 +1544,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "One more thing."
+    "example": "One more thing.",
+    "example_fr": "Encore une chose."
   },
   {
     "fr": "le fait",
@@ -1381,7 +1553,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Mind",
-    "example": "In fact, it's true."
+    "example": "In fact, it's true.",
+    "example_fr": "En fait, c'est vrai."
   },
   {
     "fr": "la raison",
@@ -1389,7 +1562,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Mind",
-    "example": "What's the reason?"
+    "example": "What's the reason?",
+    "example_fr": "Quelle est la raison ?"
   },
   {
     "fr": "le choix",
@@ -1397,7 +1571,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "It's your choice."
+    "example": "It's your choice.",
+    "example_fr": "C'est votre choix."
   },
   {
     "fr": "le cas",
@@ -1405,7 +1580,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Everyday",
-    "example": "In this case."
+    "example": "In this case.",
+    "example_fr": "Dans ce cas."
   },
   {
     "fr": "le côté",
@@ -1413,7 +1589,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Places",
-    "example": "On the other side."
+    "example": "On the other side.",
+    "example_fr": "De l'autre côté."
   },
   {
     "fr": "la place",
@@ -1421,7 +1598,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Places",
-    "example": "Is this seat free?"
+    "example": "Is this seat free?",
+    "example_fr": "Ce siège est-il libre ?"
   },
   {
     "fr": "le chemin",
@@ -1429,7 +1607,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Places",
-    "example": "Which way should I go?"
+    "example": "Which way should I go?",
+    "example_fr": "Quel chemin dois-je prendre ?"
   },
   {
     "fr": "le magasin",
@@ -1437,7 +1616,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Shopping",
-    "example": "The shop is closed."
+    "example": "The shop is closed.",
+    "example_fr": "La boutique est fermée."
   },
   {
     "fr": "le restaurant",
@@ -1445,7 +1625,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "A table for two."
+    "example": "A table for two.",
+    "example_fr": "Une table pour deux."
   },
   {
     "fr": "la gare",
@@ -1453,7 +1634,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "Where is the station?"
+    "example": "Where is the station?",
+    "example_fr": "Où est la gare ?"
   },
   {
     "fr": "le train",
@@ -1461,7 +1643,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "The train is late."
+    "example": "The train is late.",
+    "example_fr": "Le train est en retard."
   },
   {
     "fr": "le billet",
@@ -1469,7 +1652,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "One ticket, please."
+    "example": "One ticket, please.",
+    "example_fr": "Un billet, s'il vous plaît."
   },
   {
     "fr": "le bus",
@@ -1477,7 +1661,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "I take the bus."
+    "example": "I take the bus.",
+    "example_fr": "Je prends le bus."
   },
   {
     "fr": "le métro",
@@ -1485,7 +1670,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "The metro is fast."
+    "example": "The metro is fast.",
+    "example_fr": "Le métro est rapide."
   },
   {
     "fr": "l’aéroport",
@@ -1493,7 +1679,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Travel",
-    "example": "I am at the airport."
+    "example": "I am at the airport.",
+    "example_fr": "Je suis à l'aéroport."
   },
   {
     "fr": "la chambre",
@@ -1501,7 +1688,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "The room is small."
+    "example": "The room is small.",
+    "example_fr": "La chambre est petite."
   },
   {
     "fr": "la porte",
@@ -1509,7 +1697,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "Open the door."
+    "example": "Open the door.",
+    "example_fr": "Ouvrez la porte."
   },
   {
     "fr": "la fenêtre",
@@ -1517,7 +1706,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "Close the window."
+    "example": "Close the window.",
+    "example_fr": "Fermez la fenêtre."
   },
   {
     "fr": "la table",
@@ -1525,7 +1715,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "Dinner is on the table."
+    "example": "Dinner is on the table.",
+    "example_fr": "Le dîner est sur la table."
   },
   {
     "fr": "la chaise",
@@ -1533,7 +1724,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Home",
-    "example": "Sit on the chair."
+    "example": "Sit on the chair.",
+    "example_fr": "Asseyez-vous sur la chaise."
   },
   {
     "fr": "le téléphone",
@@ -1541,7 +1733,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Technology",
-    "example": "My phone is here."
+    "example": "My phone is here.",
+    "example_fr": "Mon téléphone est là."
   },
   {
     "fr": "l’ordinateur",
@@ -1549,7 +1742,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Technology",
-    "example": "I work on a computer."
+    "example": "I work on a computer.",
+    "example_fr": "Je travaille sur un ordinateur."
   },
   {
     "fr": "le message",
@@ -1557,7 +1751,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Communication",
-    "example": "Send me a message."
+    "example": "Send me a message.",
+    "example_fr": "Envoyez-moi un message."
   },
   {
     "fr": "le rendez-vous",
@@ -1565,7 +1760,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Daily life",
-    "example": "I have an appointment."
+    "example": "I have an appointment.",
+    "example_fr": "J'ai rendez-vous."
   },
   {
     "fr": "la santé",
@@ -1573,7 +1769,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Health",
-    "example": "Health is important."
+    "example": "Health is important.",
+    "example_fr": "La santé est importante."
   },
   {
     "fr": "le corps",
@@ -1581,7 +1778,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Health",
-    "example": "The human body."
+    "example": "The human body.",
+    "example_fr": "Le corps humain."
   },
   {
     "fr": "la tête",
@@ -1589,7 +1787,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Body",
-    "example": "My head hurts."
+    "example": "My head hurts.",
+    "example_fr": "J'ai mal à la tête."
   },
   {
     "fr": "la main",
@@ -1597,7 +1796,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Body",
-    "example": "Wash your hands."
+    "example": "Wash your hands.",
+    "example_fr": "Lavez-vous les mains."
   },
   {
     "fr": "le cœur",
@@ -1605,7 +1805,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Body",
-    "example": "Listen to your heart."
+    "example": "Listen to your heart.",
+    "example_fr": "Écoutez votre cœur."
   },
   {
     "fr": "la nourriture",
@@ -1613,7 +1814,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "The food is good."
+    "example": "The food is good.",
+    "example_fr": "La nourriture est bonne."
   },
   {
     "fr": "le fromage",
@@ -1621,7 +1823,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "French cheese."
+    "example": "French cheese.",
+    "example_fr": "Fromage français."
   },
   {
     "fr": "le poulet",
@@ -1629,7 +1832,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Chicken with rice."
+    "example": "Chicken with rice.",
+    "example_fr": "Poulet au riz."
   },
   {
     "fr": "le poisson",
@@ -1637,7 +1841,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "I eat fish."
+    "example": "I eat fish.",
+    "example_fr": "Je mange du poisson."
   },
   {
     "fr": "le fruit",
@@ -1645,7 +1850,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Fresh fruit."
+    "example": "Fresh fruit.",
+    "example_fr": "Fruits frais."
   },
   {
     "fr": "le légume",
@@ -1653,7 +1859,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Eat more vegetables."
+    "example": "Eat more vegetables.",
+    "example_fr": "Mangez plus de légumes."
   },
   {
     "fr": "le sucre",
@@ -1661,7 +1868,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "No sugar, please."
+    "example": "No sugar, please.",
+    "example_fr": "Pas de sucre, s'il vous plaît."
   },
   {
     "fr": "le lait",
@@ -1669,7 +1877,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "A glass of milk."
+    "example": "A glass of milk.",
+    "example_fr": "Un verre de lait."
   },
   {
     "fr": "le thé",
@@ -1677,7 +1886,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Would you like tea?"
+    "example": "Would you like tea?",
+    "example_fr": "Voulez-vous du thé ?"
   },
   {
     "fr": "la bière",
@@ -1685,7 +1895,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "A beer, please."
+    "example": "A beer, please.",
+    "example_fr": "Une bière, s'il vous plaît."
   },
   {
     "fr": "le vin",
@@ -1693,7 +1904,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "A glass of wine."
+    "example": "A glass of wine.",
+    "example_fr": "Un verre de vin."
   },
   {
     "fr": "le déjeuner",
@@ -1701,7 +1913,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Lunch is at noon."
+    "example": "Lunch is at noon.",
+    "example_fr": "Le déjeuner est à midi."
   },
   {
     "fr": "le dîner",
@@ -1709,7 +1922,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "Dinner is ready."
+    "example": "Dinner is ready.",
+    "example_fr": "Le dîner est prêt."
   },
   {
     "fr": "le petit-déjeuner",
@@ -1717,7 +1931,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Food",
-    "example": "I eat breakfast early."
+    "example": "I eat breakfast early.",
+    "example_fr": "Je prends mon petit-déjeuner tôt."
   },
   {
     "fr": "la météo",
@@ -1725,7 +1940,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Weather",
-    "example": "What's the weather like?"
+    "example": "What's the weather like?",
+    "example_fr": "Quel temps fait-il ?"
   },
   {
     "fr": "le soleil",
@@ -1733,7 +1949,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Weather",
-    "example": "It's sunny."
+    "example": "It's sunny.",
+    "example_fr": "Il fait beau."
   },
   {
     "fr": "la pluie",
@@ -1741,7 +1958,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Weather",
-    "example": "It's raining."
+    "example": "It's raining.",
+    "example_fr": "Il pleut."
   },
   {
     "fr": "le vent",
@@ -1749,7 +1967,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Weather",
-    "example": "The wind is strong."
+    "example": "The wind is strong.",
+    "example_fr": "Le vent est fort."
   },
   {
     "fr": "le ciel",
@@ -1757,7 +1976,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Weather",
-    "example": "The sky is blue."
+    "example": "The sky is blue.",
+    "example_fr": "Le ciel est bleu."
   },
   {
     "fr": "la mer",
@@ -1765,7 +1985,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Nature",
-    "example": "The sea is beautiful."
+    "example": "The sea is beautiful.",
+    "example_fr": "La mer est magnifique."
   },
   {
     "fr": "la montagne",
@@ -1773,7 +1994,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Nature",
-    "example": "We are going to the mountains."
+    "example": "We are going to the mountains.",
+    "example_fr": "Nous allons à la montagne."
   },
   {
     "fr": "l’arbre",
@@ -1781,7 +2003,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Nature",
-    "example": "A tall tree."
+    "example": "A tall tree.",
+    "example_fr": "Un grand arbre."
   },
   {
     "fr": "le chien",
@@ -1789,7 +2012,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Animals",
-    "example": "The dog is friendly."
+    "example": "The dog is friendly.",
+    "example_fr": "Le chien est sympathique."
   },
   {
     "fr": "le chat",
@@ -1797,7 +2021,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Animals",
-    "example": "The cat is sleeping."
+    "example": "The cat is sleeping.",
+    "example_fr": "Le chat dort."
   },
   {
     "fr": "le matin",
@@ -1805,7 +2030,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "I study in the morning."
+    "example": "I study in the morning.",
+    "example_fr": "J'étudie le matin."
   },
   {
     "fr": "la musique",
@@ -1813,7 +2039,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Culture",
-    "example": "I love music."
+    "example": "I love music.",
+    "example_fr": "J'adore la musique."
   },
   {
     "fr": "le film",
@@ -1821,7 +2048,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Culture",
-    "example": "Let's watch a film."
+    "example": "Let's watch a film.",
+    "example_fr": "Regardons un film."
   },
   {
     "fr": "la photo",
@@ -1829,7 +2057,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Culture",
-    "example": "Take a photo."
+    "example": "Take a photo.",
+    "example_fr": "Prenez une photo."
   },
   {
     "fr": "le sport",
@@ -1837,7 +2066,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Leisure",
-    "example": "I play sports."
+    "example": "I play sports.",
+    "example_fr": "Je fais du sport."
   },
   {
     "fr": "le jeu",
@@ -1845,7 +2075,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Leisure",
-    "example": "Let's play a game."
+    "example": "Let's play a game.",
+    "example_fr": "Jouons à un jeu."
   },
   {
     "fr": "l’argent",
@@ -1853,7 +2084,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Shopping",
-    "example": "Money isn't everything."
+    "example": "Money isn't everything.",
+    "example_fr": "L'argent n'est pas tout."
   },
   {
     "fr": "le travail",
@@ -1861,7 +2093,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Work",
-    "example": "I like my work."
+    "example": "I like my work.",
+    "example_fr": "J'aime mon travail."
   },
   {
     "fr": "le collègue",
@@ -1869,7 +2102,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "My colleague is helpful."
+    "example": "My colleague is helpful.",
+    "example_fr": "Mon collègue est serviable."
   },
   {
     "fr": "la réunion",
@@ -1877,7 +2111,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "The meeting starts at ten."
+    "example": "The meeting starts at ten.",
+    "example_fr": "La réunion commence à dix heures."
   },
   {
     "fr": "le bureau",
@@ -1885,7 +2120,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Work",
-    "example": "I am at the office."
+    "example": "I am at the office.",
+    "example_fr": "Je suis au bureau."
   },
   {
     "fr": "le salaire",
@@ -1893,7 +2129,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "The salary is good."
+    "example": "The salary is good.",
+    "example_fr": "Le salaire est bon."
   },
   {
     "fr": "le projet",
@@ -1901,7 +2138,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "The project is ready."
+    "example": "The project is ready.",
+    "example_fr": "Le projet est prêt."
   },
   {
     "fr": "l’entreprise",
@@ -1909,7 +2147,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "She works for a company."
+    "example": "She works for a company.",
+    "example_fr": "Elle travaille pour une entreprise."
   },
   {
     "fr": "le client",
@@ -1917,7 +2156,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Work",
-    "example": "The customer is waiting."
+    "example": "The customer is waiting.",
+    "example_fr": "Le client attend."
   },
   {
     "fr": "le service",
@@ -1925,7 +2165,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "The service is excellent."
+    "example": "The service is excellent.",
+    "example_fr": "Le service est excellent."
   },
   {
     "fr": "le logiciel",
@@ -1933,7 +2174,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Technology",
-    "example": "I use this software."
+    "example": "I use this software.",
+    "example_fr": "J'utilise ce logiciel."
   },
   {
     "fr": "le site",
@@ -1941,7 +2183,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Technology",
-    "example": "The website is useful."
+    "example": "The website is useful.",
+    "example_fr": "Le site est utile."
   },
   {
     "fr": "le fichier",
@@ -1949,7 +2192,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Technology",
-    "example": "Open the file."
+    "example": "Open the file.",
+    "example_fr": "Ouvrez le fichier."
   },
   {
     "fr": "la donnée",
@@ -1957,7 +2201,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Technology",
-    "example": "The data is correct."
+    "example": "The data is correct.",
+    "example_fr": "Les données sont correctes."
   },
   {
     "fr": "le code",
@@ -1965,7 +2210,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Technology",
-    "example": "The code works."
+    "example": "The code works.",
+    "example_fr": "Le code fonctionne."
   },
   {
     "fr": "la question",
@@ -1973,7 +2219,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "Ask a question."
+    "example": "Ask a question.",
+    "example_fr": "Posez une question."
   },
   {
     "fr": "la difficulté",
@@ -1981,7 +2228,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Learning",
-    "example": "I have some difficulty."
+    "example": "I have some difficulty.",
+    "example_fr": "J'ai quelques difficultés."
   },
   {
     "fr": "la différence",
@@ -1989,7 +2237,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "What's the difference?"
+    "example": "What's the difference?",
+    "example_fr": "Quelle est la différence ?"
   },
   {
     "fr": "la possibilité",
@@ -1997,7 +2246,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Learning",
-    "example": "There is another possibility."
+    "example": "There is another possibility.",
+    "example_fr": "Il y a une autre possibilité."
   },
   {
     "fr": "la confiance",
@@ -2005,7 +2255,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I trust you."
+    "example": "I trust you.",
+    "example_fr": "Je te fais confiance."
   },
   {
     "fr": "la peur",
@@ -2013,7 +2264,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Feelings",
-    "example": "I am afraid."
+    "example": "I am afraid.",
+    "example_fr": "J'ai peur."
   },
   {
     "fr": "l’amour",
@@ -2021,7 +2273,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Feelings",
-    "example": "Love is important."
+    "example": "Love is important.",
+    "example_fr": "L'amour est important."
   },
   {
     "fr": "le bonheur",
@@ -2029,7 +2282,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I wish you happiness."
+    "example": "I wish you happiness.",
+    "example_fr": "Je te souhaite du bonheur."
   },
   {
     "fr": "la colère",
@@ -2037,7 +2291,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Feelings",
-    "example": "He is angry."
+    "example": "He is angry.",
+    "example_fr": "Il est en colère."
   },
   {
     "fr": "le sourire",
@@ -2045,7 +2300,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "She has a nice smile."
+    "example": "She has a nice smile.",
+    "example_fr": "Elle a un joli sourire."
   },
   {
     "fr": "le voisin",
@@ -2053,7 +2309,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "My neighbor is friendly."
+    "example": "My neighbor is friendly.",
+    "example_fr": "Mon voisin est sympathique."
   },
   {
     "fr": "le couple",
@@ -2061,7 +2318,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "People",
-    "example": "They are a happy couple."
+    "example": "They are a happy couple.",
+    "example_fr": "C'est un couple heureux."
   },
   {
     "fr": "le mariage",
@@ -2069,7 +2327,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "People",
-    "example": "The wedding is in June."
+    "example": "The wedding is in June.",
+    "example_fr": "Le mariage est en juin."
   },
   {
     "fr": "la rencontre",
@@ -2077,7 +2336,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "People",
-    "example": "It was a nice meeting."
+    "example": "It was a nice meeting.",
+    "example_fr": "C'était une belle réunion."
   },
   {
     "fr": "la conversation",
@@ -2085,7 +2345,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Communication",
-    "example": "We had a conversation."
+    "example": "We had a conversation.",
+    "example_fr": "Nous avons eu une conversation."
   },
   {
     "fr": "le silence",
@@ -2093,7 +2354,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Communication",
-    "example": "I need some silence."
+    "example": "I need some silence.",
+    "example_fr": "J'ai besoin de silence."
   },
   {
     "fr": "la vérité",
@@ -2101,7 +2363,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Mind",
-    "example": "Tell me the truth."
+    "example": "Tell me the truth.",
+    "example_fr": "Dis-moi la vérité."
   },
   {
     "fr": "le mensonge",
@@ -2109,7 +2372,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Mind",
-    "example": "That's a lie."
+    "example": "That's a lie.",
+    "example_fr": "C'est un mensonge."
   },
   {
     "fr": "vrai",
@@ -2117,7 +2381,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "Is it true?"
+    "example": "Is it true?",
+    "example_fr": "Est-ce vrai ?"
   },
   {
     "fr": "faux",
@@ -2125,7 +2390,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "The answer is wrong."
+    "example": "The answer is wrong.",
+    "example_fr": "La réponse est fausse."
   },
   {
     "fr": "fort",
@@ -2133,7 +2399,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A strong person."
+    "example": "A strong person.",
+    "example_fr": "Une personne forte."
   },
   {
     "fr": "faible",
@@ -2141,7 +2408,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Describing",
-    "example": "The signal is weak."
+    "example": "The signal is weak.",
+    "example_fr": "Le signal est faible."
   },
   {
     "fr": "simple",
@@ -2149,7 +2417,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "It's very simple."
+    "example": "It's very simple.",
+    "example_fr": "C'est très simple."
   },
   {
     "fr": "compliqué",
@@ -2157,7 +2426,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Describing",
-    "example": "It's complicated."
+    "example": "It's complicated.",
+    "example_fr": "C'est compliqué."
   },
   {
     "fr": "normal",
@@ -2165,7 +2435,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "That's normal."
+    "example": "That's normal.",
+    "example_fr": "C'est normal."
   },
   {
     "fr": "spécial",
@@ -2173,7 +2444,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "A special day."
+    "example": "A special day.",
+    "example_fr": "Une journée spéciale."
   },
   {
     "fr": "pratique",
@@ -2181,7 +2453,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Describing",
-    "example": "A practical solution."
+    "example": "A practical solution.",
+    "example_fr": "Une solution pratique."
   },
   {
     "fr": "utile",
@@ -2189,7 +2462,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "This is useful."
+    "example": "This is useful.",
+    "example_fr": "C'est utile."
   },
   {
     "fr": "inutile",
@@ -2197,7 +2471,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Describing",
-    "example": "That's unnecessary."
+    "example": "That's unnecessary.",
+    "example_fr": "Ce n'est pas nécessaire."
   },
   {
     "fr": "sérieux",
@@ -2205,7 +2480,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "Are you serious?"
+    "example": "Are you serious?",
+    "example_fr": "Tu es sérieux ?"
   },
   {
     "fr": "gentil",
@@ -2213,7 +2489,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "People",
-    "example": "He's very kind."
+    "example": "He's very kind.",
+    "example_fr": "Il est très gentil."
   },
   {
     "fr": "sympa",
@@ -2221,7 +2498,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "People",
-    "example": "She's really nice."
+    "example": "She's really nice.",
+    "example_fr": "Elle est vraiment gentille."
   },
   {
     "fr": "drôle",
@@ -2229,7 +2507,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "People",
-    "example": "That's funny."
+    "example": "That's funny.",
+    "example_fr": "C'est marrant."
   },
   {
     "fr": "calme",
@@ -2237,7 +2516,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Feelings",
-    "example": "Stay calm."
+    "example": "Stay calm.",
+    "example_fr": "Restez calme."
   },
   {
     "fr": "bruyant",
@@ -2245,7 +2525,8 @@
     "pos": "adjective",
     "level": "A2",
     "cat": "Describing",
-    "example": "The street is noisy."
+    "example": "The street is noisy.",
+    "example_fr": "La rue est bruyante."
   },
   {
     "fr": "propre",
@@ -2253,7 +2534,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Home",
-    "example": "Keep your room clean."
+    "example": "Keep your room clean.",
+    "example_fr": "Gardez votre chambre propre."
   },
   {
     "fr": "sale",
@@ -2261,7 +2543,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Home",
-    "example": "The floor is dirty."
+    "example": "The floor is dirty.",
+    "example_fr": "Le sol est sale."
   },
   {
     "fr": "plein",
@@ -2269,7 +2552,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "The bus is full."
+    "example": "The bus is full.",
+    "example_fr": "Le bus est plein."
   },
   {
     "fr": "vide",
@@ -2277,7 +2561,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Describing",
-    "example": "The bottle is empty."
+    "example": "The bottle is empty.",
+    "example_fr": "La bouteille est vide."
   },
   {
     "fr": "ouvert",
@@ -2285,7 +2570,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Daily life",
-    "example": "The shop is open."
+    "example": "The shop is open.",
+    "example_fr": "La boutique est ouverte."
   },
   {
     "fr": "fermé",
@@ -2293,7 +2579,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Daily life",
-    "example": "The door is closed."
+    "example": "The door is closed.",
+    "example_fr": "La porte est fermée."
   },
   {
     "fr": "cher",
@@ -2301,7 +2588,8 @@
     "pos": "adjective",
     "level": "A1",
     "cat": "Shopping",
-    "example": "It's too expensive."
+    "example": "It's too expensive.",
+    "example_fr": "C'est trop cher."
   },
   {
     "fr": "facilement",
@@ -2309,7 +2597,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "You can do it easily."
+    "example": "You can do it easily.",
+    "example_fr": "Vous pouvez le faire facilement."
   },
   {
     "fr": "probablement",
@@ -2317,7 +2606,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "It's probably true."
+    "example": "It's probably true.",
+    "example_fr": "C'est probablement vrai."
   },
   {
     "fr": "exactement",
@@ -2325,7 +2615,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Exactly."
+    "example": "Exactly.",
+    "example_fr": "Exactement."
   },
   {
     "fr": "finalement",
@@ -2333,7 +2624,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Finally, we arrived."
+    "example": "Finally, we arrived.",
+    "example_fr": "Finalement, nous sommes arrivés."
   },
   {
     "fr": "heureusement",
@@ -2341,7 +2633,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Fortunately, you're here."
+    "example": "Fortunately, you're here.",
+    "example_fr": "Heureusement, vous êtes là."
   },
   {
     "fr": "malheureusement",
@@ -2349,7 +2642,8 @@
     "pos": "adverb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Unfortunately, it's closed."
+    "example": "Unfortunately, it's closed.",
+    "example_fr": "Malheureusement, il est fermé."
   },
   {
     "fr": "vraiment",
@@ -2357,7 +2651,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I really like it."
+    "example": "I really like it.",
+    "example_fr": "J'aime beaucoup."
   },
   {
     "fr": "presque",
@@ -2365,7 +2660,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I'm almost ready."
+    "example": "I'm almost ready.",
+    "example_fr": "Je suis presque prête."
   },
   {
     "fr": "déjà",
@@ -2373,7 +2669,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "Have you eaten already?"
+    "example": "Have you eaten already?",
+    "example_fr": "Avez-vous déjà mangé ?"
   },
   {
     "fr": "encore",
@@ -2381,7 +2678,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Time",
-    "example": "Try again."
+    "example": "Try again.",
+    "example_fr": "Réessayez."
   },
   {
     "fr": "donc",
@@ -2389,7 +2687,8 @@
     "pos": "conjunction",
     "level": "A1",
     "cat": "Connectors",
-    "example": "So, what now?"
+    "example": "So, what now?",
+    "example_fr": "Et maintenant ?"
   },
   {
     "fr": "alors",
@@ -2397,7 +2696,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Connectors",
-    "example": "So, let's go."
+    "example": "So, let's go.",
+    "example_fr": "Alors, allons-y."
   },
   {
     "fr": "puis",
@@ -2405,7 +2705,8 @@
     "pos": "adverb",
     "level": "A1",
     "cat": "Connectors",
-    "example": "Then we went home."
+    "example": "Then we went home.",
+    "example_fr": "Puis nous sommes rentrés à la maison."
   },
   {
     "fr": "pendant",
@@ -2413,7 +2714,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Time",
-    "example": "During the day."
+    "example": "During the day.",
+    "example_fr": "Pendant la journée."
   },
   {
     "fr": "depuis",
@@ -2421,7 +2723,8 @@
     "pos": "preposition",
     "level": "A2",
     "cat": "Time",
-    "example": "I have lived here for a year."
+    "example": "I have lived here for a year.",
+    "example_fr": "Je vis ici depuis un an."
   },
   {
     "fr": "avant",
@@ -2429,7 +2732,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Time",
-    "example": "Before dinner."
+    "example": "Before dinner.",
+    "example_fr": "Avant le dîner."
   },
   {
     "fr": "après",
@@ -2437,7 +2741,8 @@
     "pos": "preposition",
     "level": "A1",
     "cat": "Time",
-    "example": "After work."
+    "example": "After work.",
+    "example_fr": "Après le travail."
   },
   {
     "fr": "contre",
@@ -2445,7 +2750,8 @@
     "pos": "preposition",
     "level": "A2",
     "cat": "Connectors",
-    "example": "I'm against this idea."
+    "example": "I'm against this idea.",
+    "example_fr": "Je suis contre cette idée."
   },
   {
     "fr": "vers",
@@ -2453,7 +2759,8 @@
     "pos": "preposition",
     "level": "A2",
     "cat": "Places",
-    "example": "Around eight o'clock."
+    "example": "Around eight o'clock.",
+    "example_fr": "Vers huit heures."
   },
   {
     "fr": "selon",
@@ -2461,7 +2768,8 @@
     "pos": "preposition",
     "level": "A2",
     "cat": "Connectors",
-    "example": "According to the report."
+    "example": "According to the report.",
+    "example_fr": "Selon le rapport."
   },
   {
     "fr": "malgré",
@@ -2469,7 +2777,8 @@
     "pos": "preposition",
     "level": "A2",
     "cat": "Connectors",
-    "example": "Despite the rain."
+    "example": "Despite the rain.",
+    "example_fr": "Malgré la pluie."
   },
   {
     "fr": "pendant que",
@@ -2477,7 +2786,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Connectors",
-    "example": "While I was working."
+    "example": "While I was working.",
+    "example_fr": "Pendant que je travaillais."
   },
   {
     "fr": "bien que",
@@ -2485,7 +2795,8 @@
     "pos": "expression",
     "level": "B1",
     "cat": "Connectors",
-    "example": "Although it is difficult."
+    "example": "Although it is difficult.",
+    "example_fr": "Bien que ce soit difficile."
   },
   {
     "fr": "en revanche",
@@ -2493,7 +2804,8 @@
     "pos": "expression",
     "level": "B1",
     "cat": "Conversation",
-    "example": "On the other hand, it's cheap."
+    "example": "On the other hand, it's cheap.",
+    "example_fr": "D'un autre côté, c'est bon marché."
   },
   {
     "fr": "à mon avis",
@@ -2501,7 +2813,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "In my opinion, it's great."
+    "example": "In my opinion, it's great.",
+    "example_fr": "À mon avis, c'est génial."
   },
   {
     "fr": "ça dépend",
@@ -2509,7 +2822,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "It depends on the weather."
+    "example": "It depends on the weather.",
+    "example_fr": "Cela dépend de la météo."
   },
   {
     "fr": "pas du tout",
@@ -2517,7 +2831,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Conversation",
-    "example": "Not at all."
+    "example": "Not at all.",
+    "example_fr": "Pas du tout."
   },
   {
     "fr": "tout à fait",
@@ -2525,7 +2840,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "Absolutely, I agree."
+    "example": "Absolutely, I agree.",
+    "example_fr": "Absolument, je suis d'accord."
   },
   {
     "fr": "je voudrais",
@@ -2533,7 +2849,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Greetings",
-    "example": "I would like a coffee."
+    "example": "I would like a coffee.",
+    "example_fr": "Je voudrais un café."
   },
   {
     "fr": "j’ai besoin de",
@@ -2541,7 +2858,8 @@
     "pos": "expression",
     "level": "A1",
     "cat": "Everyday",
-    "example": "I need help."
+    "example": "I need help.",
+    "example_fr": "J'ai besoin d'aide."
   },
   {
     "fr": "ça marche",
@@ -2549,7 +2867,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "Okay, that works."
+    "example": "Okay, that works.",
+    "example_fr": "D'accord, ça marche."
   },
   {
     "fr": "tant mieux",
@@ -2557,7 +2876,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "That's good news."
+    "example": "That's good news.",
+    "example_fr": "C'est une bonne nouvelle."
   },
   {
     "fr": "tant pis",
@@ -2565,7 +2885,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "Too bad, maybe next time."
+    "example": "Too bad, maybe next time.",
+    "example_fr": "Dommage, peut-être la prochaine fois."
   },
   {
     "fr": "n’importe quoi",
@@ -2573,7 +2894,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "That's nonsense."
+    "example": "That's nonsense.",
+    "example_fr": "C'est absurde."
   },
   {
     "fr": "faire attention",
@@ -2581,7 +2903,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Be careful."
+    "example": "Be careful.",
+    "example_fr": "Soyez prudent."
   },
   {
     "fr": "avoir envie de",
@@ -2589,7 +2912,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I feel like going out."
+    "example": "I feel like going out.",
+    "example_fr": "J'ai envie de sortir."
   },
   {
     "fr": "avoir raison",
@@ -2597,7 +2921,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "You're right."
+    "example": "You're right.",
+    "example_fr": "Tu as raison."
   },
   {
     "fr": "avoir tort",
@@ -2605,7 +2930,8 @@
     "pos": "expression",
     "level": "A2",
     "cat": "Conversation",
-    "example": "I was wrong."
+    "example": "I was wrong.",
+    "example_fr": "J'avais tort."
   },
   {
     "fr": "se débrouiller",
@@ -2613,7 +2939,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Daily life",
-    "example": "I'll manage."
+    "example": "I'll manage.",
+    "example_fr": "Je vais m'en sortir."
   },
   {
     "fr": "réussir",
@@ -2621,7 +2948,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Work",
-    "example": "You will succeed."
+    "example": "You will succeed.",
+    "example_fr": "Vous réussirez."
   },
   {
     "fr": "oublier",
@@ -2629,7 +2957,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Mind",
-    "example": "Don't forget your keys."
+    "example": "Don't forget your keys.",
+    "example_fr": "N'oubliez pas vos clés."
   },
   {
     "fr": "se souvenir de",
@@ -2637,7 +2966,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Mind",
-    "example": "I remember this place."
+    "example": "I remember this place.",
+    "example_fr": "Je me souviens de cet endroit."
   },
   {
     "fr": "permettre",
@@ -2645,7 +2975,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Everyday",
-    "example": "This lets me work."
+    "example": "This lets me work.",
+    "example_fr": "Cela me permet de travailler."
   },
   {
     "fr": "expliquer",
@@ -2653,7 +2984,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Can you explain?"
+    "example": "Can you explain?",
+    "example_fr": "Pouvez-vous m'expliquer ?"
   },
   {
     "fr": "raconter",
@@ -2661,7 +2993,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Communication",
-    "example": "Tell me what happened."
+    "example": "Tell me what happened.",
+    "example_fr": "Dis-moi ce qui s'est passé."
   },
   {
     "fr": "proposer",
@@ -2669,7 +3002,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Communication",
-    "example": "I have a suggestion."
+    "example": "I have a suggestion.",
+    "example_fr": "J'ai une suggestion."
   },
   {
     "fr": "accepter",
@@ -2677,7 +3011,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Communication",
-    "example": "I accept your offer."
+    "example": "I accept your offer.",
+    "example_fr": "J'accepte votre offre."
   },
   {
     "fr": "refuser",
@@ -2685,7 +3020,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Communication",
-    "example": "She refused."
+    "example": "She refused.",
+    "example_fr": "Elle a refusé."
   },
   {
     "fr": "espérer",
@@ -2693,7 +3029,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I hope so."
+    "example": "I hope so.",
+    "example_fr": "Je l'espère."
   },
   {
     "fr": "oublier",
@@ -2701,7 +3038,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Mind",
-    "example": "I forgot."
+    "example": "I forgot.",
+    "example_fr": "J'ai oublié."
   },
   {
     "fr": "manquer",
@@ -2709,7 +3047,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I miss you."
+    "example": "I miss you.",
+    "example_fr": "Tu me manques."
   },
   {
     "fr": "plaire",
@@ -2717,7 +3056,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Feelings",
-    "example": "I like this place."
+    "example": "I like this place.",
+    "example_fr": "J'aime cet endroit."
   },
   {
     "fr": "sembler",
@@ -2725,7 +3065,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Mind",
-    "example": "It seems easy."
+    "example": "It seems easy.",
+    "example_fr": "Cela semble facile."
   },
   {
     "fr": "devenir",
@@ -2733,7 +3074,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Change",
-    "example": "I want to become fluent."
+    "example": "I want to become fluent.",
+    "example_fr": "Je veux parler couramment."
   },
   {
     "fr": "revenir",
@@ -2741,7 +3083,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "Come back soon."
+    "example": "Come back soon.",
+    "example_fr": "Revenez bientôt."
   },
   {
     "fr": "sortir",
@@ -2749,7 +3092,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Let's go out tonight."
+    "example": "Let's go out tonight.",
+    "example_fr": "Sortons ce soir."
   },
   {
     "fr": "entrer",
@@ -2757,7 +3101,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Places",
-    "example": "Come in."
+    "example": "Come in.",
+    "example_fr": "Entrez."
   },
   {
     "fr": "monter",
@@ -2765,7 +3110,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "Go upstairs."
+    "example": "Go upstairs.",
+    "example_fr": "Montez à l'étage."
   },
   {
     "fr": "descendre",
@@ -2773,7 +3119,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "Get off here."
+    "example": "Get off here.",
+    "example_fr": "Descendez d'ici."
   },
   {
     "fr": "tomber",
@@ -2781,7 +3128,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Be careful not to fall."
+    "example": "Be careful not to fall.",
+    "example_fr": "Attention à ne pas tomber."
   },
   {
     "fr": "porter",
@@ -2789,7 +3137,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I wear glasses."
+    "example": "I wear glasses.",
+    "example_fr": "Je porte des lunettes."
   },
   {
     "fr": "envoyer",
@@ -2797,7 +3146,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Communication",
-    "example": "Send me the link."
+    "example": "Send me the link.",
+    "example_fr": "Envoyez-moi le lien."
   },
   {
     "fr": "recevoir",
@@ -2805,7 +3155,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Communication",
-    "example": "I received your message."
+    "example": "I received your message.",
+    "example_fr": "J'ai bien reçu votre message."
   },
   {
     "fr": "suivre",
@@ -2813,7 +3164,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Daily life",
-    "example": "Follow me."
+    "example": "Follow me.",
+    "example_fr": "Suivez-moi."
   },
   {
     "fr": "continuer",
@@ -2821,7 +3173,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Keep going."
+    "example": "Keep going.",
+    "example_fr": "Continuez."
   },
   {
     "fr": "arrêter",
@@ -2829,7 +3182,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "Stop here."
+    "example": "Stop here.",
+    "example_fr": "Arrêtez-vous ici."
   },
   {
     "fr": "perdre",
@@ -2837,7 +3191,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Daily life",
-    "example": "I lost my keys."
+    "example": "I lost my keys.",
+    "example_fr": "J'ai perdu mes clés."
   },
   {
     "fr": "gagner",
@@ -2845,7 +3200,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Work",
-    "example": "I earn enough."
+    "example": "I earn enough.",
+    "example_fr": "Je gagne assez."
   },
   {
     "fr": "payer",
@@ -2853,7 +3209,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Shopping",
-    "example": "I'll pay."
+    "example": "I'll pay.",
+    "example_fr": "Je paierai."
   },
   {
     "fr": "coûter",
@@ -2861,7 +3218,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Shopping",
-    "example": "How much does it cost?"
+    "example": "How much does it cost?",
+    "example_fr": "Combien ça coûte ?"
   },
   {
     "fr": "vendre",
@@ -2869,7 +3227,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Shopping",
-    "example": "They sell bread."
+    "example": "They sell bread.",
+    "example_fr": "Ils vendent du pain."
   },
   {
     "fr": "réserver",
@@ -2877,7 +3236,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Travel",
-    "example": "I'd like to book a table."
+    "example": "I'd like to book a table.",
+    "example_fr": "J'aimerais réserver une table."
   },
   {
     "fr": "voyager",
@@ -2885,7 +3245,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "I love to travel."
+    "example": "I love to travel.",
+    "example_fr": "J'adore voyager."
   },
   {
     "fr": "visiter",
@@ -2893,7 +3254,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Travel",
-    "example": "We visit Paris."
+    "example": "We visit Paris.",
+    "example_fr": "Nous visitons Paris."
   },
   {
     "fr": "conduire",
@@ -2901,7 +3263,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Transport",
-    "example": "Can you drive?"
+    "example": "Can you drive?",
+    "example_fr": "Pouvez-vous conduire ?"
   },
   {
     "fr": "voler",
@@ -2909,7 +3272,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Transport",
-    "example": "The plane is flying."
+    "example": "The plane is flying.",
+    "example_fr": "L'avion vole."
   },
   {
     "fr": "répéter",
@@ -2917,7 +3281,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Learning",
-    "example": "Can you repeat that?"
+    "example": "Can you repeat that?",
+    "example_fr": "Pouvez-vous répéter cela ?"
   },
   {
     "fr": "prononcer",
@@ -2925,7 +3290,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Learning",
-    "example": "How do you pronounce it?"
+    "example": "How do you pronounce it?",
+    "example_fr": "Comment le prononcez-vous ?"
   },
   {
     "fr": "traduire",
@@ -2933,7 +3299,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Learning",
-    "example": "Translate this sentence."
+    "example": "Translate this sentence.",
+    "example_fr": "Traduisez cette phrase."
   },
   {
     "fr": "améliorer",
@@ -2941,7 +3308,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Learning",
-    "example": "I want to improve my French."
+    "example": "I want to improve my French.",
+    "example_fr": "Je veux améliorer mon français."
   },
   {
     "fr": "progresser",
@@ -2949,7 +3317,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Learning",
-    "example": "I am making progress."
+    "example": "I am making progress.",
+    "example_fr": "Je progresse."
   },
   {
     "fr": "réviser",
@@ -2957,7 +3326,8 @@
     "pos": "verb",
     "level": "A1",
     "cat": "Learning",
-    "example": "I review words daily."
+    "example": "I review words daily.",
+    "example_fr": "Je révise les mots tous les jours."
   },
   {
     "fr": "mémoriser",
@@ -2965,7 +3335,8 @@
     "pos": "verb",
     "level": "A2",
     "cat": "Learning",
-    "example": "Memorize these words."
+    "example": "Memorize these words.",
+    "example_fr": "Mémorisez ces mots."
   },
   {
     "fr": "la mémoire",
@@ -2973,7 +3344,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Mind",
-    "example": "My memory is good."
+    "example": "My memory is good.",
+    "example_fr": "Ma mémoire est bonne."
   },
   {
     "fr": "l’habitude",
@@ -2981,7 +3353,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Daily life",
-    "example": "It's a good habit."
+    "example": "It's a good habit.",
+    "example_fr": "C'est une bonne habitude."
   },
   {
     "fr": "l’objectif",
@@ -2989,7 +3362,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "My goal is clear."
+    "example": "My goal is clear.",
+    "example_fr": "Mon objectif est clair."
   },
   {
     "fr": "l’effort",
@@ -2997,7 +3371,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Learning",
-    "example": "It takes effort."
+    "example": "It takes effort.",
+    "example_fr": "Cela demande des efforts."
   },
   {
     "fr": "le progrès",
@@ -3005,7 +3380,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Learning",
-    "example": "I can see progress."
+    "example": "I can see progress.",
+    "example_fr": "Je vois des progrès."
   },
   {
     "fr": "la réussite",
@@ -3013,7 +3389,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "I wish you success."
+    "example": "I wish you success.",
+    "example_fr": "Je vous souhaite beaucoup de succès."
   },
   {
     "fr": "l’échec",
@@ -3021,7 +3398,8 @@
     "pos": "noun",
     "level": "B1",
     "cat": "Work",
-    "example": "Failure teaches us."
+    "example": "Failure teaches us.",
+    "example_fr": "L'échec nous enseigne."
   },
   {
     "fr": "le niveau",
@@ -3029,7 +3407,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Learning",
-    "example": "What is your level?"
+    "example": "What is your level?",
+    "example_fr": "Quel est votre niveau ?"
   },
   {
     "fr": "le début",
@@ -3037,7 +3416,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "At the beginning."
+    "example": "At the beginning.",
+    "example_fr": "Au début."
   },
   {
     "fr": "la fin",
@@ -3045,7 +3425,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "At the end."
+    "example": "At the end.",
+    "example_fr": "À la fin."
   },
   {
     "fr": "le milieu",
@@ -3053,7 +3434,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Places",
-    "example": "In the middle."
+    "example": "In the middle.",
+    "example_fr": "Au milieu."
   },
   {
     "fr": "la suite",
@@ -3061,7 +3443,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Time",
-    "example": "What happens next?"
+    "example": "What happens next?",
+    "example_fr": "Que se passe-t-il ensuite ?"
   },
   {
     "fr": "le résultat",
@@ -3069,7 +3452,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "The result is good."
+    "example": "The result is good.",
+    "example_fr": "Le résultat est bon."
   },
   {
     "fr": "la solution",
@@ -3077,7 +3461,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Work",
-    "example": "We need a solution."
+    "example": "We need a solution.",
+    "example_fr": "Nous avons besoin d'une solution."
   },
   {
     "fr": "le risque",
@@ -3085,7 +3470,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "It's a risk."
+    "example": "It's a risk.",
+    "example_fr": "C'est un risque."
   },
   {
     "fr": "la chance",
@@ -3093,7 +3479,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "Good luck."
+    "example": "Good luck.",
+    "example_fr": "Bonne chance."
   },
   {
     "fr": "l’occasion",
@@ -3101,7 +3488,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "It's a great opportunity."
+    "example": "It's a great opportunity.",
+    "example_fr": "C'est une excellente opportunité."
   },
   {
     "fr": "l’expérience",
@@ -3109,7 +3497,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "I have experience."
+    "example": "I have experience.",
+    "example_fr": "J'ai de l'expérience."
   },
   {
     "fr": "la compétence",
@@ -3117,7 +3506,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Work",
-    "example": "Communication is a skill."
+    "example": "Communication is a skill.",
+    "example_fr": "La communication est une compétence."
   },
   {
     "fr": "le comportement",
@@ -3125,7 +3515,8 @@
     "pos": "noun",
     "level": "B1",
     "cat": "People",
-    "example": "His behavior changed."
+    "example": "His behavior changed.",
+    "example_fr": "Son comportement a changé."
   },
   {
     "fr": "la société",
@@ -3133,7 +3524,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "People",
-    "example": "Society is changing."
+    "example": "Society is changing.",
+    "example_fr": "La société est en train de changer."
   },
   {
     "fr": "le gouvernement",
@@ -3141,7 +3533,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Society",
-    "example": "The government announced a change."
+    "example": "The government announced a change.",
+    "example_fr": "Le gouvernement a annoncé un changement."
   },
   {
     "fr": "la loi",
@@ -3149,7 +3542,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Society",
-    "example": "Everyone must follow the law."
+    "example": "Everyone must follow the law.",
+    "example_fr": "Tout le monde doit respecter la loi."
   },
   {
     "fr": "le droit",
@@ -3157,7 +3551,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Society",
-    "example": "You have the right to choose."
+    "example": "You have the right to choose.",
+    "example_fr": "Vous avez le droit de choisir."
   },
   {
     "fr": "l’environnement",
@@ -3165,7 +3560,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Nature",
-    "example": "Protect the environment."
+    "example": "Protect the environment.",
+    "example_fr": "Protéger l'environnement."
   },
   {
     "fr": "le changement",
@@ -3173,7 +3569,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Change takes time."
+    "example": "Change takes time.",
+    "example_fr": "Le changement prend du temps."
   },
   {
     "fr": "l’avenir",
@@ -3181,7 +3578,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Think about the future."
+    "example": "Think about the future.",
+    "example_fr": "Pensez à l'avenir."
   },
   {
     "fr": "le passé",
@@ -3189,7 +3587,8 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Time",
-    "example": "Leave the past behind."
+    "example": "Leave the past behind.",
+    "example_fr": "Laissez le passé derrière vous."
   },
   {
     "fr": "le présent",
@@ -3197,7 +3596,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Time",
-    "example": "Live in the present."
+    "example": "Live in the present.",
+    "example_fr": "Vivez dans le présent."
   },
   {
     "fr": "la liberté",
@@ -3205,7 +3605,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Society",
-    "example": "Freedom matters."
+    "example": "Freedom matters.",
+    "example_fr": "La liberté compte."
   },
   {
     "fr": "la sécurité",
@@ -3213,7 +3614,8 @@
     "pos": "noun",
     "level": "A2",
     "cat": "Everyday",
-    "example": "Safety comes first."
+    "example": "Safety comes first.",
+    "example_fr": "La sécurité passe avant tout."
   },
   {
     "fr": "la différence",
@@ -3221,6 +3623,7 @@
     "pos": "noun",
     "level": "A1",
     "cat": "Everyday",
-    "example": "What's the difference?"
+    "example": "What's the difference?",
+    "example_fr": "Quelle est la différence ?"
   }
 ]

@@ -1028,9 +1028,22 @@ button {
   font-weight: 750;
   margin-bottom: 4px;
 }
+.teaching-language {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
 .teaching-en {
   font-size: 12px;
   color: #697064;
+}
+.teaching-meaning {
+  font-size: 12px;
+  color: #697064;
+  margin-top: 8px;
 }
 .grammar-tip {
   font-size: 12px;
@@ -1048,6 +1061,7 @@ button {
     color: #e8e8df;
   }
   .teaching-en,
+  .teaching-meaning,
   .master-control span {
     color: #b5bbae;
   }
