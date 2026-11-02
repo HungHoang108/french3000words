@@ -9,15 +9,6 @@
     "example_fr": "Le ciel est bleu."
   },
   {
-    "fr": "rouge",
-    "en": "red",
-    "pos": "adjective",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "The car is red.",
-    "example_fr": "La voiture est rouge."
-  },
-  {
     "fr": "vert",
     "en": "green",
     "pos": "adjective",
@@ -34,24 +25,6 @@
     "cat": "Everyday",
     "example": "The banana is yellow.",
     "example_fr": "La banane est jaune."
-  },
-  {
-    "fr": "blanc",
-    "en": "white",
-    "pos": "adjective",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "The snow is white.",
-    "example_fr": "La neige est blanche."
-  },
-  {
-    "fr": "noir",
-    "en": "black",
-    "pos": "adjective",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "The cat is black.",
-    "example_fr": "Le chat est noir."
   },
   {
     "fr": "Bonjour.",
@@ -666,15 +639,6 @@
     "example_fr": "Voici le frère."
   },
   {
-    "fr": "la sœur",
-    "en": "sister",
-    "pos": "noun",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "Here is the sister.",
-    "example_fr": "Voici la sœur."
-  },
-  {
     "fr": "le grand-père",
     "en": "grandfather",
     "pos": "noun",
@@ -844,15 +808,6 @@
     "cat": "Everyday",
     "example": "Here is the baby.",
     "example_fr": "Voici le bébé."
-  },
-  {
-    "fr": "l’enfant",
-    "en": "child",
-    "pos": "noun",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "Here is the child.",
-    "example_fr": "Voici l’enfant."
   },
   {
     "fr": "l’adolescent / l’adolescente",
@@ -1638,15 +1593,6 @@
     "example_fr": "L’usine ouvre à huit heures."
   },
   {
-    "fr": "le gouvernement",
-    "en": "government",
-    "pos": "noun",
-    "level": "A2",
-    "cat": "Everyday",
-    "example": "The government announces a new rule.",
-    "example_fr": "Le gouvernement annonce une nouvelle règle."
-  },
-  {
     "fr": "l’hôpital",
     "en": "hospital",
     "pos": "noun",
@@ -1674,24 +1620,6 @@
     "example_fr": "Mon bureau est au deuxième étage."
   },
   {
-    "fr": "le restaurant",
-    "en": "restaurant",
-    "pos": "noun",
-    "level": "A2",
-    "cat": "Everyday",
-    "example": "The restaurant is open tonight.",
-    "example_fr": "Le restaurant est ouvert ce soir."
-  },
-  {
-    "fr": "l’école",
-    "en": "school",
-    "pos": "noun",
-    "level": "A2",
-    "cat": "Everyday",
-    "example": "The school is near my home.",
-    "example_fr": "L’école est près de chez moi."
-  },
-  {
     "fr": "le magasin",
     "en": "shop",
     "pos": "noun",
@@ -1701,15 +1629,6 @@
     "example_fr": "Le magasin ferme à six heures."
   },
   {
-    "fr": "le matin",
-    "en": "morning",
-    "pos": "noun",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "I leave in the morning.",
-    "example_fr": "Je pars le matin."
-  },
-  {
     "fr": "l’après-midi",
     "en": "afternoon",
     "pos": "noun",
@@ -1717,24 +1636,6 @@
     "cat": "Everyday",
     "example": "I take a nap in the afternoon.",
     "example_fr": "Je fais une sieste l’après-midi."
-  },
-  {
-    "fr": "le soir",
-    "en": "evening",
-    "pos": "noun",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "We have dinner in the evening.",
-    "example_fr": "Nous dînons le soir."
-  },
-  {
-    "fr": "la nuit",
-    "en": "night",
-    "pos": "noun",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "At night, the city is quiet.",
-    "example_fr": "La nuit, la ville est calme."
   },
   {
     "fr": "le midi",
@@ -1755,15 +1656,6 @@
     "example_fr": "Le train arrive à minuit."
   },
   {
-    "fr": "aujourd’hui",
-    "en": "today",
-    "pos": "adverb",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "Today, the weather is nice.",
-    "example_fr": "Aujourd’hui, il fait beau."
-  },
-  {
     "fr": "ce soir",
     "en": "tonight",
     "pos": "adverb",
@@ -1771,24 +1663,6 @@
     "cat": "Everyday",
     "example": "Tonight, we’re going to the cinema.",
     "example_fr": "Ce soir, nous allons au cinéma."
-  },
-  {
-    "fr": "demain",
-    "en": "tomorrow",
-    "pos": "adverb",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "See you tomorrow, good night!",
-    "example_fr": "À demain, bonne nuit !"
-  },
-  {
-    "fr": "hier",
-    "en": "yesterday",
-    "pos": "adverb",
-    "level": "A1",
-    "cat": "Everyday",
-    "example": "Yesterday, I visited my sister.",
-    "example_fr": "Hier, j’ai visité ma sœur."
   },
   {
     "fr": "du matin",
