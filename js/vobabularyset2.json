@@ -1,0 +1,1829 @@
+[
+  {
+    "fr": "bleu",
+    "en": "blue",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The sky is blue.",
+    "example_fr": "Le ciel est bleu."
+  },
+  {
+    "fr": "rouge",
+    "en": "red",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The car is red.",
+    "example_fr": "La voiture est rouge."
+  },
+  {
+    "fr": "vert",
+    "en": "green",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The light is green.",
+    "example_fr": "Le feu est vert."
+  },
+  {
+    "fr": "jaune",
+    "en": "yellow",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The banana is yellow.",
+    "example_fr": "La banane est jaune."
+  },
+  {
+    "fr": "blanc",
+    "en": "white",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The snow is white.",
+    "example_fr": "La neige est blanche."
+  },
+  {
+    "fr": "noir",
+    "en": "black",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The cat is black.",
+    "example_fr": "Le chat est noir."
+  },
+  {
+    "fr": "Bonjour.",
+    "en": "Hello.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Hello, sir.",
+    "example_fr": "Bonjour, monsieur."
+  },
+  {
+    "fr": "Salut !",
+    "en": "Hi!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Hi, Paul!",
+    "example_fr": "Salut, Paul !"
+  },
+  {
+    "fr": "Rebonjour !",
+    "en": "Hello again!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Hello again, everyone!",
+    "example_fr": "Rebonjour, tout le monde !"
+  },
+  {
+    "fr": "Bonjour.",
+    "en": "Good morning.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Good morning, ma’am.",
+    "example_fr": "Bonjour, madame."
+  },
+  {
+    "fr": "Bonjour.",
+    "en": "Good afternoon.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Good afternoon, everyone.",
+    "example_fr": "Bonjour, tout le monde."
+  },
+  {
+    "fr": "Oui / Si.",
+    "en": "Yes.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Yes, I understand.",
+    "example_fr": "Oui, je comprends."
+  },
+  {
+    "fr": "Non.",
+    "en": "No.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "No, thank you.",
+    "example_fr": "Non, merci."
+  },
+  {
+    "fr": "Je ne sais pas.",
+    "en": "I don’t know.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I don’t know where he lives.",
+    "example_fr": "Je ne sais pas où il habite."
+  },
+  {
+    "fr": "s’il vous plaît",
+    "en": "please",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Can you help me, please?",
+    "example_fr": "Pouvez-vous m’aider, s’il vous plaît ?"
+  },
+  {
+    "fr": "Bonsoir.",
+    "en": "Good evening.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Good evening, how are you?",
+    "example_fr": "Bonsoir, comment allez-vous ?"
+  },
+  {
+    "fr": "Bonne nuit.",
+    "en": "Good night.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Good night, see you tomorrow.",
+    "example_fr": "Bonne nuit, à demain."
+  },
+  {
+    "fr": "Au revoir.",
+    "en": "Goodbye.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Goodbye and have a good day!",
+    "example_fr": "Au revoir et bonne journée !"
+  },
+  {
+    "fr": "Salut !",
+    "en": "Bye!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Bye, see you soon!",
+    "example_fr": "Salut, à bientôt !"
+  },
+  {
+    "fr": "À bientôt.",
+    "en": "See you soon.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "See you soon, my friend.",
+    "example_fr": "À bientôt, mon ami."
+  },
+  {
+    "fr": "Merci.",
+    "en": "Thank you.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Thank you for your help.",
+    "example_fr": "Merci pour votre aide."
+  },
+  {
+    "fr": "Non merci.",
+    "en": "No, thanks.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "No, thanks, I have already eaten.",
+    "example_fr": "Non merci, j’ai déjà mangé."
+  },
+  {
+    "fr": "Excusez-moi.",
+    "en": "Excuse me.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Excuse me, where is the station?",
+    "example_fr": "Excusez-moi, où est la gare ?"
+  },
+  {
+    "fr": "Pardon ?",
+    "en": "Sorry?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Sorry? Could you repeat that?",
+    "example_fr": "Pardon ? Vous pouvez répéter ?"
+  },
+  {
+    "fr": "À demain.",
+    "en": "See you tomorrow.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "See you tomorrow, have a good evening!",
+    "example_fr": "À demain, bonne soirée !"
+  },
+  {
+    "fr": "À samedi.",
+    "en": "See you on Saturday.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "See you on Saturday, then!",
+    "example_fr": "À samedi, alors !"
+  },
+  {
+    "fr": "Bonne journée !",
+    "en": "Have a good day!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Have a good day, see you soon!",
+    "example_fr": "Bonne journée et à bientôt !"
+  },
+  {
+    "fr": "Bonne soirée !",
+    "en": "Have a good evening!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Have a nice evening with your friends!",
+    "example_fr": "Bonne soirée avec vos amis !"
+  },
+  {
+    "fr": "Je suis désolé.",
+    "en": "I’m sorry.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m sorry I’m late.",
+    "example_fr": "Je suis désolé d’être en retard."
+  },
+  {
+    "fr": "D’accord !",
+    "en": "OK!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "OK, I’ll call you tomorrow.",
+    "example_fr": "D’accord, je vous appelle demain."
+  },
+  {
+    "fr": "De rien.",
+    "en": "You’re welcome.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "“Thank you very much!” “You’re welcome.”",
+    "example_fr": "— Merci beaucoup ! — De rien."
+  },
+  {
+    "fr": "Je ne comprends pas.",
+    "en": "I don’t understand.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I don’t understand this question.",
+    "example_fr": "Je ne comprends pas cette question."
+  },
+  {
+    "fr": "Quel âge avez-vous ?",
+    "en": "How old are you?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "How old are you?",
+    "example_fr": "Quel âge avez-vous ?"
+  },
+  {
+    "fr": "Puis-je demander votre âge ?",
+    "en": "May I ask how old you are?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "May I ask your age?",
+    "example_fr": "Puis-je demander votre âge ?"
+  },
+  {
+    "fr": "Quelle est votre date d’anniversaire ?",
+    "en": "When is your birthday?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "When is your birthday?",
+    "example_fr": "Quelle est votre date d’anniversaire ?"
+  },
+  {
+    "fr": "J’ai … ans.",
+    "en": "I’m … years old.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m thirty years old.",
+    "example_fr": "J’ai trente ans."
+  },
+  {
+    "fr": "Mon anniversaire est le…",
+    "en": "My birthday is on…",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "My birthday is on May 12.",
+    "example_fr": "Mon anniversaire est le 12 mai."
+  },
+  {
+    "fr": "D’où venez-vous ?",
+    "en": "Where are you from?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Where are you from?",
+    "example_fr": "D’où venez-vous ?"
+  },
+  {
+    "fr": "Où habitez-vous ?",
+    "en": "Where do you live?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Where do you live?",
+    "example_fr": "Où habitez-vous ?"
+  },
+  {
+    "fr": "Je viens…",
+    "en": "I’m from...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m from Paris.",
+    "example_fr": "Je viens de Paris."
+  },
+  {
+    "fr": "... du Royaume-Uni.",
+    "en": "... the UK.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m from the United Kingdom.",
+    "example_fr": "Je viens du Royaume-Uni."
+  },
+  {
+    "fr": "J’habite à…",
+    "en": "I live in...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I live in Lyon.",
+    "example_fr": "J’habite à Lyon."
+  },
+  {
+    "fr": "Je suis…",
+    "en": "I’m...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m a student.",
+    "example_fr": "Je suis étudiant."
+  },
+  {
+    "fr": "écossais",
+    "en": "Scottish",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is Scottish.",
+    "example_fr": "Il est écossais."
+  },
+  {
+    "fr": "anglais",
+    "en": "English",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is English.",
+    "example_fr": "Il est anglais."
+  },
+  {
+    "fr": "irlandais",
+    "en": "Irish",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is Irish.",
+    "example_fr": "Il est irlandais."
+  },
+  {
+    "fr": "gallois",
+    "en": "Welsh",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is Welsh.",
+    "example_fr": "Il est gallois."
+  },
+  {
+    "fr": "britannique",
+    "en": "British",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is British.",
+    "example_fr": "Il est britannique."
+  },
+  {
+    "fr": "Êtes-vous marié ?",
+    "en": "Are you married? (to a man)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Are you married?",
+    "example_fr": "Êtes-vous marié ?"
+  },
+  {
+    "fr": "Êtes-vous mariée ?",
+    "en": "Are you married? (to a woman)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Are you married?",
+    "example_fr": "Êtes-vous mariée ?"
+  },
+  {
+    "fr": "Êtes-vous célibataire ?",
+    "en": "Are you single?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Are you single?",
+    "example_fr": "Êtes-vous célibataire ?"
+  },
+  {
+    "fr": "Je suis marié / divorcé.",
+    "en": "I’m married/divorced. (man)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m married and I have two children.",
+    "example_fr": "Je suis marié et j’ai deux enfants."
+  },
+  {
+    "fr": "Je suis mariée / divorcée.",
+    "en": "I’m married/divorced. (woman)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m married and I have two children.",
+    "example_fr": "Je suis mariée et j’ai deux enfants."
+  },
+  {
+    "fr": "J’ai un compagnon / une compagne.",
+    "en": "I have a partner.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I live with my partner.",
+    "example_fr": "Je vis avec mon compagnon."
+  },
+  {
+    "fr": "Je suis célibataire.",
+    "en": "I’m single.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m single and I live alone.",
+    "example_fr": "Je suis célibataire et je vis seule."
+  },
+  {
+    "fr": "Je suis veuf.",
+    "en": "I’m widowed. (man)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "My grandfather is widowed.",
+    "example_fr": "Mon grand-père est veuf."
+  },
+  {
+    "fr": "Je suis veuve.",
+    "en": "I’m widowed. (woman)",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "My grandmother is widowed.",
+    "example_fr": "Ma grand-mère est veuve."
+  },
+  {
+    "fr": "Avez-vous des enfants ?",
+    "en": "Do you have any children?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Do you have any children?",
+    "example_fr": "Avez-vous des enfants ?"
+  },
+  {
+    "fr": "J’ai … enfants.",
+    "en": "I have ... children.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I have two children.",
+    "example_fr": "J’ai deux enfants."
+  },
+  {
+    "fr": "Je n’ai pas d’enfants.",
+    "en": "I don’t have any children.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I don’t have any children.",
+    "example_fr": "Je n’ai pas d’enfants."
+  },
+  {
+    "fr": "Voici mon / ma…",
+    "en": "This is my...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "This is my brother.",
+    "example_fr": "Voici mon frère."
+  },
+  {
+    "fr": "Voici mes…",
+    "en": "These are my...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "These are my children.",
+    "example_fr": "Voici mes enfants."
+  },
+  {
+    "fr": "le mari",
+    "en": "husband",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the husband.",
+    "example_fr": "Voici le mari."
+  },
+  {
+    "fr": "l’épouse",
+    "en": "wife",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the wife.",
+    "example_fr": "Voici l’épouse."
+  },
+  {
+    "fr": "le fils",
+    "en": "son",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the son.",
+    "example_fr": "Voici le fils."
+  },
+  {
+    "fr": "la fille",
+    "en": "daughter",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the daughter.",
+    "example_fr": "Voici la fille."
+  },
+  {
+    "fr": "les parents",
+    "en": "parents",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here are the parents.",
+    "example_fr": "Voici les parents."
+  },
+  {
+    "fr": "le compagnon / la compagne",
+    "en": "partner",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the partner.",
+    "example_fr": "Voici le compagnon."
+  },
+  {
+    "fr": "le copain",
+    "en": "boyfriend",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the boyfriend.",
+    "example_fr": "Voici le copain."
+  },
+  {
+    "fr": "la copine",
+    "en": "girlfriend",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the girlfriend.",
+    "example_fr": "Voici la copine."
+  },
+  {
+    "fr": "le fiancé / la fiancée",
+    "en": "fiancé/fiancée",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the fiancé.",
+    "example_fr": "Voici le fiancé."
+  },
+  {
+    "fr": "le père",
+    "en": "father",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the father.",
+    "example_fr": "Voici le père."
+  },
+  {
+    "fr": "la mère",
+    "en": "mother",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the mother.",
+    "example_fr": "Voici la mère."
+  },
+  {
+    "fr": "le frère",
+    "en": "brother",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the brother.",
+    "example_fr": "Voici le frère."
+  },
+  {
+    "fr": "la sœur",
+    "en": "sister",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the sister.",
+    "example_fr": "Voici la sœur."
+  },
+  {
+    "fr": "le grand-père",
+    "en": "grandfather",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the grandfather.",
+    "example_fr": "Voici le grand-père."
+  },
+  {
+    "fr": "la grand-mère",
+    "en": "grandmother",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the grandmother.",
+    "example_fr": "Voici la grand-mère."
+  },
+  {
+    "fr": "le petit-fils",
+    "en": "grandson",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the grandson.",
+    "example_fr": "Voici le petit-fils."
+  },
+  {
+    "fr": "la petite-fille",
+    "en": "granddaughter",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the granddaughter.",
+    "example_fr": "Voici la petite-fille."
+  },
+  {
+    "fr": "le beau-père",
+    "en": "father-in-law/ stepfather",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the father-in-law.",
+    "example_fr": "Voici le beau-père."
+  },
+  {
+    "fr": "la belle-mère",
+    "en": "mother-in-law/ stepmother",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the mother-in-law.",
+    "example_fr": "Voici la belle-mère."
+  },
+  {
+    "fr": "la belle-fille",
+    "en": "daughter-in-law/ stepdaughter",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the daughter-in-law.",
+    "example_fr": "Voici la belle-fille."
+  },
+  {
+    "fr": "le beau-fils",
+    "en": "son-in-law/stepson",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the son-in-law.",
+    "example_fr": "Voici le beau-fils."
+  },
+  {
+    "fr": "le beau-frère",
+    "en": "brother-in-law/ stepbrother",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the brother-in-law.",
+    "example_fr": "Voici le beau-frère."
+  },
+  {
+    "fr": "la belle-sœur",
+    "en": "sister-in-law/ stepsister",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the sister-in-law.",
+    "example_fr": "Voici la belle-sœur."
+  },
+  {
+    "fr": "l’oncle",
+    "en": "uncle",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the uncle.",
+    "example_fr": "Voici l’oncle."
+  },
+  {
+    "fr": "la tante",
+    "en": "aunt",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the aunt.",
+    "example_fr": "Voici la tante."
+  },
+  {
+    "fr": "le neveu",
+    "en": "nephew",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the nephew.",
+    "example_fr": "Voici le neveu."
+  },
+  {
+    "fr": "la nièce",
+    "en": "niece",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the niece.",
+    "example_fr": "Voici la nièce."
+  },
+  {
+    "fr": "le cousin / la cousine",
+    "en": "cousin",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the cousin.",
+    "example_fr": "Voici le cousin."
+  },
+  {
+    "fr": "l’ami / l’amie",
+    "en": "friend",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the friend.",
+    "example_fr": "Voici l’ami."
+  },
+  {
+    "fr": "le collègue / la collègue",
+    "en": "colleague",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the colleague.",
+    "example_fr": "Voici le collègue."
+  },
+  {
+    "fr": "le voisin / la voisine",
+    "en": "neighbour",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the neighbour.",
+    "example_fr": "Voici le voisin."
+  },
+  {
+    "fr": "le bébé",
+    "en": "baby",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the baby.",
+    "example_fr": "Voici le bébé."
+  },
+  {
+    "fr": "l’enfant",
+    "en": "child",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the child.",
+    "example_fr": "Voici l’enfant."
+  },
+  {
+    "fr": "l’adolescent / l’adolescente",
+    "en": "teenager",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Here is the teenager.",
+    "example_fr": "Voici l’adolescent."
+  },
+  {
+    "fr": "Comment allez-vous ?",
+    "en": "How are you?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "How are you today?",
+    "example_fr": "Comment allez-vous aujourd’hui ?"
+  },
+  {
+    "fr": "Comment ça va ?",
+    "en": "How’s it going?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Hi, how’s it going?",
+    "example_fr": "Salut, comment ça va ?"
+  },
+  {
+    "fr": "Comment va-t-il / elle ?",
+    "en": "How is he/she?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "How is he today?",
+    "example_fr": "Comment va-t-il aujourd’hui ?"
+  },
+  {
+    "fr": "Comment vont-ils / elles ?",
+    "en": "How are they?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "How are they?",
+    "example_fr": "Comment vont-ils ?"
+  },
+  {
+    "fr": "Très bien, merci, et vous ?",
+    "en": "Very well, thanks, and you?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Very well, thanks, and you?",
+    "example_fr": "Très bien, merci, et vous ?"
+  },
+  {
+    "fr": "Bien, merci.",
+    "en": "Fine, thanks.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Fine, thanks. And you?",
+    "example_fr": "Bien, merci. Et toi ?"
+  },
+  {
+    "fr": "Super bien !",
+    "en": "Great!",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Really great, thanks!",
+    "example_fr": "Super bien, merci !"
+  },
+  {
+    "fr": "Comme ci comme ça.",
+    "en": "So-so.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Things are so-so.",
+    "example_fr": "Ça va comme ci comme ça."
+  },
+  {
+    "fr": "Pas mal, merci.",
+    "en": "Not bad, thanks.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Not bad, thanks.",
+    "example_fr": "Pas mal, merci."
+  },
+  {
+    "fr": "On fait aller.",
+    "en": "Could be worse.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "We’re managing, despite the rain.",
+    "example_fr": "On fait aller, malgré la pluie."
+  },
+  {
+    "fr": "Pas terrible.",
+    "en": "Not great.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The day isn’t great.",
+    "example_fr": "La journée n’est pas terrible."
+  },
+  {
+    "fr": "Je suis fatigué.",
+    "en": "I’m tired.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m tired after work.",
+    "example_fr": "Je suis fatigué après le travail."
+  },
+  {
+    "fr": "J’ai faim / soif.",
+    "en": "I’m hungry/thirsty.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m hungry and thirsty.",
+    "example_fr": "J’ai faim et j’ai soif."
+  },
+  {
+    "fr": "Je n’ai plus faim.",
+    "en": "I’m full.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "After lunch, I’m not hungry anymore.",
+    "example_fr": "Après le déjeuner, je n’ai plus faim."
+  },
+  {
+    "fr": "J’ai froid.",
+    "en": "I’m cold.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m cold outside.",
+    "example_fr": "J’ai froid dehors."
+  },
+  {
+    "fr": "J’ai chaud.",
+    "en": "I’m warm.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m warm in this room.",
+    "example_fr": "J’ai chaud dans cette pièce."
+  },
+  {
+    "fr": "Je suis…",
+    "en": "I am...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m ready to leave.",
+    "example_fr": "Je suis prêt à partir."
+  },
+  {
+    "fr": "Il / Elle est…",
+    "en": "He/She is...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is at home.",
+    "example_fr": "Il est à la maison."
+  },
+  {
+    "fr": "Ils / Elles sont…",
+    "en": "They are...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "They are in the garden.",
+    "example_fr": "Elles sont dans le jardin."
+  },
+  {
+    "fr": "heureux",
+    "en": "happy",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m happy today.",
+    "example_fr": "Je suis heureux aujourd’hui."
+  },
+  {
+    "fr": "excité",
+    "en": "excited",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m excited about the trip.",
+    "example_fr": "Je suis excité pour le voyage."
+  },
+  {
+    "fr": "calme",
+    "en": "calm",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The baby is calm.",
+    "example_fr": "Le bébé est calme."
+  },
+  {
+    "fr": "surpris",
+    "en": "surprised",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "She is surprised by the news.",
+    "example_fr": "Elle est surprise par la nouvelle."
+  },
+  {
+    "fr": "mécontent",
+    "en": "annoyed",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is unhappy with the result.",
+    "example_fr": "Il est mécontent du résultat."
+  },
+  {
+    "fr": "en colère",
+    "en": "angry",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "She is angry with her brother.",
+    "example_fr": "Elle est en colère contre son frère."
+  },
+  {
+    "fr": "triste",
+    "en": "sad",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m sad today.",
+    "example_fr": "Je suis triste aujourd’hui."
+  },
+  {
+    "fr": "inquiet",
+    "en": "worried",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "He is worried about his son.",
+    "example_fr": "Il est inquiet pour son fils."
+  },
+  {
+    "fr": "effrayé",
+    "en": "afraid",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The child is frightened by the noise.",
+    "example_fr": "L’enfant est effrayé par le bruit."
+  },
+  {
+    "fr": "détendu",
+    "en": "relaxed",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "After work, I feel relaxed.",
+    "example_fr": "Après le travail, je suis détendu."
+  },
+  {
+    "fr": "Je m’ennuie.",
+    "en": "I’m bored.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I get bored when I’m alone.",
+    "example_fr": "Je m’ennuie quand je suis seul."
+  },
+  {
+    "fr": "Je me sens…",
+    "en": "I feel...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I feel well today.",
+    "example_fr": "Je me sens bien aujourd’hui."
+  },
+  {
+    "fr": "Il / Elle se sent…",
+    "en": "He/She feels...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "She feels better after resting.",
+    "example_fr": "Elle se sent mieux après le repos."
+  },
+  {
+    "fr": "Ils / Elles se sentent…",
+    "en": "They feel...",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "They feel tired after the match.",
+    "example_fr": "Ils se sentent fatigués après le match."
+  },
+  {
+    "fr": "bien",
+    "en": "well",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m doing well, thanks.",
+    "example_fr": "Je vais bien, merci."
+  },
+  {
+    "fr": "indisposé",
+    "en": "unwell",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I’m feeling unwell today.",
+    "example_fr": "Je suis indisposé aujourd’hui."
+  },
+  {
+    "fr": "mieux",
+    "en": "better",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I feel better this morning.",
+    "example_fr": "Je me sens mieux ce matin."
+  },
+  {
+    "fr": "pire",
+    "en": "worse",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The situation is worse than yesterday.",
+    "example_fr": "La situation est pire qu’hier."
+  },
+  {
+    "fr": "Où travaillez-vous ?",
+    "en": "Where do you work?",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Where do you work?",
+    "example_fr": "Où travaillez-vous ?"
+  },
+  {
+    "fr": "Que faites-vous dans la vie ?",
+    "en": "What do you do?",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "What do you do for a living?",
+    "example_fr": "Que faites-vous dans la vie ?"
+  },
+  {
+    "fr": "Quel est votre métier ?",
+    "en": "What’s your occupation?",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "What is your occupation?",
+    "example_fr": "Quel est votre métier ?"
+  },
+  {
+    "fr": "Est-ce que vous travaillez / étudiez ?",
+    "en": "Do you work/study?",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "Do you work or study?",
+    "example_fr": "Est-ce que vous travaillez ou étudiez ?"
+  },
+  {
+    "fr": "Je travaille à mon compte.",
+    "en": "I’m self-employed.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I’ve been self-employed for two years.",
+    "example_fr": "Je travaille à mon compte depuis deux ans."
+  },
+  {
+    "fr": "Je suis au chômage.",
+    "en": "I’m unemployed.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He has been unemployed since January.",
+    "example_fr": "Il est au chômage depuis janvier."
+  },
+  {
+    "fr": "Je suis encore à l’école.",
+    "en": "I’m still at school.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "My sister is still at school.",
+    "example_fr": "Ma sœur est encore à l’école."
+  },
+  {
+    "fr": "Je suis à l’université.",
+    "en": "I’m at university.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "My son is at university.",
+    "example_fr": "Mon fils est à l’université."
+  },
+  {
+    "fr": "Je suis à la retraite.",
+    "en": "I’m retired.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "My father is retired.",
+    "example_fr": "Mon père est à la retraite."
+  },
+  {
+    "fr": "Je voyage.",
+    "en": "I’m travelling.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I often travel in the summer.",
+    "example_fr": "En été, je voyage souvent."
+  },
+  {
+    "fr": "Je travaille de chez moi.",
+    "en": "I work from home.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I work from home on Fridays.",
+    "example_fr": "Je travaille de chez moi le vendredi."
+  },
+  {
+    "fr": "Je travaille à temps partiel / complet.",
+    "en": "I work part-/full-time.",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "She works part-time.",
+    "example_fr": "Elle travaille à temps partiel."
+  },
+  {
+    "fr": "Je travaille comme…",
+    "en": "I work as a/an...",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I work as a nurse.",
+    "example_fr": "Je travaille comme infirmier."
+  },
+  {
+    "fr": "Je suis…",
+    "en": "I’m a/an...",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I’m a teacher at a middle school.",
+    "example_fr": "Je suis professeur dans un collège."
+  },
+  {
+    "fr": "l’architecte / l’architecte",
+    "en": "architect",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is an architect.",
+    "example_fr": "Il est architecte."
+  },
+  {
+    "fr": "le chef / la chef",
+    "en": "chef",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a chef.",
+    "example_fr": "Il est chef."
+  },
+  {
+    "fr": "le fonctionnaire / la fonctionnaire",
+    "en": "civil servant",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a civil servant.",
+    "example_fr": "Il est fonctionnaire."
+  },
+  {
+    "fr": "l’employé de ménage / l’employée de ménage",
+    "en": "cleaner",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a cleaner.",
+    "example_fr": "Il est employé de ménage."
+  },
+  {
+    "fr": "le dentiste / la dentiste",
+    "en": "dentist",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a dentist.",
+    "example_fr": "Il est dentiste."
+  },
+  {
+    "fr": "le médecin / la médecin",
+    "en": "doctor",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a doctor.",
+    "example_fr": "Il est médecin."
+  },
+  {
+    "fr": "le conducteur / la conductrice",
+    "en": "driver",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a driver.",
+    "example_fr": "Il est conducteur."
+  },
+  {
+    "fr": "l’électricien / l’électricienne",
+    "en": "electrician",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is an electrician.",
+    "example_fr": "Il est électricien."
+  },
+  {
+    "fr": "l’ingénieur / l’ingénieure",
+    "en": "engineer",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is an engineer.",
+    "example_fr": "Il est ingénieur."
+  },
+  {
+    "fr": "l’agriculteur / l’agricultrice",
+    "en": "farmer",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a farmer.",
+    "example_fr": "Il est agriculteur."
+  },
+  {
+    "fr": "le sapeur-pompier / la sapeur-pompier",
+    "en": "firefighter",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a firefighter.",
+    "example_fr": "Il est sapeur-pompier."
+  },
+  {
+    "fr": "le pêcheur / la pêcheuse",
+    "en": "fisherman",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a fisherman.",
+    "example_fr": "Il est pêcheur."
+  },
+  {
+    "fr": "l’informaticien / l’informaticienne",
+    "en": "IT worker",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is an IT worker.",
+    "example_fr": "Il est informaticien."
+  },
+  {
+    "fr": "le menuisier / la menuisière",
+    "en": "joiner",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a joiner.",
+    "example_fr": "Il est menuisier."
+  },
+  {
+    "fr": "le journaliste / la journaliste",
+    "en": "journalist",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a journalist.",
+    "example_fr": "Il est journaliste."
+  },
+  {
+    "fr": "l’avocat / l’avocate",
+    "en": "lawyer",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a lawyer.",
+    "example_fr": "Il est avocat."
+  },
+  {
+    "fr": "le mécanicien / la mécanicienne",
+    "en": "mechanic",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a mechanic.",
+    "example_fr": "Il est mécanicien."
+  },
+  {
+    "fr": "l’infirmier / l’infirmière",
+    "en": "nurse",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a nurse.",
+    "example_fr": "Il est infirmier."
+  },
+  {
+    "fr": "l’employé de bureau / l’employée de bureau",
+    "en": "office worker",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is an office worker.",
+    "example_fr": "Il est employé de bureau."
+  },
+  {
+    "fr": "le plombier / la plombière",
+    "en": "plumber",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a plumber.",
+    "example_fr": "Il est plombier."
+  },
+  {
+    "fr": "le policier / la policière",
+    "en": "police officer",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a police officer.",
+    "example_fr": "Il est policier."
+  },
+  {
+    "fr": "le facteur / la factrice",
+    "en": "postal worker",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a postal worker.",
+    "example_fr": "Il est facteur."
+  },
+  {
+    "fr": "le marin / la femme marin",
+    "en": "sailor",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a sailor.",
+    "example_fr": "Il est marin."
+  },
+  {
+    "fr": "le vendeur / la vendeuse",
+    "en": "salesperson",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a salesperson.",
+    "example_fr": "Il est vendeur."
+  },
+  {
+    "fr": "le scientifique / la scientifique",
+    "en": "scientist",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a scientist.",
+    "example_fr": "Il est scientifique."
+  },
+  {
+    "fr": "le soldat / la soldate",
+    "en": "soldier",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a soldier.",
+    "example_fr": "Il est soldat."
+  },
+  {
+    "fr": "le professeur / la professeure",
+    "en": "teacher",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a teacher.",
+    "example_fr": "Il est professeur."
+  },
+  {
+    "fr": "le vétérinaire / la vétérinaire",
+    "en": "vet",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a vet.",
+    "example_fr": "Il est vétérinaire."
+  },
+  {
+    "fr": "le serveur",
+    "en": "waiter",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "He is a waiter.",
+    "example_fr": "Il est serveur."
+  },
+  {
+    "fr": "la serveuse",
+    "en": "waitress",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "She is a waitress.",
+    "example_fr": "Elle est serveuse."
+  },
+  {
+    "fr": "Je travaille à / pour / dans…",
+    "en": "I work at/for/in...",
+    "pos": "phrase",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "I work in a hospital.",
+    "example_fr": "Je travaille dans un hôpital."
+  },
+  {
+    "fr": "le commerce",
+    "en": "business",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The business is open today.",
+    "example_fr": "Le commerce est ouvert aujourd’hui."
+  },
+  {
+    "fr": "la compagnie",
+    "en": "company",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The company has a new office.",
+    "example_fr": "La compagnie a un nouveau bureau."
+  },
+  {
+    "fr": "le chantier",
+    "en": "construction site",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The construction site is near the station.",
+    "example_fr": "Le chantier est près de la gare."
+  },
+  {
+    "fr": "l’usine",
+    "en": "factory",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The factory opens at eight o’clock.",
+    "example_fr": "L’usine ouvre à huit heures."
+  },
+  {
+    "fr": "le gouvernement",
+    "en": "government",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The government announces a new rule.",
+    "example_fr": "Le gouvernement annonce une nouvelle règle."
+  },
+  {
+    "fr": "l’hôpital",
+    "en": "hospital",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The hospital is nearby.",
+    "example_fr": "L’hôpital est près d’ici."
+  },
+  {
+    "fr": "l’hôtel",
+    "en": "hotel",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The hotel is downtown.",
+    "example_fr": "L’hôtel est au centre-ville."
+  },
+  {
+    "fr": "le bureau",
+    "en": "office",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "My office is on the second floor.",
+    "example_fr": "Mon bureau est au deuxième étage."
+  },
+  {
+    "fr": "le restaurant",
+    "en": "restaurant",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The restaurant is open tonight.",
+    "example_fr": "Le restaurant est ouvert ce soir."
+  },
+  {
+    "fr": "l’école",
+    "en": "school",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The school is near my home.",
+    "example_fr": "L’école est près de chez moi."
+  },
+  {
+    "fr": "le magasin",
+    "en": "shop",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Everyday",
+    "example": "The shop closes at six o’clock.",
+    "example_fr": "Le magasin ferme à six heures."
+  },
+  {
+    "fr": "le matin",
+    "en": "morning",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I leave in the morning.",
+    "example_fr": "Je pars le matin."
+  },
+  {
+    "fr": "l’après-midi",
+    "en": "afternoon",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "I take a nap in the afternoon.",
+    "example_fr": "Je fais une sieste l’après-midi."
+  },
+  {
+    "fr": "le soir",
+    "en": "evening",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "We have dinner in the evening.",
+    "example_fr": "Nous dînons le soir."
+  },
+  {
+    "fr": "la nuit",
+    "en": "night",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "At night, the city is quiet.",
+    "example_fr": "La nuit, la ville est calme."
+  },
+  {
+    "fr": "le midi",
+    "en": "midday",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "We have lunch at midday.",
+    "example_fr": "Nous déjeunons à midi."
+  },
+  {
+    "fr": "minuit",
+    "en": "midnight",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The train arrives at midnight.",
+    "example_fr": "Le train arrive à minuit."
+  },
+  {
+    "fr": "aujourd’hui",
+    "en": "today",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Today, the weather is nice.",
+    "example_fr": "Aujourd’hui, il fait beau."
+  },
+  {
+    "fr": "ce soir",
+    "en": "tonight",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Tonight, we’re going to the cinema.",
+    "example_fr": "Ce soir, nous allons au cinéma."
+  },
+  {
+    "fr": "demain",
+    "en": "tomorrow",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "See you tomorrow, good night!",
+    "example_fr": "À demain, bonne nuit !"
+  },
+  {
+    "fr": "hier",
+    "en": "yesterday",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "Yesterday, I visited my sister.",
+    "example_fr": "Hier, j’ai visité ma sœur."
+  },
+  {
+    "fr": "du matin",
+    "en": "a.m.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The train leaves at nine in the morning.",
+    "example_fr": "Le train part à neuf heures du matin."
+  },
+  {
+    "fr": "de l’après-midi / du soir",
+    "en": "p.m.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "The appointment is at three in the afternoon.",
+    "example_fr": "Le rendez-vous est à trois heures de l’après-midi."
+  },
+  {
+    "fr": "Quelle heure est-il ?",
+    "en": "What time is it?",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "What time is it?",
+    "example_fr": "Quelle heure est-il ?"
+  },
+  {
+    "fr": "Il est neuf heures.",
+    "en": "It’s nine o’clock.",
+    "pos": "phrase",
+    "level": "A1",
+    "cat": "Everyday",
+    "example": "It’s nine o’clock.",
+    "example_fr": "Il est neuf heures."
+  }
+]

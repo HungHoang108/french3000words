@@ -6,7 +6,7 @@ import { loadImportedWords, mountFrequencyImport, wordKey } from "./frequency-im
 
 let words;
 try {
-  const vocabularyFiles = ["vocabulary.json", "vocabularyset1.json"];
+  const vocabularyFiles = ["vocabulary.json", "vocabularyset1.json", "vobabularyset2.json"];
   const vocabularies = await Promise.all(
     vocabularyFiles.map(async (file) => {
       const response = await fetch(new URL(`./${file}`, import.meta.url));
@@ -36,16 +36,20 @@ try {
     seen.add(key);
     words.push({ ...word, id: words.length + 1, status: "new" });
   });
+  vocabularies[2].forEach((word) => {
+    words.push({ ...word, id: words.length + 1, status: "new" });
+  });
 } catch (error) {
   console.error("Could not load vocabulary.", error);
   document.getElementById("main").textContent =
-    "The vocabulary could not be loaded. Run this app from a local web server and check js/vocabulary.json and js/vocabularyset1.json.";
+    "The vocabulary could not be loaded. Run this app from a local web server and check js/vocabulary.json, js/vocabularyset1.json, and js/vobabularyset2.json.";
   throw error;
 }
 // --- Persistence and application state ---
 const STORE = "french3000-preview-v1";
 let state = load();
 let page = "dashboard",
+  speedReviewPage = 0,
   session = null,
   toastTimer = null;
 function load() {
@@ -250,8 +254,21 @@ function studyIntro(mode) {
     mode === "learn" && newWords === 0
       ? `<div class="notice">You’ve introduced all ${words.length} words in your current list. The included vocabulary is a starter set, not the full 3,000. Add more in the <button class="text-link" data-go="library">Word Library ↗</button>.</div>`
       : "";
+  if (mode === "speed") {
+    const reviewWords = speedReviewWords();
+    const pageCount = Math.ceil(reviewWords.length / 50);
+    speedReviewPage = Math.min(speedReviewPage, Math.max(0, pageCount - 1));
+    const start = speedReviewPage * 50;
+    const pageWords = reviewWords.slice(start, start + 50);
+    return `<div class="study-shell"><div class="eyebrow">${cfg.eyebrow}</div><h1 class="page-title">${cfg.title}</h1><p class="subhead">${cfg.desc}</p><div class="question-card" style="text-align:left;padding:28px"><div class="word-label">YOUR SESSION</div><h2 style="font-family:var(--site-font-heading);font-size:28px;font-weight:500;margin:12px 0">Review words not yet mastered</h2><p style="font-size:13px;line-height:1.7;color:var(--muted);margin-bottom:20px">${reviewWords.length} words to review · mastered words are excluded · ${state.settings.limit} seconds per answer</p><div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><label for="speedSessionLength" style="font-size:12px;color:var(--muted)">Words this round <select id="speedSessionLength" class="field" style="margin-left:6px"><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label><button class="btn btn-dark" id="startSession" ${reviewWords.length ? "" : "disabled"}>Start speed review →</button></div></div><div class="section-head" style="margin-top:24px"><h2>Words to review</h2><span class="small-tag">${reviewWords.length} words</span></div><div class="table-wrap"><table class="word-table"><thead><tr><th>French</th><th>English</th><th>Level</th></tr></thead><tbody>${pageWords.map((word) => `<tr><td><div class="fr-cell">${esc(word.fr)}</div></td><td class="en-cell">${esc(word.en)}</td><td><span class="small-tag">${esc(word.level)}</span></td></tr>`).join("") || '<tr><td colspan="3" class="empty">All words are mastered. There is nothing to review right now.</td></tr>'}</tbody></table></div><div class="speed-pagination"><span>${reviewWords.length ? `Showing ${start + 1}–${Math.min(start + 50, reviewWords.length)} of ${reviewWords.length}` : "No words to show"}</span><div><button class="btn btn-outline" data-speed-page="${speedReviewPage - 1}" ${speedReviewPage === 0 ? "disabled" : ""}>Previous</button><span>Page ${pageCount ? speedReviewPage + 1 : 0} of ${pageCount}</span><button class="btn btn-outline" data-speed-page="${speedReviewPage + 1}" ${speedReviewPage >= pageCount - 1 ? "disabled" : ""}>Next</button></div></div><p style="font-size:11px;color:var(--muted);margin-top:15px">Your progress is saved automatically in this browser.</p></div>`;
+  }
   const startDisabled = mode === "learn" && learnableWords === 0 ? "disabled" : "";
   return `<div class="study-shell"><div class="eyebrow">${cfg.eyebrow}</div><h1 class="page-title">${cfg.title}</h1><p class="subhead">${cfg.desc}</p>${learnNotice}<div class="question-card" style="text-align:left;padding:28px"><div class="word-label">YOUR SESSION</div><h2 style="font-family:var(--site-font-heading);font-size:28px;font-weight:500;margin:12px 0">${mode === "learn" ? "Discover the next useful words" : mode === "review" ? "Bring your French back to mind" : "A little pressure, a lot of progress"}</h2><p style="font-size:13px;line-height:1.7;color:var(--muted);margin-bottom:20px">${mode === "learn" ? `${newWords} new · ${learnableWords - newWords} to revisit` : cfg.note}</p><div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><label style="font-size:12px;color:var(--muted)">Questions <select id="sessionLength" class="field" style="margin-left:6px"><option value="10">10</option><option value="20" ${mode === "speed" ? "selected" : ""}>20</option><option value="50">50</option></select></label><button class="btn btn-dark" id="startSession" ${startDisabled}>${cfg.button} →</button></div></div><p style="font-size:11px;color:var(--muted);margin-top:15px">Your progress is saved automatically in this browser.</p></div>`;
+}
+function speedReviewWords() {
+  return words
+    .filter((word) => statFor(word).status !== "mastered")
+    .sort((a, b) => (statFor(a).due || 0) - (statFor(b).due || 0) || a.id - b.id);
 }
 function toggleMaster(w) {
   if (!w) return;
@@ -351,13 +368,13 @@ function teachingCard(w) {
   );
 }
 function makeQueue(mode, n) {
+  if (mode === "speed") return speedReviewWords().slice(0, n);
   let pool = words.filter((w) => {
     const p = statFor(w);
     if (mode === "difficult") return p.difficult === true;
     if (p.status === "mastered") return mode === "review" && p.due <= Date.now();
     if (mode === "learn") return p.status === "new" || p.status === "learning";
     if (mode === "review") return p.status !== "new" && p.due <= Date.now();
-    if (mode === "speed") return p.status !== "mastered";
     return true;
   });
   if (mode === "review" && pool.length === 0) pool = words.filter((w) => statFor(w).status !== "new");
@@ -377,7 +394,6 @@ function makeQueue(mode, n) {
     const pa = statFor(a),
       pb = statFor(b);
     if (mode === "review") return (pa.due || 0) - (pb.due || 0) || (pa.streak || 0) - (pb.streak || 0);
-    if (mode === "speed") return (pa.streak || 0) - (pb.streak || 0) || Math.random() - 0.5;
     return a.id - b.id;
   });
   return pool.slice(0, n);
@@ -656,9 +672,17 @@ function settingsPage() {
 // --- Event wiring and settings ---
 function bindPage() {
   document.querySelectorAll("[data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
+  document.querySelectorAll("[data-speed-page]").forEach((button) => {
+    button.onclick = () => {
+      speedReviewPage = Number(button.dataset.speedPage);
+      render();
+    };
+  });
   if (["learn", "review", "speed"].includes(page)) {
     const b = document.getElementById("startSession");
-    if (b) b.onclick = () => beginSession(page, Number(document.getElementById("sessionLength").value));
+    if (b)
+      b.onclick = () =>
+        beginSession(page, Number(document.getElementById(page === "speed" ? "speedSessionLength" : "sessionLength").value));
   }
   if (page === "difficult") {
     document.getElementById("practiceDifficult").onclick = () => beginSession("difficult", words.length);

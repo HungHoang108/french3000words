@@ -1015,6 +1015,20 @@ button {
 .master-control .btn {
   min-width: 150px;
 }
+.speed-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.speed-pagination > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .teaching {
   margin-top: 16px;
   padding: 15px;

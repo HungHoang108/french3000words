@@ -9,6 +9,7 @@ index.html              App shell and semantic markup
 styles.css              Design tokens, layout, responsive and component styles
 js/vocabulary.json      Starter vocabulary dataset
 js/vocabularyset1.json  First additional frequency-ranked vocabulary set
+js/vobabularyset2.json  Second additional everyday vocabulary set
 js/app.js               App state, rendering, learning flow, persistence and event wiring
 js/frequency-import.js  CSV parsing, imported-word storage, and Library import UI
 README.md               Setup and deployment guide
@@ -32,6 +33,7 @@ Serve this folder with any static HTTP server. For example, from this directory 
 - Keep markup in `index.html`, visual styles in `styles.css`, app behavior in `js/app.js`, and CSV import behavior in `js/frequency-import.js`.
 - Add or edit starter words in `js/vocabulary.json`. Each entry is an object with `fr`, `en`, `pos`, `level`, `cat`, `example`, and `example_fr` string fields; the app assigns IDs at runtime.
 - Additional entries in `js/vocabularyset1.json` are appended after the starter list, so existing saved progress keeps its IDs. Their `frequency_rank` values refer to the [Noos French frequency list](https://noosflashcards.com/resources/frequency-lists/french); this first set uses ranks within its top 1,000 entries and rejects duplicates against the starter vocabulary.
+- Entries in `js/vobabularyset2.json` are appended after the first additional set. Repeated headwords are retained as separate entries when the source list contains them, and existing word IDs remain unchanged.
 - Browser progress uses `localStorage` and stays on the current browser/device. Export a JSON backup from Settings before clearing browser data.
 - Mark words as difficult from a study card or the Word Library, then use the Difficult Words section for focused practice.
 - The bundled lists are starter content, not the complete 3,000 words. Use the Library CSV import to add more vocabulary; duplicate headwords are skipped.
