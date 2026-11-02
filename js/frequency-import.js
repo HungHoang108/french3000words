@@ -167,7 +167,7 @@ function parseCSV(text) {
   return rows;
 }
 
-function wordKey(value) {
+export function wordKey(value) {
   return String(value || "")
     .toLowerCase()
     .normalize("NFD")

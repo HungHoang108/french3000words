@@ -2,22 +2,44 @@
  * French 3000 application controller.
  * Responsibilities: state, study sessions, page rendering, browser persistence, and event handlers.
  */
-import { loadImportedWords, mountFrequencyImport } from "./frequency-import.js";
+import { loadImportedWords, mountFrequencyImport, wordKey } from "./frequency-import.js";
 
 let words;
 try {
-  const response = await fetch(new URL("./vocabulary.json", import.meta.url));
-  if (!response.ok) throw new Error(`Vocabulary request failed with status ${response.status}`);
-  const vocabulary = await response.json();
+  const vocabularyFiles = ["vocabulary.json", "vocabularyset1.json"];
+  const vocabularies = await Promise.all(
+    vocabularyFiles.map(async (file) => {
+      const response = await fetch(new URL(`./${file}`, import.meta.url));
+      if (!response.ok) throw new Error(`${file} request failed with status ${response.status}`);
+      return response.json();
+    }),
+  );
   const fields = ["fr", "en", "pos", "level", "cat", "example", "example_fr"];
-  if (!Array.isArray(vocabulary) || vocabulary.some((word) => !word || fields.some((field) => typeof word[field] !== "string"))) {
-    throw new Error("Vocabulary JSON must be an array of complete word entries");
-  }
-  words = vocabulary.map((word, i) => ({ ...word, id: i + 1, status: "new" }));
+  vocabularies.forEach((vocabulary, index) => {
+    if (
+      !Array.isArray(vocabulary) ||
+      vocabulary.some((word) => !word || fields.some((field) => typeof word[field] !== "string"))
+    ) {
+      throw new Error(`${vocabularyFiles[index]} must be an array of complete word entries`);
+    }
+  });
+  words = vocabularies[0].map((word, index) => ({ ...word, id: index + 1, status: "new" }));
+  const seen = new Set(words.map((word) => wordKey(word.fr)));
+  vocabularies[1].forEach((word) => {
+    if (!Number.isInteger(word.frequency_rank) || word.frequency_rank < 1 || word.frequency_rank > 1000) {
+      throw new Error(`Invalid frequency rank for "${word.fr}" in vocabularyset1.json`);
+    }
+    const key = wordKey(word.fr);
+    if (!key || seen.has(key)) {
+      throw new Error(`Duplicate or invalid headword "${word.fr}" in vocabularyset1.json`);
+    }
+    seen.add(key);
+    words.push({ ...word, id: words.length + 1, status: "new" });
+  });
 } catch (error) {
-  console.error("Could not load starter vocabulary.", error);
+  console.error("Could not load vocabulary.", error);
   document.getElementById("main").textContent =
-    "The vocabulary could not be loaded. Run this app from a local web server and check js/vocabulary.json.";
+    "The vocabulary could not be loaded. Run this app from a local web server and check js/vocabulary.json and js/vocabularyset1.json.";
   throw error;
 }
 // --- Persistence and application state ---
@@ -221,7 +243,15 @@ function studyIntro(mode) {
       note: "20 questions · 3 seconds each · no long explanations.",
     },
   }[mode];
-  return `<div class="study-shell"><div class="eyebrow">${cfg.eyebrow}</div><h1 class="page-title">${cfg.title}</h1><p class="subhead">${cfg.desc}</p><div class="question-card" style="text-align:left;padding:28px"><div class="word-label">YOUR SESSION</div><h2 style="font-family:var(--site-font-heading);font-size:28px;font-weight:500;margin:12px 0">${mode === "learn" ? "Discover the next useful words" : mode === "review" ? "Bring your French back to mind" : "A little pressure, a lot of progress"}</h2><p style="font-size:13px;line-height:1.7;color:var(--muted);margin-bottom:20px">${cfg.note}</p><div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><label style="font-size:12px;color:var(--muted)">Questions <select id="sessionLength" class="field" style="margin-left:6px"><option value="10">10</option><option value="20" ${mode === "speed" ? "selected" : ""}>20</option><option value="50">50</option></select></label><button class="btn btn-dark" id="startSession">${cfg.button} →</button></div></div><p style="font-size:11px;color:var(--muted);margin-top:15px">Your progress is saved automatically in this browser.</p></div>`;
+  const newWords = mode === "learn" ? words.filter((word) => statFor(word).status === "new").length : 0;
+  const learnableWords =
+    mode === "learn" ? words.filter((word) => ["new", "learning"].includes(statFor(word).status)).length : 0;
+  const learnNotice =
+    mode === "learn" && newWords === 0
+      ? `<div class="notice">You’ve introduced all ${words.length} words in your current list. The included vocabulary is a starter set, not the full 3,000. Add more in the <button class="text-link" data-go="library">Word Library ↗</button>.</div>`
+      : "";
+  const startDisabled = mode === "learn" && learnableWords === 0 ? "disabled" : "";
+  return `<div class="study-shell"><div class="eyebrow">${cfg.eyebrow}</div><h1 class="page-title">${cfg.title}</h1><p class="subhead">${cfg.desc}</p>${learnNotice}<div class="question-card" style="text-align:left;padding:28px"><div class="word-label">YOUR SESSION</div><h2 style="font-family:var(--site-font-heading);font-size:28px;font-weight:500;margin:12px 0">${mode === "learn" ? "Discover the next useful words" : mode === "review" ? "Bring your French back to mind" : "A little pressure, a lot of progress"}</h2><p style="font-size:13px;line-height:1.7;color:var(--muted);margin-bottom:20px">${mode === "learn" ? `${newWords} new · ${learnableWords - newWords} to revisit` : cfg.note}</p><div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><label style="font-size:12px;color:var(--muted)">Questions <select id="sessionLength" class="field" style="margin-left:6px"><option value="10">10</option><option value="20" ${mode === "speed" ? "selected" : ""}>20</option><option value="50">50</option></select></label><button class="btn btn-dark" id="startSession" ${startDisabled}>${cfg.button} →</button></div></div><p style="font-size:11px;color:var(--muted);margin-top:15px">Your progress is saved automatically in this browser.</p></div>`;
 }
 function toggleMaster(w) {
   if (!w) return;

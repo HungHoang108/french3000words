@@ -1,0 +1,1222 @@
+[
+  {
+    "fr": "la marche",
+    "en": "walk; step",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The walk takes ten minutes.",
+    "example_fr": "La marche prend dix minutes.",
+    "frequency_rank": 416
+  },
+  {
+    "fr": "le secret",
+    "en": "secret",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "This is our secret.",
+    "example_fr": "C'est notre secret.",
+    "frequency_rank": 418
+  },
+  {
+    "fr": "le numéro",
+    "en": "number",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "What is your phone number?",
+    "example_fr": "Quel est ton numéro de téléphone ?",
+    "frequency_rank": 419
+  },
+  {
+    "fr": "emmener",
+    "en": "to take someone along",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I will take my sister to the station.",
+    "example_fr": "Je vais emmener ma sœur à la gare.",
+    "frequency_rank": 424
+  },
+  {
+    "fr": "derrière",
+    "en": "behind",
+    "pos": "preposition",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The café is behind the station.",
+    "example_fr": "Le café est derrière la gare.",
+    "frequency_rank": 425
+  },
+  {
+    "fr": "sauver",
+    "en": "to save; to rescue",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The lifeguard saved the child.",
+    "example_fr": "Le sauveteur a sauvé l'enfant.",
+    "frequency_rank": 427
+  },
+  {
+    "fr": "quitter",
+    "en": "to leave",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I have to leave now.",
+    "example_fr": "Je dois partir maintenant.",
+    "frequency_rank": 433
+  },
+  {
+    "fr": "l'ordre",
+    "en": "order",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Everything is in order.",
+    "example_fr": "Tout est en ordre.",
+    "frequency_rank": 435
+  },
+  {
+    "fr": "le lieu",
+    "en": "place; location",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "This is a quiet place.",
+    "example_fr": "C'est un lieu calme.",
+    "frequency_rank": 438
+  },
+  {
+    "fr": "le rêve",
+    "en": "dream",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I had a strange dream.",
+    "example_fr": "J'ai fait un rêve étrange.",
+    "frequency_rank": 439
+  },
+  {
+    "fr": "l'envie",
+    "en": "desire; urge",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I feel like going out.",
+    "example_fr": "J'ai envie de sortir.",
+    "frequency_rank": 440
+  },
+  {
+    "fr": "le pied",
+    "en": "foot",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "My foot hurts.",
+    "example_fr": "J'ai mal au pied.",
+    "frequency_rank": 441
+  },
+  {
+    "fr": "la fête",
+    "en": "party; celebration",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The party starts at eight.",
+    "example_fr": "La fête commence à huit heures.",
+    "frequency_rank": 442
+  },
+  {
+    "fr": "supposer",
+    "en": "to suppose; to assume",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "I suppose you are right.",
+    "example_fr": "Je suppose que tu as raison.",
+    "frequency_rank": 443
+  },
+  {
+    "fr": "l'état",
+    "en": "state; condition",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The house is in good condition.",
+    "example_fr": "La maison est en bon état.",
+    "frequency_rank": 444
+  },
+  {
+    "fr": "agir",
+    "en": "to act; to take action",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "We need to act quickly.",
+    "example_fr": "Nous devons agir rapidement.",
+    "frequency_rank": 445
+  },
+  {
+    "fr": "le cours",
+    "en": "class; course",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The class starts at nine.",
+    "example_fr": "Le cours commence à neuf heures.",
+    "frequency_rank": 449
+  },
+  {
+    "fr": "l'instant",
+    "en": "moment; instant",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Wait a moment, please.",
+    "example_fr": "Attends un instant, s'il te plaît.",
+    "frequency_rank": 450
+  },
+  {
+    "fr": "cinq",
+    "en": "five",
+    "pos": "numeral",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "She has five books.",
+    "example_fr": "Elle a cinq livres.",
+    "frequency_rank": 452
+  },
+  {
+    "fr": "battre",
+    "en": "to beat; to defeat",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "Our team beat the champions.",
+    "example_fr": "Notre équipe a battu les champions.",
+    "frequency_rank": 453
+  },
+  {
+    "fr": "le moyen",
+    "en": "way; means",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Is there another way?",
+    "example_fr": "Y a-t-il un autre moyen ?",
+    "frequency_rank": 454
+  },
+  {
+    "fr": "décider",
+    "en": "to decide",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "We need to decide today.",
+    "example_fr": "Nous devons décider aujourd'hui.",
+    "frequency_rank": 458
+  },
+  {
+    "fr": "ainsi",
+    "en": "thus; in this way",
+    "pos": "adverb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "That is how we learned.",
+    "example_fr": "C'est ainsi que nous avons appris.",
+    "frequency_rank": 459
+  },
+  {
+    "fr": "le retour",
+    "en": "return; coming back",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "When is your return?",
+    "example_fr": "Quand est ton retour ?",
+    "frequency_rank": 460
+  },
+  {
+    "fr": "autant",
+    "en": "as much; as many",
+    "pos": "adverb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "She works as much as he does.",
+    "example_fr": "Elle travaille autant que lui.",
+    "frequency_rank": 461
+  },
+  {
+    "fr": "la peine",
+    "en": "trouble; effort",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It is worth the effort.",
+    "example_fr": "Ça vaut la peine.",
+    "frequency_rank": 462
+  },
+  {
+    "fr": "la carte",
+    "en": "card; map; menu",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Can I see the menu?",
+    "example_fr": "Je peux voir la carte ?",
+    "frequency_rank": 463
+  },
+  {
+    "fr": "la prison",
+    "en": "prison",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The prison is outside the city.",
+    "example_fr": "La prison est en dehors de la ville.",
+    "frequency_rank": 464
+  },
+  {
+    "fr": "valoir",
+    "en": "to be worth",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "This book is worth ten euros.",
+    "example_fr": "Ce livre vaut dix euros.",
+    "frequency_rank": 468
+  },
+  {
+    "fr": "ressembler",
+    "en": "to look like; to resemble",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "You look like your mother.",
+    "example_fr": "Tu ressembles à ta mère.",
+    "frequency_rank": 469
+  },
+  {
+    "fr": "tirer",
+    "en": "to pull; to draw",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Pull the door toward you.",
+    "example_fr": "Tire la porte vers toi.",
+    "frequency_rank": 471
+  },
+  {
+    "fr": "quatre",
+    "en": "four",
+    "pos": "numeral",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "We have four tickets.",
+    "example_fr": "Nous avons quatre billets.",
+    "frequency_rank": 472
+  },
+  {
+    "fr": "la route",
+    "en": "road; route",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The road is closed.",
+    "example_fr": "La route est fermée.",
+    "frequency_rank": 473
+  },
+  {
+    "fr": "ignorer",
+    "en": "to ignore; not to know",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I don't know the answer.",
+    "example_fr": "J'ignore la réponse.",
+    "frequency_rank": 474
+  },
+  {
+    "fr": "suffire",
+    "en": "to be enough; to suffice",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "One day is enough.",
+    "example_fr": "Un jour suffit.",
+    "frequency_rank": 475
+  },
+  {
+    "fr": "la pièce",
+    "en": "room; piece",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The room is small.",
+    "example_fr": "La pièce est petite.",
+    "frequency_rank": 478
+  },
+  {
+    "fr": "le lit",
+    "en": "bed",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The bed is near the window.",
+    "example_fr": "Le lit est près de la fenêtre.",
+    "frequency_rank": 479
+  },
+  {
+    "fr": "l'esprit",
+    "en": "mind; spirit",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "She has a curious mind.",
+    "example_fr": "Elle a un esprit curieux.",
+    "frequency_rank": 481
+  },
+  {
+    "fr": "bizarre",
+    "en": "strange; odd",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I feel strange today.",
+    "example_fr": "Je me sens bizarre aujourd'hui.",
+    "frequency_rank": 483
+  },
+  {
+    "fr": "le dollar",
+    "en": "dollar",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "It costs one dollar.",
+    "example_fr": "Ça coûte un dollar.",
+    "frequency_rank": 484
+  },
+  {
+    "fr": "le sujet",
+    "en": "subject; topic",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Let's change the subject.",
+    "example_fr": "Changeons de sujet.",
+    "frequency_rank": 486
+  },
+  {
+    "fr": "la faute",
+    "en": "mistake; fault",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It isn't your fault.",
+    "example_fr": "Ce n'est pas ta faute.",
+    "frequency_rank": 487
+  },
+  {
+    "fr": "le verre",
+    "en": "glass; drinking glass",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Would you like a glass of water?",
+    "example_fr": "Tu veux un verre d'eau ?",
+    "frequency_rank": 488
+  },
+  {
+    "fr": "bas",
+    "en": "low; down",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The table is too low.",
+    "example_fr": "La table est trop basse.",
+    "frequency_rank": 489
+  },
+  {
+    "fr": "humain",
+    "en": "human",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Everyone makes human mistakes.",
+    "example_fr": "Tout le monde fait des erreurs humaines.",
+    "frequency_rank": 492
+  },
+  {
+    "fr": "le plaisir",
+    "en": "pleasure; enjoyment",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It is a pleasure to meet you.",
+    "example_fr": "C'est un plaisir de te rencontrer.",
+    "frequency_rank": 493
+  },
+  {
+    "fr": "détester",
+    "en": "to hate; to dislike intensely",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I hate getting up early.",
+    "example_fr": "Je déteste me lever tôt.",
+    "frequency_rank": 495
+  },
+  {
+    "fr": "le tour",
+    "en": "turn; round",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It is my turn.",
+    "example_fr": "C'est mon tour.",
+    "frequency_rank": 496
+  },
+  {
+    "fr": "ensuite",
+    "en": "then; afterwards",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "First we eat, then we leave.",
+    "example_fr": "D'abord, on mange, ensuite on part.",
+    "frequency_rank": 497
+  },
+  {
+    "fr": "ramener",
+    "en": "to bring back; to take back",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "I'll bring the book back tomorrow.",
+    "example_fr": "Je ramènerai le livre demain.",
+    "frequency_rank": 498
+  },
+  {
+    "fr": "tourner",
+    "en": "to turn; to rotate",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Turn left at the next street.",
+    "example_fr": "Tourne à gauche à la prochaine rue.",
+    "frequency_rank": 499
+  },
+  {
+    "fr": "terminer",
+    "en": "to finish; to end",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I will finish this work tonight.",
+    "example_fr": "Je vais terminer ce travail ce soir.",
+    "frequency_rank": 500
+  },
+  {
+    "fr": "malade",
+    "en": "sick; ill",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "My son is sick today.",
+    "example_fr": "Mon fils est malade aujourd'hui.",
+    "frequency_rank": 501
+  },
+  {
+    "fr": "la victime",
+    "en": "victim",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "The victim is safe.",
+    "example_fr": "La victime est en sécurité.",
+    "frequency_rank": 503
+  },
+  {
+    "fr": "l'erreur",
+    "en": "error; mistake",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I made a mistake.",
+    "example_fr": "J'ai fait une erreur.",
+    "frequency_rank": 504
+  },
+  {
+    "fr": "le rapport",
+    "en": "report",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I finished the report.",
+    "example_fr": "J'ai terminé le rapport.",
+    "frequency_rank": 505
+  },
+  {
+    "fr": "la force",
+    "en": "strength; force",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "She has the strength to continue.",
+    "example_fr": "Elle a la force de continuer.",
+    "frequency_rank": 506
+  },
+  {
+    "fr": "pauvre",
+    "en": "poor; needy",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "They help poor families.",
+    "example_fr": "Ils aident les familles pauvres.",
+    "frequency_rank": 507
+  },
+  {
+    "fr": "l'appel",
+    "en": "call; appeal",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I missed your call.",
+    "example_fr": "J'ai manqué ton appel.",
+    "frequency_rank": 508
+  },
+  {
+    "fr": "noir",
+    "en": "black",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "He has a black jacket.",
+    "example_fr": "Il a une veste noire.",
+    "frequency_rank": 510
+  },
+  {
+    "fr": "la preuve",
+    "en": "proof; evidence",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "Do you have proof?",
+    "example_fr": "Tu as une preuve ?",
+    "frequency_rank": 512
+  },
+  {
+    "fr": "ceci",
+    "en": "this",
+    "pos": "pronoun",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "I did not say this.",
+    "example_fr": "Je n'ai pas dit ceci.",
+    "frequency_rank": 516
+  },
+  {
+    "fr": "un million",
+    "en": "one million",
+    "pos": "numeral",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The city has one million people.",
+    "example_fr": "La ville compte un million d'habitants.",
+    "frequency_rank": 518
+  },
+  {
+    "fr": "impossible",
+    "en": "impossible",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It is impossible to know everything.",
+    "example_fr": "Il est impossible de tout savoir.",
+    "frequency_rank": 519
+  },
+  {
+    "fr": "enlever",
+    "en": "to remove; to take off",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Please take off your shoes.",
+    "example_fr": "Enlève tes chaussures, s'il te plaît.",
+    "frequency_rank": 521
+  },
+  {
+    "fr": "vérifier",
+    "en": "to check; to verify",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I will check the address.",
+    "example_fr": "Je vais vérifier l'adresse.",
+    "frequency_rank": 524
+  },
+  {
+    "fr": "préférer",
+    "en": "to prefer",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I prefer tea to coffee.",
+    "example_fr": "Je préfère le thé au café.",
+    "frequency_rank": 525
+  },
+  {
+    "fr": "l'hôpital",
+    "en": "hospital",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The hospital is nearby.",
+    "example_fr": "L'hôpital est tout près.",
+    "frequency_rank": 526
+  },
+  {
+    "fr": "haut",
+    "en": "high; tall",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The building is very tall.",
+    "example_fr": "Le bâtiment est très haut.",
+    "frequency_rank": 528
+  },
+  {
+    "fr": "tôt",
+    "en": "early",
+    "pos": "adverb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I get up early.",
+    "example_fr": "Je me lève tôt.",
+    "frequency_rank": 529
+  },
+  {
+    "fr": "dès",
+    "en": "from; starting at",
+    "pos": "preposition",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "We can start today.",
+    "example_fr": "Nous pouvons commencer dès aujourd'hui.",
+    "frequency_rank": 531
+  },
+  {
+    "fr": "préparer",
+    "en": "to prepare",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I am preparing dinner.",
+    "example_fr": "Je prépare le dîner.",
+    "frequency_rank": 532
+  },
+  {
+    "fr": "le visage",
+    "en": "face",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "She has a round face.",
+    "example_fr": "Elle a le visage rond.",
+    "frequency_rank": 533
+  },
+  {
+    "fr": "la salle",
+    "en": "room; hall",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The room is on the left.",
+    "example_fr": "La salle est à gauche.",
+    "frequency_rank": 536
+  },
+  {
+    "fr": "poser",
+    "en": "to put down; to ask",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "May I ask a question?",
+    "example_fr": "Je peux poser une question ?",
+    "frequency_rank": 538
+  },
+  {
+    "fr": "nul",
+    "en": "terrible; no good",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "This film is terrible.",
+    "example_fr": "Ce film est nul.",
+    "frequency_rank": 539
+  },
+  {
+    "fr": "sûrement",
+    "en": "surely; probably",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "It will probably rain.",
+    "example_fr": "Il va sûrement pleuvoir.",
+    "frequency_rank": 540
+  },
+  {
+    "fr": "le doute",
+    "en": "doubt",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I have no doubt.",
+    "example_fr": "Je n'ai aucun doute.",
+    "frequency_rank": 543
+  },
+  {
+    "fr": "courant",
+    "en": "current; present",
+    "pos": "adjective",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "This is a common expression.",
+    "example_fr": "C'est une expression courante.",
+    "frequency_rank": 545
+  },
+  {
+    "fr": "sauf",
+    "en": "except; except for",
+    "pos": "preposition",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Everyone is here except Paul.",
+    "example_fr": "Tout le monde est là, sauf Paul.",
+    "frequency_rank": 546
+  },
+  {
+    "fr": "les nouvelles",
+    "en": "news",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Do you have any news?",
+    "example_fr": "Tu as des nouvelles ?",
+    "frequency_rank": 547
+  },
+  {
+    "fr": "la balle",
+    "en": "ball",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The ball is under the table.",
+    "example_fr": "La balle est sous la table.",
+    "frequency_rank": 548
+  },
+  {
+    "fr": "apporter",
+    "en": "to bring",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Can you bring some water?",
+    "example_fr": "Tu peux apporter de l'eau ?",
+    "frequency_rank": 550
+  },
+  {
+    "fr": "le roi",
+    "en": "king",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The king lives in a palace.",
+    "example_fr": "Le roi habite dans un palais.",
+    "frequency_rank": 551
+  },
+  {
+    "fr": "l'avis",
+    "en": "opinion",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "In my opinion, it is a good idea.",
+    "example_fr": "À mon avis, c'est une bonne idée.",
+    "frequency_rank": 552
+  },
+  {
+    "fr": "la soirée",
+    "en": "evening; evening event",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The evening starts at eight.",
+    "example_fr": "La soirée commence à huit heures.",
+    "frequency_rank": 553
+  },
+  {
+    "fr": "se taire",
+    "en": "to be quiet; to keep silent",
+    "pos": "verb",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "Please be quiet.",
+    "example_fr": "Tais-toi, s'il te plaît.",
+    "frequency_rank": 554
+  },
+  {
+    "fr": "l'avocat",
+    "en": "lawyer",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The lawyer is waiting outside.",
+    "example_fr": "L'avocat attend dehors.",
+    "frequency_rank": 555
+  },
+  {
+    "fr": "protéger",
+    "en": "to protect",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Wear a hat to protect yourself from the sun.",
+    "example_fr": "Porte un chapeau pour te protéger du soleil.",
+    "frequency_rank": 558
+  },
+  {
+    "fr": "l'effet",
+    "en": "effect",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The medicine had a quick effect.",
+    "example_fr": "Le médicament a eu un effet rapide.",
+    "frequency_rank": 559
+  },
+  {
+    "fr": "le sac",
+    "en": "bag",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "My bag is in the car.",
+    "example_fr": "Mon sac est dans la voiture.",
+    "frequency_rank": 562
+  },
+  {
+    "fr": "le groupe",
+    "en": "group",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Our group meets every week.",
+    "example_fr": "Notre groupe se réunit chaque semaine.",
+    "frequency_rank": 565
+  },
+  {
+    "fr": "la clé",
+    "en": "key",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Where is the key?",
+    "example_fr": "Où est la clé ?",
+    "frequency_rank": 566
+  },
+  {
+    "fr": "six",
+    "en": "six",
+    "pos": "numeral",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "He is six years old.",
+    "example_fr": "Il a six ans.",
+    "frequency_rank": 567
+  },
+  {
+    "fr": "la recherche",
+    "en": "research; search",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The search continues.",
+    "example_fr": "La recherche continue.",
+    "frequency_rank": 570
+  },
+  {
+    "fr": "partout",
+    "en": "everywhere",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I looked everywhere.",
+    "example_fr": "J'ai cherché partout.",
+    "frequency_rank": 572
+  },
+  {
+    "fr": "rire",
+    "en": "to laugh",
+    "pos": "verb",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Your story makes me laugh.",
+    "example_fr": "Ton histoire me fait rire.",
+    "frequency_rank": 573
+  },
+  {
+    "fr": "le bras",
+    "en": "arm",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "He hurt his arm.",
+    "example_fr": "Il s'est fait mal au bras.",
+    "frequency_rank": 574
+  },
+  {
+    "fr": "vivant",
+    "en": "alive; living",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The plant is still alive.",
+    "example_fr": "La plante est encore vivante.",
+    "frequency_rank": 575
+  },
+  {
+    "fr": "l'intérieur",
+    "en": "inside; interior",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Come inside.",
+    "example_fr": "Entre à l'intérieur.",
+    "frequency_rank": 576
+  },
+  {
+    "fr": "la lettre",
+    "en": "letter",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I received your letter.",
+    "example_fr": "J'ai reçu ta lettre.",
+    "frequency_rank": 580
+  },
+  {
+    "fr": "la face",
+    "en": "face; side",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Turn the card over.",
+    "example_fr": "Retourne la carte sur l'autre face.",
+    "frequency_rank": 582
+  },
+  {
+    "fr": "invité",
+    "en": "guest",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Our guest arrived early.",
+    "example_fr": "Notre invité est arrivé tôt.",
+    "frequency_rank": 583
+  },
+  {
+    "fr": "surtout",
+    "en": "especially; above all",
+    "pos": "adverb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I especially like this song.",
+    "example_fr": "J'aime surtout cette chanson.",
+    "frequency_rank": 584
+  },
+  {
+    "fr": "le retard",
+    "en": "delay; lateness",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The train is late.",
+    "example_fr": "Le train a du retard.",
+    "frequency_rank": 585
+  },
+  {
+    "fr": "le président",
+    "en": "president",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The president gave a speech.",
+    "example_fr": "Le président a prononcé un discours.",
+    "frequency_rank": 590
+  },
+  {
+    "fr": "pareil",
+    "en": "same; similar",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "We have the same idea.",
+    "example_fr": "Nous avons la même idée.",
+    "frequency_rank": 593
+  },
+  {
+    "fr": "le médecin",
+    "en": "doctor; physician",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The doctor is here.",
+    "example_fr": "Le médecin est là.",
+    "frequency_rank": 594
+  },
+  {
+    "fr": "le bois",
+    "en": "wood",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "This table is made of wood.",
+    "example_fr": "Cette table est en bois.",
+    "frequency_rank": 595
+  },
+  {
+    "fr": "sinon",
+    "en": "otherwise; if not",
+    "pos": "conjunction",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Hurry up, otherwise we will be late.",
+    "example_fr": "Dépêche-toi, sinon nous serons en retard.",
+    "frequency_rank": 596
+  },
+  {
+    "fr": "cacher",
+    "en": "to hide",
+    "pos": "verb",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Where did you hide the keys?",
+    "example_fr": "Où as-tu caché les clés ?",
+    "frequency_rank": 597
+  },
+  {
+    "fr": "le maître",
+    "en": "teacher; master",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "The teacher is waiting outside.",
+    "example_fr": "Le maître attend dehors.",
+    "frequency_rank": 601
+  },
+  {
+    "fr": "la joue",
+    "en": "cheek",
+    "pos": "noun",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "She kissed me on the cheek.",
+    "example_fr": "Elle m'a embrassé sur la joue.",
+    "frequency_rank": 602
+  },
+  {
+    "fr": "ancien",
+    "en": "former; old",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "I met an old colleague.",
+    "example_fr": "J'ai rencontré un ancien collègue.",
+    "frequency_rank": 603
+  },
+  {
+    "fr": "le cadeau",
+    "en": "gift; present",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "This gift is for you.",
+    "example_fr": "Ce cadeau est pour toi.",
+    "frequency_rank": 607
+  },
+  {
+    "fr": "la sœur",
+    "en": "sister",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "My sister lives in Lyon.",
+    "example_fr": "Ma sœur habite à Lyon.",
+    "frequency_rank": 608
+  },
+  {
+    "fr": "grave",
+    "en": "serious",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "The situation is serious.",
+    "example_fr": "La situation est grave.",
+    "frequency_rank": 612
+  },
+  {
+    "fr": "blanc",
+    "en": "white",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "I would like a white shirt.",
+    "example_fr": "Je voudrais une chemise blanche.",
+    "frequency_rank": 614
+  },
+  {
+    "fr": "libre",
+    "en": "free; available",
+    "pos": "adjective",
+    "level": "A2",
+    "cat": "Frequency list",
+    "example": "Are you free this evening?",
+    "example_fr": "Tu es libre ce soir ?",
+    "frequency_rank": 615
+  },
+  {
+    "fr": "l'honneur",
+    "en": "honor",
+    "pos": "noun",
+    "level": "B1",
+    "cat": "Frequency list",
+    "example": "It is an honor to meet you.",
+    "example_fr": "C'est un honneur de te rencontrer.",
+    "frequency_rank": 616
+  },
+  {
+    "fr": "le voyage",
+    "en": "trip; journey",
+    "pos": "noun",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "Have a good trip!",
+    "example_fr": "Bon voyage !",
+    "frequency_rank": 618
+  },
+  {
+    "fr": "rouge",
+    "en": "red",
+    "pos": "adjective",
+    "level": "A1",
+    "cat": "Frequency list",
+    "example": "The car is red.",
+    "example_fr": "La voiture est rouge.",
+    "frequency_rank": 619
+  }
+]
