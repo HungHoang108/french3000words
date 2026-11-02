@@ -313,6 +313,11 @@ button {
   border: 1px solid var(--line);
   color: var(--ink);
 }
+.btn-outline.selected {
+  background: var(--green-light);
+  border-color: var(--green);
+  color: var(--green);
+}
 .btn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
@@ -993,6 +998,10 @@ button {
   }
   .word-table td {
     border-color: #303a32;
+  }
+  .btn-outline.selected {
+    border-color: #6b9775;
+    color: #b9e7c3;
   }
 }
 .master-control {

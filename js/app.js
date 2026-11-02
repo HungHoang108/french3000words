@@ -268,10 +268,16 @@ function toggleMaster(w) {
   state.progress[w.id] = p;
   save();
   const masterButton = document.getElementById("masterWord");
-  if (masterButton) masterButton.textContent = p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered";
-  if (session && p.status === "mastered" && session.queue[session.index]?.id === w.id) {
-    session.index++;
-    renderQuestion();
+  if (masterButton) {
+    masterButton.classList.toggle("selected", p.status === "mastered");
+    masterButton.setAttribute("aria-pressed", String(p.status === "mastered"));
+  }
+  if (session && session.queue[session.index]?.id === w.id) {
+    session.canAdvance = true;
+    const nextButton = document.getElementById("nextWord");
+    if (nextButton) nextButton.disabled = false;
+    clearTimeout(session.timer);
+    if (session.mode === "speed" && typeof session.timer === "number") cancelAnimationFrame(session.timer);
   }
   showToast(
     p.status === "mastered"
@@ -287,7 +293,8 @@ function toggleDifficult(w) {
   save();
   const difficultButton = document.getElementById("difficultWord");
   if (difficultButton) {
-    difficultButton.textContent = p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult";
+    difficultButton.classList.toggle("selected", p.difficult);
+    difficultButton.setAttribute("aria-pressed", String(p.difficult));
   }
   showToast(p.difficult ? "Word added to Difficult Words." : "Word removed from Difficult Words.");
 }
@@ -390,6 +397,7 @@ function beginSession(mode, n) {
     wrong: 0,
     timeout: 0,
     answered: false,
+    canAdvance: false,
     started: Date.now(),
     timer: null,
     feedbackTimer: null,
@@ -421,12 +429,13 @@ function renderQuestion() {
     return;
   }
   s.answered = false;
+  s.canAdvance = false;
   s.audioRepeatCount = 0;
   const p = statFor(w),
     choices = makeChoices(w);
   s.choices = choices;
   const main = document.getElementById("main");
-  main.innerHTML = `<div class="study-shell"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation" title="Play pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline" id="masterWord">${p.status === "mastered" ? "★ Mark as not mastered" : "☆ Mark as mastered"}</button><button class="btn btn-outline" id="difficultWord">${p.difficult ? "⚑ Remove from difficult" : "⚑ Mark as difficult"}</button><button class="btn btn-dark" id="nextWord">Next word →</button></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
+  main.innerHTML = `<div class="study-shell"><div class="study-top"><button class="back-btn" id="exitSession">← Exit session</button><span class="session-meta">${s.index + 1} of ${s.queue.length}</span><span class="small-tag">${s.mode === "speed" ? "ϟ SPEED" : s.mode === "learn" ? "LEARN" : s.mode === "difficult" ? "DIFFICULT WORDS" : "REVIEW"}</span></div><div class="session-progress"><div style="width:${(s.index / s.queue.length) * 100}%"></div></div><div class="question-card"><div class="question-main"><div class="word-label">FRENCH VOCABULARY</div><div class="word">${esc(w.fr)}</div><div class="word-sub">${w.pos === "noun" ? "Noun · learn the article" : w.level + " · " + w.pos}</div><button class="speaker" id="speakWord" aria-label="Play French pronunciation" title="Play pronunciation">🔊</button><div class="question">Choose the correct English meaning</div><div class="timer-wrap ${s.mode === "speed" ? "show" : ""}" id="timerWrap"><div class="timer-bar" id="timerBar"></div></div><div class="answers">${choices.map((a, i) => `<button class="answer" data-answer="${i}"><span class="key">${i + 1}</span><span>${esc(a.en)}</span></button>`).join("")}</div>${s.mode !== "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}<div class="master-control"><button class="btn btn-outline${p.status === "mastered" ? " selected" : ""}" id="masterWord" aria-pressed="${p.status === "mastered"}">Mastered</button><button class="btn btn-outline${p.difficult ? " selected" : ""}" id="difficultWord" aria-pressed="${p.difficult}">Mark as difficult</button><button class="btn btn-dark" id="nextWord" disabled>Next word →</button></div><div class="speed-label ${s.mode === "speed" ? "show" : ""}">${s.mode === "speed" ? "Answer in " + state.settings.limit + " seconds" : ""}</div></div>${s.mode === "learn" ? '<div class="feedback" id="feedback" aria-live="polite"></div>' : ""}</div><div class="session-footer"><span>${s.mode === "learn" ? "Take your time and learn the word." : s.mode === "review" ? "Recall helps your memory grow." : s.mode === "difficult" ? "Focused practice for words you find challenging." : "Go with your first instinct."}</span><span>${s.correct} correct · ${s.wrong + s.timeout} missed</span></div></div>`;
   document.getElementById("exitSession").onclick = () => {
     stopSession();
     render();
@@ -435,6 +444,8 @@ function renderQuestion() {
   document.getElementById("masterWord").onclick = () => toggleMaster(w);
   document.getElementById("difficultWord").onclick = () => toggleDifficult(w);
   document.getElementById("nextWord").onclick = () => {
+    if (!s.canAdvance) return;
+    clearTimeout(s.feedbackTimer);
     s.index++;
     renderQuestion();
   };
@@ -475,6 +486,7 @@ function answer(index, timeout = false) {
   const s = session;
   if (!s || s.answered) return;
   s.answered = true;
+  s.canAdvance = true;
   clearTimeout(s.timer);
   clearInterval(s.audioTimer);
   if (s.mode === "speed" && typeof s.timer === "number") cancelAnimationFrame(s.timer);
@@ -504,6 +516,7 @@ function answer(index, timeout = false) {
   state.progress[w.id] = p;
   markStudy();
   const buttons = [...document.querySelectorAll("[data-answer]")];
+  document.getElementById("nextWord").disabled = false;
   buttons.forEach((b, i) => {
     b.disabled = true;
     if (s.choices[i].id === w.id) b.classList.add("correct");
