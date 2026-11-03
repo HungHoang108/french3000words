@@ -450,7 +450,7 @@
     "example_fr": "Je suis mariée et j’ai deux enfants."
   },
   {
-    "fr": "J’ai un compagnon / une compagne.",
+    "fr": "J’ai un compagnon.",
     "en": "I have a partner.",
     "pos": "phrase",
     "level": "A1",
@@ -513,7 +513,7 @@
     "example_fr": "Je n’ai pas d’enfants."
   },
   {
-    "fr": "Voici mon / ma…",
+    "fr": "Voici mon…",
     "en": "This is my...",
     "pos": "phrase",
     "level": "A1",
@@ -576,7 +576,7 @@
     "example_fr": "Voici les parents."
   },
   {
-    "fr": "le compagnon / la compagne",
+    "fr": "le compagnon",
     "en": "partner",
     "pos": "noun",
     "level": "A1",
@@ -603,7 +603,7 @@
     "example_fr": "Voici la copine."
   },
   {
-    "fr": "le fiancé / la fiancée",
+    "fr": "le fiancé",
     "en": "fiancé/fiancée",
     "pos": "noun",
     "level": "A1",
@@ -765,7 +765,7 @@
     "example_fr": "Voici la nièce."
   },
   {
-    "fr": "le cousin / la cousine",
+    "fr": "le cousin",
     "en": "cousin",
     "pos": "noun",
     "level": "A1",
@@ -774,7 +774,7 @@
     "example_fr": "Voici le cousin."
   },
   {
-    "fr": "l’ami / l’amie",
+    "fr": "l’ami",
     "en": "friend",
     "pos": "noun",
     "level": "A1",
@@ -783,7 +783,7 @@
     "example_fr": "Voici l’ami."
   },
   {
-    "fr": "le collègue / la collègue",
+    "fr": "le collègue",
     "en": "colleague",
     "pos": "noun",
     "level": "A1",
@@ -792,7 +792,7 @@
     "example_fr": "Voici le collègue."
   },
   {
-    "fr": "le voisin / la voisine",
+    "fr": "le voisin",
     "en": "neighbour",
     "pos": "noun",
     "level": "A1",
@@ -810,7 +810,7 @@
     "example_fr": "Voici le bébé."
   },
   {
-    "fr": "l’adolescent / l’adolescente",
+    "fr": "l’adolescent",
     "en": "teenager",
     "pos": "noun",
     "level": "A1",
@@ -837,7 +837,7 @@
     "example_fr": "Salut, comment ça va ?"
   },
   {
-    "fr": "Comment va-t-il / elle ?",
+    "fr": "Comment va-t-il ?",
     "en": "How is he/she?",
     "pos": "phrase",
     "level": "A1",
@@ -846,7 +846,7 @@
     "example_fr": "Comment va-t-il aujourd’hui ?"
   },
   {
-    "fr": "Comment vont-ils / elles ?",
+    "fr": "Comment vont-ils ?",
     "en": "How are they?",
     "pos": "phrase",
     "level": "A1",
@@ -972,7 +972,7 @@
     "example_fr": "Je suis prêt à partir."
   },
   {
-    "fr": "Il / Elle est…",
+    "fr": "Il est…",
     "en": "He/She is...",
     "pos": "phrase",
     "level": "A1",
@@ -981,7 +981,7 @@
     "example_fr": "Il est à la maison."
   },
   {
-    "fr": "Ils / Elles sont…",
+    "fr": "Ils sont…",
     "en": "They are...",
     "pos": "phrase",
     "level": "A1",
@@ -1098,7 +1098,7 @@
     "example_fr": "Je me sens bien aujourd’hui."
   },
   {
-    "fr": "Il / Elle se sent…",
+    "fr": "Il se sent…",
     "en": "He/She feels...",
     "pos": "phrase",
     "level": "A1",
@@ -1107,7 +1107,7 @@
     "example_fr": "Elle se sent mieux après le repos."
   },
   {
-    "fr": "Ils / Elles se sentent…",
+    "fr": "Ils se sentent…",
     "en": "They feel...",
     "pos": "phrase",
     "level": "A1",
@@ -1278,7 +1278,7 @@
     "example_fr": "Je suis professeur dans un collège."
   },
   {
-    "fr": "l’architecte / l’architecte",
+    "fr": "l’architecte",
     "en": "architect",
     "pos": "noun",
     "level": "A2",
@@ -1287,7 +1287,7 @@
     "example_fr": "Il est architecte."
   },
   {
-    "fr": "le chef / la chef",
+    "fr": "le chef",
     "en": "chef",
     "pos": "noun",
     "level": "A2",
@@ -1296,7 +1296,7 @@
     "example_fr": "Il est chef."
   },
   {
-    "fr": "le fonctionnaire / la fonctionnaire",
+    "fr": "le fonctionnaire",
     "en": "civil servant",
     "pos": "noun",
     "level": "A2",
@@ -1305,7 +1305,7 @@
     "example_fr": "Il est fonctionnaire."
   },
   {
-    "fr": "l’employé de ménage / l’employée de ménage",
+    "fr": "l’employé de ménage",
     "en": "cleaner",
     "pos": "noun",
     "level": "A2",
@@ -1314,7 +1314,7 @@
     "example_fr": "Il est employé de ménage."
   },
   {
-    "fr": "le dentiste / la dentiste",
+    "fr": "le dentiste",
     "en": "dentist",
     "pos": "noun",
     "level": "A2",
@@ -1323,7 +1323,7 @@
     "example_fr": "Il est dentiste."
   },
   {
-    "fr": "le médecin / la médecin",
+    "fr": "le médecin",
     "en": "doctor",
     "pos": "noun",
     "level": "A2",
@@ -1332,7 +1332,7 @@
     "example_fr": "Il est médecin."
   },
   {
-    "fr": "le conducteur / la conductrice",
+    "fr": "le conducteur",
     "en": "driver",
     "pos": "noun",
     "level": "A2",
@@ -1341,7 +1341,7 @@
     "example_fr": "Il est conducteur."
   },
   {
-    "fr": "l’électricien / l’électricienne",
+    "fr": "l’électricien",
     "en": "electrician",
     "pos": "noun",
     "level": "A2",
@@ -1350,7 +1350,7 @@
     "example_fr": "Il est électricien."
   },
   {
-    "fr": "l’ingénieur / l’ingénieure",
+    "fr": "l’ingénieur",
     "en": "engineer",
     "pos": "noun",
     "level": "A2",
@@ -1359,7 +1359,7 @@
     "example_fr": "Il est ingénieur."
   },
   {
-    "fr": "l’agriculteur / l’agricultrice",
+    "fr": "l’agriculteur",
     "en": "farmer",
     "pos": "noun",
     "level": "A2",
@@ -1368,7 +1368,7 @@
     "example_fr": "Il est agriculteur."
   },
   {
-    "fr": "le sapeur-pompier / la sapeur-pompier",
+    "fr": "le sapeur-pompier",
     "en": "firefighter",
     "pos": "noun",
     "level": "A2",
@@ -1377,7 +1377,7 @@
     "example_fr": "Il est sapeur-pompier."
   },
   {
-    "fr": "le pêcheur / la pêcheuse",
+    "fr": "le pêcheur",
     "en": "fisherman",
     "pos": "noun",
     "level": "A2",
@@ -1386,7 +1386,7 @@
     "example_fr": "Il est pêcheur."
   },
   {
-    "fr": "l’informaticien / l’informaticienne",
+    "fr": "l’informaticien",
     "en": "IT worker",
     "pos": "noun",
     "level": "A2",
@@ -1395,7 +1395,7 @@
     "example_fr": "Il est informaticien."
   },
   {
-    "fr": "le menuisier / la menuisière",
+    "fr": "le menuisier",
     "en": "joiner",
     "pos": "noun",
     "level": "A2",
@@ -1404,7 +1404,7 @@
     "example_fr": "Il est menuisier."
   },
   {
-    "fr": "le journaliste / la journaliste",
+    "fr": "le journaliste",
     "en": "journalist",
     "pos": "noun",
     "level": "A2",
@@ -1413,7 +1413,7 @@
     "example_fr": "Il est journaliste."
   },
   {
-    "fr": "l’avocat / l’avocate",
+    "fr": "l’avocat",
     "en": "lawyer",
     "pos": "noun",
     "level": "A2",
@@ -1422,7 +1422,7 @@
     "example_fr": "Il est avocat."
   },
   {
-    "fr": "le mécanicien / la mécanicienne",
+    "fr": "le mécanicien",
     "en": "mechanic",
     "pos": "noun",
     "level": "A2",
@@ -1431,7 +1431,7 @@
     "example_fr": "Il est mécanicien."
   },
   {
-    "fr": "l’infirmier / l’infirmière",
+    "fr": "l’infirmier",
     "en": "nurse",
     "pos": "noun",
     "level": "A2",
@@ -1440,7 +1440,7 @@
     "example_fr": "Il est infirmier."
   },
   {
-    "fr": "l’employé de bureau / l’employée de bureau",
+    "fr": "l’employé de bureau",
     "en": "office worker",
     "pos": "noun",
     "level": "A2",
@@ -1449,7 +1449,7 @@
     "example_fr": "Il est employé de bureau."
   },
   {
-    "fr": "le plombier / la plombière",
+    "fr": "le plombier",
     "en": "plumber",
     "pos": "noun",
     "level": "A2",
@@ -1458,7 +1458,7 @@
     "example_fr": "Il est plombier."
   },
   {
-    "fr": "le policier / la policière",
+    "fr": "le policier",
     "en": "police officer",
     "pos": "noun",
     "level": "A2",
@@ -1467,7 +1467,7 @@
     "example_fr": "Il est policier."
   },
   {
-    "fr": "le facteur / la factrice",
+    "fr": "le facteur",
     "en": "postal worker",
     "pos": "noun",
     "level": "A2",
@@ -1476,7 +1476,7 @@
     "example_fr": "Il est facteur."
   },
   {
-    "fr": "le marin / la femme marin",
+    "fr": "le marin",
     "en": "sailor",
     "pos": "noun",
     "level": "A2",
@@ -1485,7 +1485,7 @@
     "example_fr": "Il est marin."
   },
   {
-    "fr": "le vendeur / la vendeuse",
+    "fr": "le vendeur",
     "en": "salesperson",
     "pos": "noun",
     "level": "A2",
@@ -1494,7 +1494,7 @@
     "example_fr": "Il est vendeur."
   },
   {
-    "fr": "le scientifique / la scientifique",
+    "fr": "le scientifique",
     "en": "scientist",
     "pos": "noun",
     "level": "A2",
@@ -1503,7 +1503,7 @@
     "example_fr": "Il est scientifique."
   },
   {
-    "fr": "le soldat / la soldate",
+    "fr": "le soldat",
     "en": "soldier",
     "pos": "noun",
     "level": "A2",
@@ -1512,7 +1512,7 @@
     "example_fr": "Il est soldat."
   },
   {
-    "fr": "le professeur / la professeure",
+    "fr": "le professeur",
     "en": "teacher",
     "pos": "noun",
     "level": "A2",
@@ -1521,7 +1521,7 @@
     "example_fr": "Il est professeur."
   },
   {
-    "fr": "le vétérinaire / la vétérinaire",
+    "fr": "le vétérinaire",
     "en": "vet",
     "pos": "noun",
     "level": "A2",

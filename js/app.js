@@ -142,32 +142,32 @@ function speak(text) {
   speechSynthesis.speak(u);
 }
 function startCardPronunciation() {
-    const s = session;
-    if (!s) return;
-    const w = s.queue[s.index];
-    clearInterval(s.audioTimer);
-    s.audioTimer = null;
-    speak(w.fr);
-    if (!s.answered && s.audioRepeatCount < 1) {
-      s.audioTimer = setInterval(() => {
-        if (session !== s || s.answered || !s.audioEnabled) {
-          clearInterval(s.audioTimer);
-          s.audioTimer = null;
-          return;
-        }
-        if (s.audioRepeatCount >= 1) {
-          clearInterval(s.audioTimer);
-          s.audioTimer = null;
-          return;
-        }
-        s.audioRepeatCount++;
-        speak(w.fr);
-        if (s.audioRepeatCount >= 1) {
-          clearInterval(s.audioTimer);
-          s.audioTimer = null;
-        }
-      }, 4000);
-    }
+  const s = session;
+  if (!s) return;
+  const w = s.queue[s.index];
+  clearInterval(s.audioTimer);
+  s.audioTimer = null;
+  speak(w.fr);
+  if (!s.answered && s.audioRepeatCount < 1) {
+    s.audioTimer = setInterval(() => {
+      if (session !== s || s.answered || !s.audioEnabled) {
+        clearInterval(s.audioTimer);
+        s.audioTimer = null;
+        return;
+      }
+      if (s.audioRepeatCount >= 1) {
+        clearInterval(s.audioTimer);
+        s.audioTimer = null;
+        return;
+      }
+      s.audioRepeatCount++;
+      speak(w.fr);
+      if (s.audioRepeatCount >= 1) {
+        clearInterval(s.audioTimer);
+        s.audioTimer = null;
+      }
+    }, 4000);
+  }
 }
 function go(p) {
   stopSession();
@@ -248,8 +248,7 @@ function studyIntro(mode) {
     },
   }[mode];
   const newWords = mode === "learn" ? words.filter((word) => statFor(word).status === "new").length : 0;
-  const learnableWords =
-    mode === "learn" ? words.filter((word) => ["new", "learning"].includes(statFor(word).status)).length : 0;
+  const learnableWords = mode === "learn" ? words.filter((word) => ["new", "learning"].includes(statFor(word).status)).length : 0;
   const learnNotice =
     mode === "learn" && newWords === 0
       ? `<div class="notice">You’ve introduced all ${words.length} words in your current list. The included vocabulary is a starter set, not the full 3,000. Add more in the <button class="text-link" data-go="library">Word Library ↗</button>.</div>`
@@ -667,7 +666,7 @@ function historyPage() {
   }</div></div>`;
 }
 function settingsPage() {
-  return `<div class="eyebrow">MAKE IT YOURS</div><h1 class="page-title">Settings.</h1><p class="subhead">Tune your sessions to fit your learning rhythm.</p><div class="panel"><div class="settings-list"><div class="setting-row"><div><strong>Automatic pronunciation</strong><p>Speak each French word when a card appears.</p></div><input type="checkbox" class="switch" id="autoAudio" ${state.settings.autoAudio ? "checked" : ""}></div><div class="setting-row"><div><strong>Audio during speed review</strong><p>Audio can take longer than the three-second answer window.</p></div><input type="checkbox" class="switch" id="speedAudio" ${state.settings.speedAudio ? "checked" : ""}></div><div class="setting-row"><div><strong>Speed review timer</strong><p>Maximum time to answer each question.</p></div><select class="field" id="speedLimit"><option value="1" ${state.settings.limit === 1 ? "selected" : ""}>1 second</option><option value="2" ${state.settings.limit === 2 ? "selected" : ""}>2 seconds</option><option value="3" ${state.settings.limit === 3 ? "selected" : ""}>3 seconds</option></select></div><div class="setting-row"><div><strong>Daily new-word target</strong><p>Choose a manageable goal to build consistency.</p></div><select class="field" id="dailyTarget"><option value="5" ${state.settings.daily === 5 ? "selected" : ""}>5 words</option><option value="10" ${state.settings.daily === 10 ? "selected" : ""}>10 words</option><option value="15" ${state.settings.daily === 15 ? "selected" : ""}>15 words</option><option value="20" ${state.settings.daily === 20 ? "selected" : ""}>20 words</option><option value="30" ${state.settings.daily === 30 ? "selected" : ""}>30 words</option></select></div></div></div><div class="panel" style="margin-top:16px"><h3>Backup & data</h3><p class="muted">Progress is stored in this browser only. Export a backup to move it to another device.</p><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><button class="btn btn-dark" id="exportData">Export progress JSON ↓</button><label class="btn btn-outline" for="importFile">Import backup ↑</label><input type="file" id="importFile" accept="application/json,.json" class="hidden"><button class="btn btn-outline" id="resetData" style="color:#a34238">Reset progress</button></div><p style="font-size:11px;color:var(--muted);line-height:1.6;margin-top:18px">No account or backend is used. Clearing browser data may erase your progress, so keep a backup. Audio quality depends on the French voice available on your device.</p></div>`;
+  return `<div class="eyebrow">MAKE IT YOURS</div><h1 class="page-title">Settings.</h1><p class="subhead">Tune your sessions to fit your learning rhythm.</p><div class="panel"><div class="settings-list"><div class="setting-row"><div><strong>Automatic pronunciation</strong><p>Speak each French word when a card appears.</p></div><input type="checkbox" class="switch" id="autoAudio" ${state.settings.autoAudio ? "checked" : ""}></div>  <div class="setting-row"><div><strong>Audio during speed review</strong><p>Audio can take longer than the active answer window.</p></div><input type="checkbox" class="switch" id="speedAudio" ${state.settings.speedAudio ? "checked" : ""}></div><div class="setting-row"><div><strong>Speed review timer</strong><p>Maximum time to answer each question.</p></div><select class="field" id="speedLimit"><option value="1" ${state.settings.limit === 1 ? "selected" : ""}>1 second</option><option value="2" ${state.settings.limit === 2 ? "selected" : ""}>2 seconds</option><option value="3" ${state.settings.limit === 3 ? "selected" : ""}>3 seconds</option><option value="5" ${state.settings.limit === 5 ? "selected" : ""}>5 seconds</option><option value="7" ${state.settings.limit === 7 ? "selected" : ""}>7 seconds</option></select></div><div class="setting-row"><div><strong>Daily new-word target</strong><p>Choose a manageable goal to build consistency.</p></div><select class="field" id="dailyTarget"><option value="5" ${state.settings.daily === 5 ? "selected" : ""}>5 words</option><option value="10" ${state.settings.daily === 10 ? "selected" : ""}>10 words</option><option value="15" ${state.settings.daily === 15 ? "selected" : ""}>15 words</option><option value="20" ${state.settings.daily === 20 ? "selected" : ""}>20 words</option><option value="30" ${state.settings.daily === 30 ? "selected" : ""}>30 words</option></select></div></div></div><div class="panel" style="margin-top:16px"><h3>Backup & data</h3><p class="muted">Progress is stored in this browser only. Export a backup to move it to another device.</p><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><button class="btn btn-dark" id="exportData">Export progress JSON ↓</button><label class="btn btn-outline" for="importFile">Import backup ↑</label><input type="file" id="importFile" accept="application/json,.json" class="hidden"><button class="btn btn-outline" id="resetData" style="color:#a34238">Reset progress</button></div><p style="font-size:11px;color:var(--muted);line-height:1.6;margin-top:18px">No account or backend is used. Clearing browser data may erase your progress, so keep a backup. Audio quality depends on the French voice available on your device.</p></div>`;
 }
 // --- Event wiring and settings ---
 function bindPage() {
